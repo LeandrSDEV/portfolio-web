@@ -1,0 +1,22 @@
+﻿@page "/testando-api"
+@inject HttpClient Http
+
+<h3>Testando API</h3>
+
+@if (resposta is null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <p>Resposta da API: @resposta</p>
+}
+
+@code {
+    private string? resposta;
+
+    protected override async Task OnInitializedAsync()
+    {
+        resposta = await Http.GetStringAsync("https://localhost:7240/api/teste");
+    }
+}

@@ -15,7 +15,8 @@ namespace Portfolio.Blazor.Services
 
         public async Task<List<Project>> GetProjetos()
         {
-            return await _http.GetFromJsonAsync<List<Project>>("projetos");
+            return await _http.GetFromJsonAsync<List<Project>>("api/Projetos");
         }
+
     }
 }

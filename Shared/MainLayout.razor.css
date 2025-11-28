@@ -1,0 +1,4 @@
+﻿namespace Portfolio.Blazor.Shared;
+
+public partial class MainLayout : LayoutComponentBase {
+}
