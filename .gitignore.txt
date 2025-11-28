@@ -1,0 +1,9 @@
+# Pasta do Visual Studio
+.vs/
+
+# Builds temporários
+bin/
+obj/
+
+# Publicação
+publish/

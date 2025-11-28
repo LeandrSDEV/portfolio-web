@@ -1,0 +1,1 @@
+C:\Desenvolvedor\Portifólio\Portfolio.Web\bin\Release\net9.0\publish\web.config
