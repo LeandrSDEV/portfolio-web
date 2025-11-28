@@ -1,0 +1,29 @@
+﻿@page "/projetos"
+@using Portfolio.Blazor.Services
+@using Portifolio.Domain.Entities
+@inject ApiClient api
+
+<h3>Meus Projetos</h3>
+
+@if (lista == null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <ul>
+        @foreach (var p in lista)
+        {
+            <li>@p.Title</li>
+        }
+    </ul>
+}
+
+@code {
+    List<Project>? lista;
+
+    protected override async Task OnInitializedAsync()
+    {
+        lista = await api.GetProjetos();
+    }
+}

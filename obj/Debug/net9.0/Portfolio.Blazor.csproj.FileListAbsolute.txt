@@ -1,0 +1,7 @@
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.csproj.AssemblyReference.cache
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.AssemblyInfoInputs.cache
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.AssemblyInfo.cs
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.csproj.CoreCompileInputs.cache
+C:\Desenvolvedor\Portifólio\Portfolio.Blazor\obj\Debug\net9.0\Portfolio.Blazor.MvcApplicationPartsAssemblyInfo.cache

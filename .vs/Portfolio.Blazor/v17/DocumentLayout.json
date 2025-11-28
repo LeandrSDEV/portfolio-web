@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|c:\\desenvolvedor\\portif\u00F3lio\\portfolio.blazor\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|solutionrelative:services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|c:\\desenvolvedor\\portif\u00F3lio\\portfolio.blazor\\pages\\projetos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|solutionrelative:pages\\projetos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|c:\\desenvolvedor\\portif\u00F3lio\\portfolio.blazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|c:\\desenvolvedor\\portif\u00F3lio\\portfolio.blazor\\pages\\contato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|solutionrelative:pages\\contato.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|c:\\desenvolvedor\\portif\u00F3lio\\portfolio.blazor\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4105B953-A07E-0EE4-7751-1A1CE40202AC}|Portfolio.Blazor.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T01:54:16.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\ApiClient.cs",
+              "ToolTip": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Services\\ApiClient.cs",
+              "RelativeToolTip": "Services\\ApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T01:51:57.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contato.razor",
+              "DocumentMoniker": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Contato.razor",
+              "RelativeDocumentMoniker": "Pages\\Contato.razor",
+              "ToolTip": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Contato.razor",
+              "RelativeToolTip": "Pages\\Contato.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T01:51:16.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Projetos.razor",
+              "DocumentMoniker": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Projetos.razor",
+              "RelativeDocumentMoniker": "Pages\\Projetos.razor",
+              "ToolTip": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Projetos.razor",
+              "RelativeToolTip": "Pages\\Projetos.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T01:51:02.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "C:\\Desenvolvedor\\Portif\u00F3lio\\Portfolio.Blazor\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-28T01:50:54.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
