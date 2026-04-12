@@ -1,0 +1,198 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Delivery
+          - generic [ref=e150]: Delivery
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: 🔎
+              - textbox "Busque por cliente, mesa ou número do pedido" [ref=e168]
+            - button "Atualizar" [ref=e169] [cursor=pointer]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - button "Em análise = 0" [ref=e172] [cursor=pointer]:
+                - generic [ref=e174]: Em análise
+                - generic [ref=e175]: =
+                - generic [ref=e176]: "0"
+              - button "Em produção = 0" [ref=e177] [cursor=pointer]:
+                - generic [ref=e179]: Em produção
+                - generic [ref=e180]: =
+                - generic [ref=e181]: "0"
+              - button "Prontos = 4" [ref=e182] [cursor=pointer]:
+                - generic [ref=e184]: Prontos
+                - generic [ref=e185]: =
+                - generic [ref=e186]: "4"
+              - button "Em rota = 0" [ref=e187] [cursor=pointer]:
+                - generic [ref=e189]: Em rota
+                - generic [ref=e190]: =
+                - generic [ref=e191]: "0"
+            - generic [ref=e193]: 👉 Passe o mouse em um estágio à esquerda para ver os pedidos detalhados.
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - heading "Histórico de finalizados de hoje" [level=2] [ref=e197]
+                - generic [ref=e198]: 3 pedido(s)
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]: Ativos agora
+                  - generic [ref=e202]: "4"
+                - generic [ref=e203]:
+                  - generic [ref=e204]: Finalizados hoje
+                  - generic [ref=e205]: "3"
+                - generic [ref=e206]:
+                  - generic [ref=e207]: Faturamento (lista)
+                  - generic [ref=e208]: R$ 309,96
+            - table [ref=e210]:
+              - rowgroup [ref=e211]:
+                - row "Finalizado Pedido Cliente Telefone Endereço Itens Pagamento Total Status" [ref=e212]:
+                  - columnheader "Finalizado" [ref=e213]
+                  - columnheader "Pedido" [ref=e214]
+                  - columnheader "Cliente" [ref=e215]
+                  - columnheader "Telefone" [ref=e216]
+                  - columnheader "Endereço" [ref=e217]
+                  - columnheader "Itens" [ref=e218]
+                  - columnheader "Pagamento" [ref=e219]
+                  - columnheader "Total" [ref=e220]
+                  - columnheader "Status" [ref=e221]
+              - rowgroup [ref=e222]:
+                - 'row "12/04/2026, 13:39:23 #83 XLKHDRZK67 leandro 79988012359 512, José Conrado de Araújo 1 PIX R$ 82,71 Finalizado" [ref=e223]':
+                  - cell "12/04/2026, 13:39:23" [ref=e224]
+                  - cell "#83 XLKHDRZK67" [ref=e225]:
+                    - generic [ref=e226]: "#83"
+                    - text: XLKHDRZK67
+                  - cell "leandro" [ref=e227]
+                  - cell "79988012359" [ref=e228]
+                  - cell "512, José Conrado de Araújo" [ref=e229]
+                  - cell "1" [ref=e230]
+                  - cell "PIX" [ref=e231]
+                  - cell "R$ 82,71" [ref=e232]
+                  - cell "Finalizado" [ref=e233]:
+                    - generic [ref=e234]: Finalizado
+                - 'row "12/04/2026, 13:17:36 #78 Q89ARE9D6K leandro 79988012359 5012, José Conrado de Araújo 1 PIX R$ 55,71 Finalizado" [ref=e235]':
+                  - cell "12/04/2026, 13:17:36" [ref=e236]
+                  - cell "#78 Q89ARE9D6K" [ref=e237]:
+                    - generic [ref=e238]: "#78"
+                    - text: Q89ARE9D6K
+                  - cell "leandro" [ref=e239]
+                  - cell "79988012359" [ref=e240]
+                  - cell "5012, José Conrado de Araújo" [ref=e241]
+                  - cell "1" [ref=e242]
+                  - cell "PIX" [ref=e243]
+                  - cell "R$ 55,71" [ref=e244]
+                  - cell "Finalizado" [ref=e245]:
+                    - generic [ref=e246]: Finalizado
+                - 'row "12/04/2026, 11:23:12 #76 SZFYDBXP9T Wendel Rezende 557996479250 Rua São Cristóvão, 90, Centro - Aracaju/SE 6 Dinheiro R$ 171,54 Finalizado" [ref=e247]':
+                  - cell "12/04/2026, 11:23:12" [ref=e248]
+                  - cell "#76 SZFYDBXP9T" [ref=e249]:
+                    - generic [ref=e250]: "#76"
+                    - text: SZFYDBXP9T
+                  - cell "Wendel Rezende" [ref=e251]
+                  - cell "557996479250" [ref=e252]
+                  - cell "Rua São Cristóvão, 90, Centro - Aracaju/SE" [ref=e253]
+                  - cell "6" [ref=e254]
+                  - cell "Dinheiro" [ref=e255]
+                  - cell "R$ 171,54" [ref=e256]
+                  - cell "Finalizado" [ref=e257]:
+                    - generic [ref=e258]: Finalizado
+  - status

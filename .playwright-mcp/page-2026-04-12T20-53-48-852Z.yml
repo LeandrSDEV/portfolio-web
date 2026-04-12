@@ -1,0 +1,190 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Clientes
+          - generic [ref=e150]: Clientes
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Clientes
+              - generic [ref=e168]: 8 clientes cadastrados
+            - searchbox "Buscar por nome ou telefone..." [ref=e169]
+          - table [ref=e171]:
+            - rowgroup [ref=e172]:
+              - row "Nome Telefone Pedidos Total gasto Cashback Ultimo pedido" [ref=e173] [cursor=pointer]:
+                - columnheader "Nome" [ref=e174]
+                - columnheader "Telefone" [ref=e175]
+                - columnheader "Pedidos" [ref=e176]
+                - columnheader "Total gasto" [ref=e177]
+                - columnheader "Cashback" [ref=e178]
+                - columnheader "Ultimo pedido" [ref=e179]
+            - rowgroup [ref=e180]:
+              - row "leandro 79988012359 14 R$ 529,14 R$ 3,24 12/04/2026" [ref=e181] [cursor=pointer]:
+                - cell "leandro" [ref=e182]:
+                  - strong [ref=e183]: leandro
+                - cell "79988012359" [ref=e184]
+                - cell "14" [ref=e185]
+                - cell "R$ 529,14" [ref=e186]
+                - cell "R$ 3,24" [ref=e187]:
+                  - generic [ref=e188]: R$ 3,24
+                - cell "12/04/2026" [ref=e189]
+              - row "Wendel Rezende 557996479250 1 R$ 171,54 R$ 8,58 12/04/2026" [ref=e190] [cursor=pointer]:
+                - cell "Wendel Rezende" [ref=e191]:
+                  - strong [ref=e192]: Wendel Rezende
+                - cell "557996479250" [ref=e193]
+                - cell "1" [ref=e194]
+                - cell "R$ 171,54" [ref=e195]
+                - cell "R$ 8,58" [ref=e196]:
+                  - generic [ref=e197]: R$ 8,58
+                - cell "12/04/2026" [ref=e198]
+              - row "ofertas 5521969519494 2 R$ 214,02 R$ 10,70 11/04/2026" [ref=e199] [cursor=pointer]:
+                - cell "ofertas" [ref=e200]:
+                  - strong [ref=e201]: ofertas
+                - cell "5521969519494" [ref=e202]
+                - cell "2" [ref=e203]
+                - cell "R$ 214,02" [ref=e204]
+                - cell "R$ 10,70" [ref=e205]:
+                  - generic [ref=e206]: R$ 10,70
+                - cell "11/04/2026" [ref=e207]
+              - row "Leandro J.S 557988012359 5 R$ 786,16 R$ 14,69 11/04/2026" [ref=e208] [cursor=pointer]:
+                - cell "Leandro J.S" [ref=e209]:
+                  - strong [ref=e210]: Leandro J.S
+                - cell "557988012359" [ref=e211]
+                - cell "5" [ref=e212]
+                - cell "R$ 786,16" [ref=e213]
+                - cell "R$ 14,69" [ref=e214]:
+                  - generic [ref=e215]: R$ 14,69
+                - cell "11/04/2026" [ref=e216]
+              - row "ofertaju 5511961469626 1 R$ 76,20 — 10/04/2026" [ref=e217] [cursor=pointer]:
+                - cell "ofertaju" [ref=e218]:
+                  - strong [ref=e219]: ofertaju
+                - cell "5511961469626" [ref=e220]
+                - cell "1" [ref=e221]
+                - cell "R$ 76,20" [ref=e222]
+                - cell "—" [ref=e223]
+                - cell "10/04/2026" [ref=e224]
+              - row "Anne ✨ 557988582919 10 R$ 544,80 — 09/04/2026" [ref=e225] [cursor=pointer]:
+                - cell "Anne ✨" [ref=e226]:
+                  - strong [ref=e227]: Anne ✨
+                - cell "557988582919" [ref=e228]
+                - cell "10" [ref=e229]
+                - cell "R$ 544,80" [ref=e230]
+                - cell "—" [ref=e231]
+                - cell "09/04/2026" [ref=e232]
+              - row "wendel 79996479250 2 R$ 0,00 — 29/03/2026" [ref=e233] [cursor=pointer]:
+                - cell "wendel" [ref=e234]:
+                  - strong [ref=e235]: wendel
+                - cell "79996479250" [ref=e236]
+                - cell "2" [ref=e237]
+                - cell "R$ 0,00" [ref=e238]
+                - cell "—" [ref=e239]
+                - cell "29/03/2026" [ref=e240]
+              - row "leandro 55799885829 6 R$ 0,00 — 20/03/2026" [ref=e241] [cursor=pointer]:
+                - cell "leandro" [ref=e242]:
+                  - strong [ref=e243]: leandro
+                - cell "55799885829" [ref=e244]
+                - cell "6" [ref=e245]
+                - cell "R$ 0,00" [ref=e246]
+                - cell "—" [ref=e247]
+                - cell "20/03/2026" [ref=e248]
+  - status

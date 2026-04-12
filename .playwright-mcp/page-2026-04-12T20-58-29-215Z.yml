@@ -1,0 +1,29 @@
+- generic [ref=e3]:
+  - generic [ref=e6]:
+    - button "Alternar tema" [ref=e8] [cursor=pointer]:
+      - img [ref=e9]
+    - heading "Portal Concursos" [level=5] [ref=e11]
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - text: E-mail
+          - generic [ref=e15]: "*"
+        - generic [ref=e16]:
+          - textbox "E-mail" [ref=e17]:
+            - /placeholder: Digite seu e-mail
+          - group:
+            - generic: E-mail *
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - text: Senha
+          - generic [ref=e20]: "*"
+        - generic [ref=e21]:
+          - textbox "Senha" [ref=e22]:
+            - /placeholder: Digite sua senha
+          - group:
+            - generic: Senha *
+      - generic [ref=e24]: Utilize o mesmo acesso da plataforma!
+      - button "Entrar" [disabled]
+      - separator [ref=e25]
+      - text: © Portal Concursos 2026
+  - img "Portal Concursos" [ref=e29]

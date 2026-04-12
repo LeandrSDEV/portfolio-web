@@ -1,0 +1,304 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e73]
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e83]:
+        - heading "Formulário manual" [level=5] [ref=e84]
+        - paragraph [ref=e85]: Selecione um projeto, escolha os produtos e envie a venda para o webhook.
+      - generic [ref=e86]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - paragraph [ref=e90]: Projetos
+            - paragraph [ref=e91]: Filtre e clique em um projeto para carregar os produtos no card ao lado.
+          - generic [ref=e92]:
+            - generic [ref=e93]: Pesquisar projeto
+            - generic [ref=e94]:
+              - img [ref=e96]
+              - textbox "Pesquisar projeto" [ref=e98]
+              - group:
+                - generic: Pesquisar projeto
+          - generic [ref=e99]:
+            - 'button "ASSINATURA DE CARREIRA POLICIAL ASSINATURA DE CARREIRA POLICIA... Professor: Maria Antônia 3 produto(s)" [ref=e100] [cursor=pointer]':
+              - img "ASSINATURA DE CARREIRA POLICIAL" [ref=e101]
+              - generic [ref=e102]:
+                - paragraph [ref=e103]: ASSINATURA DE CARREIRA POLICIA...
+                - paragraph [ref=e104]: "Professor: Maria Antônia"
+                - generic [ref=e107]: 3 produto(s)
+            - 'button "ATENA MENTORIA ATENA MENTORIA Professor: Ester Siqueira 4 produto(s)" [ref=e108] [cursor=pointer]':
+              - img "ATENA MENTORIA" [ref=e109]
+              - generic [ref=e110]:
+                - paragraph [ref=e111]: ATENA MENTORIA
+                - paragraph [ref=e112]: "Professor: Ester Siqueira"
+                - generic [ref=e115]: 4 produto(s)
+            - 'button "COBAIA DOS STATES COBAIA DOS STATES Professor: Alterar Depois 1 produto(s)" [ref=e116] [cursor=pointer]':
+              - img "COBAIA DOS STATES" [ref=e117]
+              - generic [ref=e118]:
+                - paragraph [ref=e119]: COBAIA DOS STATES
+                - paragraph [ref=e120]: "Professor: Alterar Depois"
+                - generic [ref=e123]: 1 produto(s)
+            - 'button "DESAFIO CONCURSOS DESAFIO CONCURSOS Professor: Francisco Farias 21 produto(s)" [ref=e124] [cursor=pointer]':
+              - img "DESAFIO CONCURSOS" [ref=e125]
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: DESAFIO CONCURSOS
+                - paragraph [ref=e128]: "Professor: Francisco Farias"
+                - generic [ref=e131]: 21 produto(s)
+            - 'button "EDUCART - MARA ALINE EDUCART - MARA ALINE Professor: Mara Aline 1 produto(s)" [ref=e132] [cursor=pointer]':
+              - img "EDUCART - MARA ALINE" [ref=e133]
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: EDUCART - MARA ALINE
+                - paragraph [ref=e136]: "Professor: Mara Aline"
+                - generic [ref=e139]: 1 produto(s)
+            - 'button "FALCÃO NEGRO TURBO FALCÃO NEGRO TURBO Professor: Gabriela Melo 1 produto(s)" [ref=e140] [cursor=pointer]':
+              - img "FALCÃO NEGRO TURBO" [ref=e141]
+              - generic [ref=e142]:
+                - paragraph [ref=e143]: FALCÃO NEGRO TURBO
+                - paragraph [ref=e144]: "Professor: Gabriela Melo"
+                - generic [ref=e147]: 1 produto(s)
+            - 'button "FATIOU PASSOU - CARREIRAS POLICIAIS FATIOU PASSOU - CARREIRAS POLI... Professor: Alterar Depois 6 produto(s)" [ref=e148] [cursor=pointer]':
+              - img "FATIOU PASSOU - CARREIRAS POLICIAIS" [ref=e149]
+              - generic [ref=e150]:
+                - paragraph [ref=e151]: FATIOU PASSOU - CARREIRAS POLI...
+                - paragraph [ref=e152]: "Professor: Alterar Depois"
+                - generic [ref=e155]: 6 produto(s)
+            - 'button "FORÇA TAREFA ADMINISTRATIVO, BANCÁRIO & TRIBUNAIS FORÇA TAREFA ADMINISTRATIVO, B... Professor: Gabriela Melo 1 produto(s)" [ref=e156] [cursor=pointer]':
+              - img "FORÇA TAREFA ADMINISTRATIVO, BANCÁRIO & TRIBUNAIS" [ref=e157]
+              - generic [ref=e158]:
+                - paragraph [ref=e159]: FORÇA TAREFA ADMINISTRATIVO, B...
+                - paragraph [ref=e160]: "Professor: Gabriela Melo"
+                - generic [ref=e163]: 1 produto(s)
+            - 'button "GCM - Concursos Públicos GCM - Concursos Públicos Professor: Janiel Santana 3 produto(s)" [ref=e164] [cursor=pointer]':
+              - img "GCM - Concursos Públicos" [ref=e165]
+              - generic [ref=e166]:
+                - paragraph [ref=e167]: GCM - Concursos Públicos
+                - paragraph [ref=e168]: "Professor: Janiel Santana"
+                - generic [ref=e171]: 3 produto(s)
+            - 'button "MAGISTÉRIO BRASIL MAGISTÉRIO BRASIL Professor: Jorge Alonso 49 produto(s)" [ref=e172] [cursor=pointer]':
+              - img "MAGISTÉRIO BRASIL" [ref=e173]
+              - generic [ref=e174]:
+                - paragraph [ref=e175]: MAGISTÉRIO BRASIL
+                - paragraph [ref=e176]: "Professor: Jorge Alonso"
+                - generic [ref=e179]: 49 produto(s)
+            - 'button "MEGA TREINAMENTOS MEGA TREINAMENTOS Professor: Marcos Henrique 1 produto(s)" [ref=e180] [cursor=pointer]':
+              - img "MEGA TREINAMENTOS" [ref=e181]
+              - generic [ref=e182]:
+                - paragraph [ref=e183]: MEGA TREINAMENTOS
+                - paragraph [ref=e184]: "Professor: Marcos Henrique"
+                - generic [ref=e187]: 1 produto(s)
+            - 'button "MENTORIA ALTUS MENTORIA ALTUS Professor: Lucas Cardozo 3 produto(s)" [ref=e188] [cursor=pointer]':
+              - img "MENTORIA ALTUS" [ref=e189]
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: MENTORIA ALTUS
+                - paragraph [ref=e192]: "Professor: Lucas Cardozo"
+                - generic [ref=e195]: 3 produto(s)
+            - 'button "MÉTODO CALMA PARA VENCER MÉTODO CALMA PARA VENCER Professor: Eriwelton Lancaster 2 produto(s)" [ref=e196] [cursor=pointer]':
+              - img "MÉTODO CALMA PARA VENCER" [ref=e197]
+              - generic [ref=e198]:
+                - paragraph [ref=e199]: MÉTODO CALMA PARA VENCER
+                - paragraph [ref=e200]: "Professor: Eriwelton Lancaster"
+                - generic [ref=e203]: 2 produto(s)
+            - 'button "MÉTODO QRV MÉTODO QRV Professor: Tais Antunes 3 produto(s)" [ref=e204] [cursor=pointer]':
+              - img "MÉTODO QRV" [ref=e205]
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: MÉTODO QRV
+                - paragraph [ref=e208]: "Professor: Tais Antunes"
+                - generic [ref=e211]: 3 produto(s)
+            - 'button "NÚCLEO NÚCLEO Professor: Alex Cardoso 3 produto(s)" [ref=e212] [cursor=pointer]':
+              - img "NÚCLEO" [ref=e213]
+              - generic [ref=e214]:
+                - paragraph [ref=e215]: NÚCLEO
+                - paragraph [ref=e216]: "Professor: Alex Cardoso"
+                - generic [ref=e219]: 3 produto(s)
+            - 'button "PATRULHEIRO JOTA – CARREIRAS POLICIAIS PATRULHEIRO JOTA – CARREIRAS P... Professor: Jorge Lucas 5 produto(s)" [ref=e220] [cursor=pointer]':
+              - img "PATRULHEIRO JOTA – CARREIRAS POLICIAIS" [ref=e221]
+              - generic [ref=e222]:
+                - paragraph [ref=e223]: PATRULHEIRO JOTA – CARREIRAS P...
+                - paragraph [ref=e224]: "Professor: Jorge Lucas"
+                - generic [ref=e227]: 5 produto(s)
+            - 'button "PREFEITURA MUNICIPAL DE MOITA BONITA/SE PREFEITURA MUNICIPAL DE MOITA ... Professor: Alterar Depois 1 produto(s)" [ref=e228] [cursor=pointer]':
+              - img "PREFEITURA MUNICIPAL DE MOITA BONITA/SE" [ref=e229]
+              - generic [ref=e230]:
+                - paragraph [ref=e231]: PREFEITURA MUNICIPAL DE MOITA ...
+                - paragraph [ref=e232]: "Professor: Alterar Depois"
+                - generic [ref=e235]: 1 produto(s)
+            - 'button "PROJETO ÁGUIA - CARREIRAS POLICIAIS PROJETO ÁGUIA - CARREIRAS POLI... Professor: Alterar Depois 1 produto(s)" [ref=e236] [cursor=pointer]':
+              - img "PROJETO ÁGUIA - CARREIRAS POLICIAIS" [ref=e237]
+              - generic [ref=e238]:
+                - paragraph [ref=e239]: PROJETO ÁGUIA - CARREIRAS POLI...
+                - paragraph [ref=e240]: "Professor: Alterar Depois"
+                - generic [ref=e243]: 1 produto(s)
+            - 'button "PROJETO PROFESSORA CONCURSADA PROJETO PROFESSORA CONCURSADA Professor: Maria Rocha 1 produto(s)" [ref=e244] [cursor=pointer]':
+              - img "PROJETO PROFESSORA CONCURSADA" [ref=e245]
+              - generic [ref=e246]:
+                - paragraph [ref=e247]: PROJETO PROFESSORA CONCURSADA
+                - paragraph [ref=e248]: "Professor: Maria Rocha"
+                - generic [ref=e251]: 1 produto(s)
+            - 'button "QG CARREIRAS POLICIAIS QG CARREIRAS POLICIAIS Professor: Paulo Victor 2 produto(s)" [ref=e252] [cursor=pointer]':
+              - img "QG CARREIRAS POLICIAIS" [ref=e253]
+              - generic [ref=e254]:
+                - paragraph [ref=e255]: QG CARREIRAS POLICIAIS
+                - paragraph [ref=e256]: "Professor: Paulo Victor"
+                - generic [ref=e259]: 2 produto(s)
+            - 'button "RESUMINDO RESUMINDO Professor: Eduardo Cortez 12 produto(s)" [ref=e260] [cursor=pointer]':
+              - img "RESUMINDO" [ref=e261]
+              - generic [ref=e262]:
+                - paragraph [ref=e263]: RESUMINDO
+                - paragraph [ref=e264]: "Professor: Eduardo Cortez"
+                - generic [ref=e267]: 12 produto(s)
+            - 'button "RESUMINDO CONCURSOS RESUMINDO CONCURSOS Professor: Caio Barreto 5 produto(s)" [ref=e268] [cursor=pointer]':
+              - img "RESUMINDO CONCURSOS" [ref=e269]
+              - generic [ref=e270]:
+                - paragraph [ref=e271]: RESUMINDO CONCURSOS
+                - paragraph [ref=e272]: "Professor: Caio Barreto"
+                - generic [ref=e275]: 5 produto(s)
+            - 'button "SNIPER POLICIAL SNIPER POLICIAL Professor: Gabriela Melo 2 produto(s)" [ref=e276] [cursor=pointer]':
+              - img "SNIPER POLICIAL" [ref=e277]
+              - generic [ref=e278]:
+                - paragraph [ref=e279]: SNIPER POLICIAL
+                - paragraph [ref=e280]: "Professor: Gabriela Melo"
+                - generic [ref=e283]: 2 produto(s)
+            - 'button "SUPER CONCURSOS SUPER CONCURSOS Professor: Murilo Rangel 3 produto(s)" [ref=e284] [cursor=pointer]':
+              - img "SUPER CONCURSOS" [ref=e285]
+              - generic [ref=e286]:
+                - paragraph [ref=e287]: SUPER CONCURSOS
+                - paragraph [ref=e288]: "Professor: Murilo Rangel"
+                - generic [ref=e291]: 3 produto(s)
+            - 'button "WEJ - CARREIRAS DA EDUCAÇÃO WEJ - CARREIRAS DA EDUCAÇÃO Professor: Alterar Depois 1 produto(s)" [ref=e292] [cursor=pointer]':
+              - img "WEJ - CARREIRAS DA EDUCAÇÃO" [ref=e293]
+              - generic [ref=e294]:
+                - paragraph [ref=e295]: WEJ - CARREIRAS DA EDUCAÇÃO
+                - paragraph [ref=e296]: "Professor: Alterar Depois"
+                - generic [ref=e299]: 1 produto(s)
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - paragraph [ref=e303]: Produtos do projeto
+            - paragraph [ref=e304]: "A liberação continua igual: os produtos selecionados serão enviados como hoje."
+          - generic [ref=e305]:
+            - generic [ref=e306]: Pesquisar produto
+            - generic [ref=e307]:
+              - img [ref=e309]
+              - textbox "Pesquisar produto" [ref=e311]
+              - group:
+                - generic: Pesquisar produto
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: "Projeto: ASSINATURA DE CARREIRA POLICIAL — 1 produto(s) selecionado(s)"
+            - button "Limpar seleção" [ref=e314] [cursor=pointer]: Limpar seleção
+          - generic [ref=e315]:
+            - button "CARREIRA POLICIAL 8 • ASSINATURA DE CARREIRA POLICIAL 1 ANO Ativo" [ref=e316] [cursor=pointer]:
+              - generic [ref=e318]:
+                - checkbox [checked] [ref=e319]
+                - img [ref=e320]
+              - generic [ref=e322]:
+                - paragraph [ref=e323]: CARREIRA POLICIAL
+                - paragraph [ref=e324]: 8 • ASSINATURA DE CARREIRA POLICIAL
+                - generic [ref=e325]:
+                  - generic [ref=e327]: 1 ANO
+                  - generic [ref=e329]: Ativo
+            - button "GUARDA MUNICIPAL 3.0 10 • GUARDA MUNICIPAL 3.0 1 ANO Ativo" [ref=e330] [cursor=pointer]:
+              - generic [ref=e332]:
+                - checkbox [ref=e333]
+                - img [ref=e334]
+              - generic [ref=e336]:
+                - paragraph [ref=e337]: GUARDA MUNICIPAL 3.0
+                - paragraph [ref=e338]: 10 • GUARDA MUNICIPAL 3.0
+                - generic [ref=e339]:
+                  - generic [ref=e341]: 1 ANO
+                  - generic [ref=e343]: Ativo
+            - button "POLÍCIA MILITAR DE MINAS GERAIS 13 • POLÍCIA MILITAR DE MINAS GERAIS 1 ANO Ativo" [ref=e344] [cursor=pointer]:
+              - generic [ref=e346]:
+                - checkbox [ref=e347]
+                - img [ref=e348]
+              - generic [ref=e350]:
+                - paragraph [ref=e351]: POLÍCIA MILITAR DE MINAS GERAIS
+                - paragraph [ref=e352]: 13 • POLÍCIA MILITAR DE MINAS GERAIS
+                - generic [ref=e353]:
+                  - generic [ref=e355]: 1 ANO
+                  - generic [ref=e357]: Ativo
+      - generic [ref=e358]:
+        - generic [ref=e360]:
+          - generic [ref=e361]:
+            - paragraph [ref=e362]: Dados do comprador
+            - paragraph [ref=e363]: Preencha as informações básicas.
+          - generic [ref=e364]:
+            - generic [ref=e365]:
+              - generic:
+                - text: Nome
+                - generic: "*"
+              - generic [ref=e366]:
+                - textbox "Nome" [ref=e367]
+                - group:
+                  - generic: Nome *
+            - generic [ref=e368]:
+              - generic:
+                - text: Telefone
+                - generic: "*"
+              - generic [ref=e369]:
+                - textbox "Telefone" [ref=e370]
+                - group:
+                  - generic: Telefone *
+              - paragraph [ref=e371]: "Ex.: (79) 9 9999-9999"
+            - generic [ref=e372]:
+              - generic:
+                - text: E-mail
+                - generic: "*"
+              - generic [ref=e373]:
+                - textbox "E-mail" [ref=e374]
+                - group:
+                  - generic: E-mail *
+            - generic [ref=e375]:
+              - generic [ref=e376]:
+                - text: Data da compra
+                - generic [ref=e377]: "*"
+              - generic [ref=e378]:
+                - textbox "Data da compra" [ref=e379]: 2026-04-12T17:59
+                - group:
+                  - generic: Data da compra *
+        - generic [ref=e381]:
+          - generic [ref=e382]:
+            - paragraph [ref=e383]: Liberação
+            - paragraph [ref=e384]: Defina como o valor será enviado.
+          - generic [ref=e385] [cursor=pointer]:
+            - generic [ref=e386]:
+              - checkbox "Liberação automática" [checked] [ref=e387]
+              - img [ref=e388]
+            - generic [ref=e390]: Liberação automática
+        - button "Enviar para webhook" [disabled]

@@ -1,0 +1,270 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Usuários
+          - generic [ref=e150]: Usuários
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - text: Administração
+              - heading "Usuários" [level=1] [ref=e167]
+              - paragraph [ref=e168]: Gerencie acesso, senha, data de nascimento, foto e status com uma seleção mais visual.
+            - button "Novo usuário" [ref=e169] [cursor=pointer]:
+              - img [ref=e170]
+              - text: Novo usuário
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - img [ref=e173]
+              - textbox "Buscar por nome, e-mail, telefone ou ID" [ref=e176]
+            - generic [ref=e177]:
+              - generic [ref=e178]: 5 usuários
+              - generic [ref=e179]: 5 ativos
+          - generic [ref=e180]:
+            - article [ref=e181]:
+              - generic [ref=e182]:
+                - generic [ref=e183]:
+                  - generic [ref=e185]: W
+                  - generic [ref=e186]:
+                    - heading "Wendel" [level=3] [ref=e187]
+                    - paragraph [ref=e188]: "ID #5"
+                - button [ref=e190] [cursor=pointer]:
+                  - img [ref=e191]
+              - generic [ref=e195]:
+                - generic [ref=e196]: Ativo
+                - generic [ref=e197]: ADMIN
+              - generic [ref=e198]:
+                - generic [ref=e199]:
+                  - img [ref=e200]
+                  - generic [ref=e203]: wendel@decode.com
+                - generic [ref=e204]:
+                  - img [ref=e205]
+                  - generic [ref=e207]: Sem telefone
+                - generic [ref=e208]:
+                  - img [ref=e209]
+                  - generic [ref=e211]: Sem data de nascimento
+              - generic [ref=e212]:
+                - button "Editar" [ref=e213] [cursor=pointer]:
+                  - img [ref=e214]
+                  - text: Editar
+                - button "Senha" [ref=e216] [cursor=pointer]:
+                  - img [ref=e217]
+                  - text: Senha
+                - button "Excluir" [ref=e219] [cursor=pointer]:
+                  - img [ref=e220]
+                  - text: Excluir
+            - article [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - generic [ref=e226]: A
+                  - generic [ref=e227]:
+                    - heading "Admin" [level=3] [ref=e228]
+                    - paragraph [ref=e229]: "ID #1"
+                - button [ref=e231] [cursor=pointer]:
+                  - img [ref=e232]
+              - generic [ref=e236]:
+                - generic [ref=e237]: Ativo
+                - generic [ref=e238]: ADMIN
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - img [ref=e241]
+                  - generic [ref=e244]: admin@decode.com
+                - generic [ref=e245]:
+                  - img [ref=e246]
+                  - generic [ref=e248]: Sem telefone
+                - generic [ref=e249]:
+                  - img [ref=e250]
+                  - generic [ref=e252]: Sem data de nascimento
+              - generic [ref=e253]:
+                - button "Editar" [ref=e254] [cursor=pointer]:
+                  - img [ref=e255]
+                  - text: Editar
+                - button "Senha" [ref=e257] [cursor=pointer]:
+                  - img [ref=e258]
+                  - text: Senha
+            - article [ref=e260]:
+              - generic [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e264]: L
+                  - generic [ref=e265]:
+                    - heading "Lucas" [level=3] [ref=e266]
+                    - paragraph [ref=e267]: "ID #6"
+                - button [ref=e269] [cursor=pointer]:
+                  - img [ref=e270]
+              - generic [ref=e274]:
+                - generic [ref=e275]: Ativo
+                - generic [ref=e276]: ADMIN
+              - generic [ref=e277]:
+                - generic [ref=e278]:
+                  - img [ref=e279]
+                  - generic [ref=e282]: lucas@decode.com
+                - generic [ref=e283]:
+                  - img [ref=e284]
+                  - generic [ref=e286]: Sem telefone
+                - generic [ref=e287]:
+                  - img [ref=e288]
+                  - generic [ref=e290]: Sem data de nascimento
+              - generic [ref=e291]:
+                - button "Editar" [ref=e292] [cursor=pointer]:
+                  - img [ref=e293]
+                  - text: Editar
+                - button "Senha" [ref=e295] [cursor=pointer]:
+                  - img [ref=e296]
+                  - text: Senha
+                - button "Excluir" [ref=e298] [cursor=pointer]:
+                  - img [ref=e299]
+                  - text: Excluir
+            - article [ref=e301]:
+              - generic [ref=e303]:
+                - img "Leandro Santos" [ref=e305]
+                - generic [ref=e306]:
+                  - heading "Leandro Santos" [level=3] [ref=e307]
+                  - paragraph [ref=e308]: "ID #2"
+              - generic [ref=e309]:
+                - generic [ref=e310]: Ativo
+                - generic [ref=e311]:
+                  - img [ref=e312]
+                  - text: SUPERADMIN
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - img [ref=e316]
+                  - generic [ref=e319]: leandro.santos@decode.com
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - generic [ref=e323]: Sem telefone
+                - generic [ref=e324]:
+                  - img [ref=e325]
+                  - generic [ref=e327]: Sem data de nascimento
+              - generic [ref=e328]: Apenas SUPERADMIN pode editar este perfil.
+            - article [ref=e329]:
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e333]: R
+                  - generic [ref=e334]:
+                    - heading "Romario" [level=3] [ref=e335]
+                    - paragraph [ref=e336]: "ID #7"
+                - button [ref=e338] [cursor=pointer]:
+                  - img [ref=e339]
+              - generic [ref=e343]:
+                - generic [ref=e344]: Ativo
+                - generic [ref=e345]: ADMIN
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - img [ref=e348]
+                  - generic [ref=e351]: romario.santos@decode.com
+                - generic [ref=e352]:
+                  - img [ref=e353]
+                  - generic [ref=e355]: Sem telefone
+                - generic [ref=e356]:
+                  - img [ref=e357]
+                  - generic [ref=e359]: Sem data de nascimento
+              - generic [ref=e360]:
+                - button "Editar" [ref=e361] [cursor=pointer]:
+                  - img [ref=e362]
+                  - text: Editar
+                - button "Senha" [ref=e364] [cursor=pointer]:
+                  - img [ref=e365]
+                  - text: Senha
+                - button "Excluir" [ref=e367] [cursor=pointer]:
+                  - img [ref=e368]
+                  - text: Excluir
+  - status

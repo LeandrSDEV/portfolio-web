@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "home": {
+    "heroTitle1": "Desenvolvedor Back-end focado em",
+    "heroTitle2": " Soluções escaláveis",
+    "heroDesc": "Meu foco é back-end: Java, Spring Boot, C#/.NET e Python para APIs robustas e automações. No front, React e TypeScript para interfaces modernas.",
+    "viewProjects": "Ver Projetos",
+    "viewStack": "Ver Stack",
+    "certificates": "Certificações",
+    "skills": "Habilidades",
+    "ctaTitle": "Quer ver isso em ação?",
+    "ctaDesc": "Confira os projetos que desenvolvi e as soluções que implementei.",
+    "ctaBtn": "Ver Projetos",
+    "featuredTitle": "Projeto em Destaque",
+    "metrics": {
+      "projects": "15+ Projetos",
+      "stack": "Java · Python · C#",
+      "available": "Disponível para Freelance"
+    },
+    "roles": [
+      "Desenvolvedor Back-end",
+      "Java & Spring Boot",
+      "C# / .NET APIs",
+      "Python & Automação",
+      "React & TypeScript"
+    ],
+    "featured": {
+      "title": "Sistema de Gestão para Lanchonetes, Restaurantes e Pizzarias",
+      "desc": "Plataforma full-stack que automatiza toda a operação — do pedido à entrega. Pedidos via WhatsApp com IA (Gemini), cozinha em tempo real, pagamento PIX automático e delivery completo com acompanhamento em tempo real do motoboy pelo cliente.",
+      "highlights": [
+        "Atendimento automático via WhatsApp com IA (Gemini)",
+        "Cardápio digital com categorias, adicionais e modificadores",
+        "Pedidos para mesa (dine-in) e delivery integrados",
+        "Painel da cozinha em tempo real via WebSocket",
+        "Pagamento PIX com geração automática de QR Code",
+        "Delivery com zonas de entrega e rastreamento ao vivo",
+        "Sistema de cashback, cupons e programa de fidelidade",
+        "Dashboard administrativo com métricas e relatórios",
+        "Gestão de clientes, endereços e histórico de pedidos",
+        "Agendamento de pedidos para data/hora futura",
+        "Exportação de relatórios em Excel e PDF"
+      ],
+      "result1": "Pedidos por WhatsApp",
+      "result2": "Pagamento integrado",
+      "result3": "Rastreio do motoboy"
+    }
+  },
+  "about": {
+    "title": "Sobre mim",
+    "subtitle": "Desenvolvedor back-end com domínio em Java, Python e C#. Entrego soluções completas — do banco de dados à interface — com foco em qualidade e resultado.",
+    "whoTitle": "Quem sou",
+    "whoP1": "Sou desenvolvedor com foco em <strong>back-end</strong>, atuando com <strong>Java / Spring Boot</strong>, <strong>C# / .NET</strong> e <strong>Python</strong> para criar APIs REST robustas, seguras e bem documentadas. Aplico <strong>Clean Architecture</strong>, autenticação JWT e padrões de projeto que garantem manutenção e escalabilidade.",
+    "whoP2": "Embora meu forte seja o back-end, também entrego <strong>front-end profissional</strong> com <strong>React</strong> e <strong>TypeScript</strong> — este portfólio que você está vendo é um exemplo real do meu trabalho full-stack.",
+    "whoP3": "Trabalho com <strong>automação de processos</strong> usando <strong>n8n</strong> e <strong>Python</strong>, criando workflows inteligentes com webhooks que conectam sistemas e eliminam tarefas manuais. Também gerencio bancos de dados <strong>PostgreSQL</strong>, <strong>SQL Server</strong> e <strong>MySQL</strong>.",
+    "skillsTitle": "Stack Técnica",
+    "cat": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "database": "Banco de Dados",
+      "tools": "DevOps & Ferramentas"
+    },
+    "expTitle": "O que eu faço",
+    "exp1Title": "APIs REST & Microsserviços",
+    "exp1Desc": "Arquitetura e desenvolvimento de APIs em Java/Spring Boot e C#/.NET com autenticação JWT, versionamento, documentação Swagger e integração com bancos relacionais.",
+    "exp2Title": "Interfaces Modernas",
+    "exp2Desc": "SPAs com React e TypeScript — componentes reutilizáveis, animações fluidas, design responsivo e integração com APIs back-end.",
+    "exp3Title": "Automação & Integrações",
+    "exp3Desc": "Fluxos automatizados com n8n e Python — webhooks, processamento de dados, notificações e conexão entre sistemas externos.",
+    "exp4Title": "Banco de Dados & Infraestrutura",
+    "exp4Desc": "Modelagem e otimização de bancos PostgreSQL, SQL Server e MySQL. Containerização com Docker e versionamento com Git.",
+    "approachTitle": "Como eu trabalho",
+    "approach1Title": "Código Limpo",
+    "approach1Desc": "Escrevo código legível, testável e organizado. SOLID, Clean Code e design patterns não são teoria — são parte do meu dia a dia.",
+    "approach2Title": "Entrega Confiável",
+    "approach2Desc": "Foco em entregar o que funciona em produção. APIs documentadas, tratamento de erros robusto e código pronto para escalar.",
+    "approach3Title": "Comunicação Clara",
+    "approach3Desc": "Mantenho o cliente atualizado em cada etapa. Alinho expectativas, proponho soluções e entrego dentro do prazo combinado.",
+    "ctaTitle": "Vamos construir algo juntos?",
+    "ctaDesc": "Estou disponível para freelas, projetos e oportunidades. Vamos conversar sobre como posso ajudar.",
+    "ctaBtn": "Entrar em contato"
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Projetos que demonstram minha experiência em APIs, front-end moderno e boas práticas.",
+    "filterAll": "Todos",
+    "viewGithub": "Ver no GitHub",
+    "noImage": "Imagem em breve"
+  },
+  "contact": {
+    "title": "Vamos conversar",
+    "subtitle": "Estou aberto a oportunidades, freelas e parcerias. Escolha o melhor canal para falar comigo.",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Enviar Email",
+    "formTitle": "Envie uma mensagem",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Seu nome",
+    "emailLabel": "Email",
+    "emailPlaceholder": "seu@email.com",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Descreva seu projeto ou oportunidade...",
+    "sendBtn": "Enviar Mensagem",
+    "sending": "Enviando...",
+    "successMsg": "Mensagem enviada com sucesso! Responderei em breve.",
+    "errorMsg": "Erro ao enviar. Tente pelo WhatsApp ou Email.",
+    "infoTitle": "Informações",
+    "name": "Leandro",
+    "stack": "Java · Python · C# · React",
+    "location": "Brasil",
+    "availability": "Aberto a propostas",
+    "nameField": "Nome",
+    "stackField": "Stack",
+    "locationField": "Localização",
+    "availabilityField": "Disponibilidade"
+  },
+  "testimonials": {
+    "title": "O que dizem sobre meu trabalho",
+    "items": [
+      {
+        "name": "Cliente Freelance",
+        "role": "Empresário - E-commerce",
+        "text": "O Leandro entregou uma API robusta e bem documentada para nosso sistema. Profissional, pontual e com excelente comunicação durante todo o projeto."
+      },
+      {
+        "name": "Colega de Equipe",
+        "role": "Desenvolvedor Front-end",
+        "text": "Trabalhar com o Leandro no back-end é muito tranquilo. Código limpo, endpoints bem estruturados e sempre disponível para alinhar integrações."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Página não encontrada",
+    "desc": "A página que você procura não existe ou foi movida.",
+    "backHome": "Voltar para Home"
+  },
+  "footer": {
+    "copy": "© {{year}} Leandro.dev"
+  },
+  "topbar": {
+    "portfolio": "Portfólio"
+  }
+}

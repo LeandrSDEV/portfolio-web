@@ -1,0 +1,264 @@
+.about-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero span {
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+/* SECTIONS */
+.about-section {
+  margin-bottom: 2.8rem;
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-section > p {
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  max-width: 700px;
+}
+
+.about-section p strong {
+  color: var(--primary);
+}
+
+/* SKILLS POR CATEGORIA */
+.skills-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-category {
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  box-shadow: var(--card-shadow);
+}
+
+.skill-category h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skills-grid .skill {
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  background: var(--primary-bg);
+  border: 1px solid var(--primary-border);
+  color: var(--primary);
+  cursor: default;
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--border-accent);
+}
+
+.timeline-item {
+  display: flex;
+  gap: 1.2rem;
+  position: relative;
+}
+
+.timeline .dot {
+  position: absolute;
+  left: -1.85rem;
+  top: 0.35rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 0 4px var(--bg), 0 0 10px var(--primary-glow);
+}
+
+.timeline-item h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+
+.timeline-item p {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+/* APPROACH */
+.approach-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.approach-card {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  box-shadow: var(--card-shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.approach-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.approach-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--primary-bg);
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+  margin-bottom: 1rem;
+}
+
+.approach-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.approach-card p {
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* CTA */
+.about-cta {
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+}
+
+.about-cta h2 {
+  margin-bottom: 0.8rem;
+}
+
+.about-cta span {
+  color: var(--muted);
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px var(--primary-glow);
+}
+
+/* TABLET */
+@media (max-width: 1023px) and (min-width: 769px) {
+  .skills-categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approach-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-hero span {
+    font-size: 0.95rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .skills-categories {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .approach-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-cta {
+    padding: 2rem 1.25rem;
+  }
+
+  .timeline {
+    padding-left: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 0 0.25rem;
+  }
+
+  .about-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .skills-categories {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category {
+    padding: 1rem;
+  }
+
+  .about-cta {
+    padding: 1.5rem 1rem;
+    border-radius: 14px;
+  }
+
+  .approach-card {
+    padding: 1.25rem;
+  }
+
+  .timeline .dot {
+    left: -1.6rem;
+  }
+}

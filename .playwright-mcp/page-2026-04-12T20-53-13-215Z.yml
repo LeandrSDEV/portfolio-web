@@ -1,0 +1,352 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Robô
+          - generic [ref=e150]: Robô
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Canal WhatsApp
+              - generic [ref=e168]: Robô
+              - generic [ref=e169]: Visão central da sessão, fila de envio e operação manual.
+              - generic [ref=e170]:
+                - generic [ref=e171]: "Bridge: STARTING"
+                - generic [ref=e172]: Aguardando QR
+                - generic [ref=e173]: Fila em andamento
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: Última atualização
+                - strong [ref=e177]: agora
+              - generic [ref=e178]:
+                - button "Gerar QR" [ref=e179] [cursor=pointer]
+                - button "Reiniciar" [ref=e180] [cursor=pointer]
+                - button "Desconectar" [ref=e181] [cursor=pointer]
+          - generic [ref=e182]:
+            - article [ref=e183]:
+              - generic [ref=e184]: Bridge
+              - strong [ref=e185]: STARTING
+              - generic [ref=e186]: Atualizado agora
+            - article [ref=e187]:
+              - generic [ref=e188]: Conexão
+              - strong [ref=e189]: Aguardando QR
+              - generic [ref=e190]: "Último evento: QR_UPDATED"
+            - article [ref=e191]:
+              - generic [ref=e192]: Pendentes
+              - strong [ref=e193]: "9"
+              - generic [ref=e194]: "Processando: 0"
+            - article [ref=e195]:
+              - generic [ref=e196]: Enviadas hoje
+              - strong [ref=e197]: "57"
+              - generic [ref=e198]: "Falhas: 0"
+          - generic [ref=e199]:
+            - article [ref=e200]:
+              - generic [ref=e202]:
+                - generic [ref=e203]: Resumo operacional
+                - generic [ref=e204]: Os dados principais do canal, sem excesso de informação.
+              - generic [ref=e205]:
+                - generic [ref=e206]:
+                  - generic [ref=e207]: Provider
+                  - strong [ref=e208]: BAILEYS
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Instância
+                  - strong [ref=e211]: lanchonete
+                - generic [ref=e212]:
+                  - generic [ref=e213]: Número conectado
+                  - strong [ref=e214]: —
+                - generic [ref=e215]:
+                  - generic [ref=e216]: Nome conectado
+                  - strong [ref=e217]: —
+              - generic [ref=e218]:
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Fila
+                  - strong [ref=e221]: Fila em andamento
+                  - generic [ref=e222]: "Pendentes: 9 • Processando: 0"
+                - generic [ref=e223]:
+                  - generic [ref=e224]: Último evento
+                  - strong [ref=e225]: QR_UPDATED
+                  - generic [ref=e226]: 12/04/2026, 17:52:47
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Reconexão
+                  - strong [ref=e230]: Parada
+                - generic [ref=e231]:
+                  - generic [ref=e232]: Inicialização
+                  - strong [ref=e233]: Inativa
+                - generic [ref=e234]:
+                  - generic [ref=e235]: Slots ativos
+                  - strong [ref=e236]: —
+                - generic [ref=e237]:
+                  - generic [ref=e238]: Na fila
+                  - strong [ref=e239]: —
+              - generic [ref=e240]:
+                - strong [ref=e241]: "Último erro:"
+                - text: Bridge ainda não está pronto para envio. connectionStatus=QRCODE, bridgeStatus=STARTING, qrActive=true, recentReady=false
+            - article [ref=e242]:
+              - generic [ref=e244]:
+                - generic [ref=e245]: QR Code
+                - generic [ref=e246]: Exibido somente quando o pareamento for necessário.
+              - generic [ref=e247]:
+                - img "QR Code do WhatsApp" [ref=e248]
+                - generic [ref=e249]: Expira em 12/04/2026, 17:53:47
+          - generic [ref=e250]:
+            - article [ref=e251]:
+              - generic [ref=e253]:
+                - generic [ref=e254]: Modo manual
+                - generic [ref=e255]: Desliga as respostas automáticas sem derrubar a sessão.
+              - generic [ref=e256]:
+                - checkbox "Ativar atendimento manual Enquanto ativo, o time assume a conversa no lugar do robô." [ref=e257]
+                - generic [ref=e258]:
+                  - strong [ref=e259]: Ativar atendimento manual
+                  - generic [ref=e260]: Enquanto ativo, o time assume a conversa no lugar do robô.
+              - generic [ref=e261]:
+                - generic [ref=e262]: Mensagem interna
+                - textbox "Mensagem interna" [ref=e263]:
+                  - /placeholder: "Ex.: Atendimento manual temporariamente ativo."
+              - button "Salvar configuração" [ref=e265] [cursor=pointer]
+            - article [ref=e266]:
+              - generic [ref=e268]:
+                - generic [ref=e269]: Quem responde os clientes?
+                - generic [ref=e270]: "Escolha como o WhatsApp deve atender: apenas pelo fluxo guiado, apenas pela IA ou nos dois modos juntos."
+              - radiogroup "Modo de resposta do WhatsApp" [ref=e271]:
+                - generic [ref=e272] [cursor=pointer]:
+                  - radio "Apenas Backend Menu numerado guiado. A IA fica desligada." [ref=e273]
+                  - generic [ref=e274]:
+                    - strong [ref=e275]: 🧭Apenas Backend
+                    - generic [ref=e276]: Menu numerado guiado. A IA fica desligada.
+                - generic [ref=e277] [cursor=pointer]:
+                  - radio "Apenas IA (Gemini) A IA responde todas as mensagens livres. O fluxo guiado só entra se o cliente usar comandos (menu, carrinho, voltar)." [ref=e278]
+                  - generic [ref=e279]:
+                    - strong [ref=e280]: 🤖Apenas IA (Gemini)
+                    - generic [ref=e281]: A IA responde todas as mensagens livres. O fluxo guiado só entra se o cliente usar comandos (menu, carrinho, voltar).
+                - generic [ref=e282] [cursor=pointer]:
+                  - radio "Híbrido (recomendado) A IA responde dúvidas livres e o backend conduz o pedido quando o cliente começa a comprar." [checked] [ref=e283]
+                  - generic [ref=e284]:
+                    - strong [ref=e285]: ⚡Híbrido (recomendado)
+                    - generic [ref=e286]: A IA responde dúvidas livres e o backend conduz o pedido quando o cliente começa a comprar.
+              - button "Salvar configuração" [ref=e288] [cursor=pointer]
+            - article [ref=e289]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: Inteligencia Artificial (Gemini)
+                - generic [ref=e293]: Respostas inteligentes para perguntas dos clientes via WhatsApp.
+              - generic [ref=e294]:
+                - checkbox "Ativar IA no WhatsApp Quando ativo, a IA responde perguntas sobre horarios, cardapio, formas de pagamento e delivery." [checked] [ref=e295]
+                - generic [ref=e296]:
+                  - strong [ref=e297]: Ativar IA no WhatsApp
+                  - generic [ref=e298]: Quando ativo, a IA responde perguntas sobre horarios, cardapio, formas de pagamento e delivery.
+              - generic [ref=e299]:
+                - generic [ref=e300]: Chave da API (Google Gemini)
+                - textbox "Chave da API (Google Gemini)" [ref=e301]:
+                  - /placeholder: AIzaSy...
+                  - text: AIza****HXE
+              - generic [ref=e302]:
+                - generic [ref=e303]: Instrucoes personalizadas (opcional)
+                - textbox "Instrucoes personalizadas (opcional)" [ref=e304]:
+                  - /placeholder: "Ex.: Sempre sugira o combo do dia. Seja informal e use girias regionais."
+                  - text: "PERSONALIDADE E TOM: Seja simpático, acolhedor e use um tom informal mas profissional. Use emojis com moderação (1-2 por mensagem, máximo). Trate o cliente pelo nome quando disponível. Seja direto nas respostas, sem enrolação. VENDAS E SUGESTÕES: Sempre que possível, sugira produtos populares ou o combo/promoção do dia. Se o cliente perguntar \"o que tem de bom?\", sugira 2-3 itens do cardápio com preço. Se o cliente parecer indeciso, ofereça as categorias disponíveis de forma resumida. Quando mencionar preços, use o formato R$ X,XX. DELIVERY E ENTREGA: Se perguntarem sobre taxa de entrega, informe as áreas e valores disponíveis. Se o bairro do cliente não estiver na lista de áreas, diga que não atendemos aquela região no momento. Tempo médio de entrega: 30-50 minutos (ajuste conforme sua realidade). Pedido mínimo para delivery: não há (ajuste se houver). PAGAMENTO: Aceitamos: PIX, cartão de crédito, cartão de débito e dinheiro. Para pagamento em dinheiro no delivery, perguntar se precisa de troco. PIX é a forma mais rápida de confirmação. SITUAÇÕES ESPECIAIS: Se o cliente reclamar de um pedido, peça desculpas e diga para aguardar que um atendente humano vai resolver. Oriente a digitar 5 no menu para falar com atendente. Se perguntarem sobre alergias ou restrições alimentares, diga que não temos essa informação confirmada e sugira falar com atendente humano. Se perguntarem algo que não tem relação com o restaurante, educadamente diga que só pode ajudar com assuntos do restaurante. Nunca forneça informações pessoais dos funcionários ou do proprietário. FLUXO DO PEDIDO: Para fazer pedido, o cliente deve digitar menu. Para ver o carrinho, digitar carrinho. Para cancelar, digitar cancelar. Sempre lembre o cliente dessas opções quando relevante."
+              - button "Salvar configuracao" [ref=e306] [cursor=pointer]
+            - article [ref=e307]:
+              - generic [ref=e309]:
+                - generic [ref=e310]: Eventos recentes
+                - generic [ref=e311]: Histórico do canal para leitura rápida.
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]:
+                    - strong [ref=e315]: QR_UPDATED
+                    - generic [ref=e316]: 12/04/2026, 17:52:47
+                  - paragraph [ref=e317]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - strong [ref=e320]: QR_UPDATED
+                    - generic [ref=e321]: 12/04/2026, 17:52:47
+                  - paragraph [ref=e322]: Novo QR Code gerado para autenticação
+                - generic [ref=e323]:
+                  - generic [ref=e324]:
+                    - strong [ref=e325]: CONNECTING
+                    - generic [ref=e326]: 12/04/2026, 17:52:46
+                  - paragraph [ref=e327]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - strong [ref=e330]: STARTING
+                    - generic [ref=e331]: 12/04/2026, 17:52:46
+                  - paragraph [ref=e332]: Iniciando sessão Baileys (reconnect:408)
+                - generic [ref=e333]:
+                  - generic [ref=e334]:
+                    - strong [ref=e335]: STARTING
+                    - generic [ref=e336]: 12/04/2026, 17:52:46
+                  - paragraph [ref=e337]: Bridge=STARTING | conexão=CONNECTING
+                - generic [ref=e338]:
+                  - generic [ref=e339]:
+                    - strong [ref=e340]: RECONNECT_SCHEDULED
+                    - generic [ref=e341]: 12/04/2026, 17:52:42
+                  - paragraph [ref=e342]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - strong [ref=e345]: RECONNECT_SCHEDULED
+                    - generic [ref=e346]: 12/04/2026, 17:52:42
+                  - paragraph [ref=e347]: Conexão encerrada (QR refs attempts ended). Nova tentativa em 4000ms.
+                - generic [ref=e348]:
+                  - generic [ref=e349]:
+                    - strong [ref=e350]: QR_UPDATED
+                    - generic [ref=e351]: 12/04/2026, 17:52:22
+                  - paragraph [ref=e352]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e353]:
+                  - generic [ref=e354]:
+                    - strong [ref=e355]: QR_UPDATED
+                    - generic [ref=e356]: 12/04/2026, 17:52:22
+                  - paragraph [ref=e357]: Novo QR Code gerado para autenticação
+                - generic [ref=e358]:
+                  - generic [ref=e359]:
+                    - strong [ref=e360]: QR_UPDATED
+                    - generic [ref=e361]: 12/04/2026, 17:52:02
+                  - paragraph [ref=e362]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e363]:
+                  - generic [ref=e364]:
+                    - strong [ref=e365]: QR_UPDATED
+                    - generic [ref=e366]: 12/04/2026, 17:52:02
+                  - paragraph [ref=e367]: Novo QR Code gerado para autenticação
+                - generic [ref=e368]:
+                  - generic [ref=e369]:
+                    - strong [ref=e370]: QR_UPDATED
+                    - generic [ref=e371]: 12/04/2026, 17:51:42
+                  - paragraph [ref=e372]: Novo QR Code gerado para autenticação
+                - generic [ref=e373]:
+                  - generic [ref=e374]:
+                    - strong [ref=e375]: QR_UPDATED
+                    - generic [ref=e376]: 12/04/2026, 17:51:42
+                  - paragraph [ref=e377]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e378]:
+                  - generic [ref=e379]:
+                    - strong [ref=e380]: QR_UPDATED
+                    - generic [ref=e381]: 12/04/2026, 17:51:22
+                  - paragraph [ref=e382]: Novo QR Code gerado para autenticação
+                - generic [ref=e383]:
+                  - generic [ref=e384]:
+                    - strong [ref=e385]: QR_UPDATED
+                    - generic [ref=e386]: 12/04/2026, 17:51:22
+                  - paragraph [ref=e387]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e388]:
+                  - generic [ref=e389]:
+                    - strong [ref=e390]: QR_UPDATED
+                    - generic [ref=e391]: 12/04/2026, 17:51:02
+                  - paragraph [ref=e392]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e393]:
+                  - generic [ref=e394]:
+                    - strong [ref=e395]: QR_UPDATED
+                    - generic [ref=e396]: 12/04/2026, 17:51:02
+                  - paragraph [ref=e397]: Novo QR Code gerado para autenticação
+                - generic [ref=e398]:
+                  - generic [ref=e399]:
+                    - strong [ref=e400]: QR_UPDATED
+                    - generic [ref=e401]: 12/04/2026, 17:50:02
+                  - paragraph [ref=e402]: Novo QR Code gerado para autenticação
+                - generic [ref=e403]:
+                  - generic [ref=e404]:
+                    - strong [ref=e405]: QR_UPDATED
+                    - generic [ref=e406]: 12/04/2026, 17:50:02
+                  - paragraph [ref=e407]: Bridge=STARTING | conexão=QRCODE
+                - generic [ref=e408]:
+                  - generic [ref=e409]:
+                    - strong [ref=e410]: CONNECTING
+                    - generic [ref=e411]: 12/04/2026, 17:50:01
+                  - paragraph [ref=e412]: Bridge=STARTING | conexão=QRCODE
+  - status

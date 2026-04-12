@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - heading "Portal Embaixadores" [level=6] [ref=e9]
+        - generic [ref=e10]:
+          - button "Alternar tema" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+          - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+            - img [ref=e15]
+    - generic [ref=e20]:
+      - list [ref=e22]:
+        - link "Dashboard" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - img [ref=e25]
+          - generic [ref=e28]: Dashboard
+        - link "Projetos" [ref=e29] [cursor=pointer]:
+          - /url: /produtos
+          - img [ref=e31]
+          - generic [ref=e37]: Projetos
+        - link "Formulario" [ref=e38] [cursor=pointer]:
+          - /url: /formulario
+          - img [ref=e40]
+          - generic [ref=e44]: Formulario
+        - link "WebHook" [ref=e45] [cursor=pointer]:
+          - /url: /dominios
+          - img [ref=e47]
+          - generic [ref=e51]: WebHook
+        - link "Auditoria" [ref=e52] [cursor=pointer]:
+          - /url: /auditoria
+          - img [ref=e54]
+          - generic [ref=e58]: Auditoria
+        - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+          - /url: /monitor
+          - img [ref=e61]
+          - generic [ref=e65]: Lib. Logs
+        - button "Embaixadores" [ref=e66] [cursor=pointer]:
+          - img [ref=e68]
+          - generic [ref=e72]: Embaixadores
+          - img [ref=e73]
+      - separator [ref=e75]
+    - main [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Dashboard" [level=5] [ref=e79]
+          - generic [ref=e81]: Todos os professores
+        - generic [ref=e83]:
+          - generic [ref=e86]:
+            - text: Vendas (Dia)
+            - heading "R$ 1.686,14" [level=4] [ref=e227]
+            - paragraph [ref=e88]: Total geral
+          - generic [ref=e91]:
+            - text: Vendas (Semana)
+            - heading "R$ 22.324,19" [level=4] [ref=e228]
+            - paragraph [ref=e93]: Últimos 7 dias
+          - generic [ref=e96]:
+            - text: Vendas (Mês)
+            - heading "R$ 31.127,43" [level=4] [ref=e229]
+            - paragraph [ref=e98]: Desde o início do mês
+        - generic [ref=e99]:
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading "PROFESSORES" [level=6] [ref=e105]
+                - paragraph [ref=e106]: Top 3 que mais venderam
+              - generic [ref=e108]: Top 3
+            - generic [ref=e109]:
+              - button "2º Vice Eduardo Cortez Professor R$ 17.686,37" [ref=e231] [cursor=pointer]:
+                - generic [ref=e232]:
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: 2º
+                    - generic [ref=e236]: Vice
+                  - heading "Eduardo Cortez" [level=6] [ref=e237]: Eduardo Co…
+                  - paragraph [ref=e238]: Professor
+                  - separator [ref=e239]
+                  - heading "R$ 17.686,37" [level=5] [ref=e240]
+              - button "1º Campeão Gabriela Melo Professor R$ 29.003,00" [ref=e242] [cursor=pointer]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: 1º
+                    - generic [ref=e247]: Campeão
+                  - heading "Gabriela Melo" [level=6] [ref=e248]: Gabriela M…
+                  - paragraph [ref=e249]: Professor
+                  - separator [ref=e250]
+                  - heading "R$ 29.003,00" [level=5] [ref=e251]
+              - button "3º 3º lugar Caio Barreto Professor R$ 2.513,50" [ref=e253] [cursor=pointer]:
+                - generic [ref=e254]:
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: 3º
+                    - generic [ref=e258]: 3º lugar
+                  - heading "Caio Barreto" [level=6] [ref=e259]: Caio Barre…
+                  - paragraph [ref=e260]: Professor
+                  - separator [ref=e261]
+                  - heading "R$ 2.513,50" [level=5] [ref=e262]
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - heading "PROJETOS" [level=6] [ref=e145]
+                - paragraph [ref=e146]: Top 3 que mais venderam
+              - generic [ref=e148]: Top 3
+            - generic [ref=e149]:
+              - generic [ref=e265]:
+                - generic [ref=e266]:
+                  - generic [ref=e267]: 2º
+                  - generic [ref=e269]: Em alta
+                - heading "FALCÃO NEGRO" [level=6] [ref=e270]: FALCÃO NEG…
+                - paragraph [ref=e271]: "3"
+                - separator [ref=e272]
+                - heading "99 vendas" [level=5] [ref=e273]
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]: 1º
+                  - generic [ref=e280]: Mais vendido
+                - heading "FORÇA TAREFA ADMINISTRATIVO, BANCÁRIO & TRIBUNAIS" [level=6] [ref=e281]: FORÇA TARE…
+                - paragraph [ref=e282]: "4"
+                - separator [ref=e283]
+                - heading "206 vendas" [level=5] [ref=e284]
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]: 3º
+                  - generic [ref=e291]: Top 3
+                - heading "COMBO DAS CARREIRAS ADMINISTRATIVAS" [level=6] [ref=e292]: COMBO DAS …
+                - paragraph [ref=e293]: "2982436"
+                - separator [ref=e294]
+                - heading "16 vendas" [level=5] [ref=e295]
+        - generic [ref=e180]:
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - heading "Vendas por dia (últimos 7 dias)" [level=6] [ref=e186]
+                - paragraph [ref=e187]: Série temporal — Todos os professores
+              - generic [ref=e189]: Visão geral
+            - img [ref=e193]:
+              - generic [ref=e297]:
+                - generic [ref=e299]: 05/04
+                - generic [ref=e301]: 06/04
+                - generic [ref=e303]: 07/04
+                - generic [ref=e305]: 08/04
+                - generic [ref=e307]: 09/04
+                - generic [ref=e309]: 10/04
+                - generic [ref=e311]: 11/04
+                - generic [ref=e313]: 12/04
+              - generic [ref=e315]:
+                - generic [ref=e317]: "0"
+                - generic [ref=e319]: "1500"
+                - generic [ref=e321]: "3000"
+                - generic [ref=e323]: "4500"
+                - generic [ref=e325]: "6000"
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - heading "Professores Top 10" [level=6] [ref=e201]
+              - generic [ref=e202]:
+                - button "Limpar filtro" [disabled]
+                - button "Filtrar dashboard" [disabled]
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e206]:
+                  - textbox "Buscar por professor..." [ref=e207]
+                  - group
+                - list [ref=e208]:
+                  - button "∞ Todos os professores Visão geral" [ref=e209] [cursor=pointer]:
+                    - generic [ref=e211]: ∞
+                    - generic [ref=e212]:
+                      - generic [ref=e213]: Todos os professores
+                      - paragraph [ref=e214]: Visão geral
+                  - separator [ref=e215]
+                  - button "G Gabriela Melo R$ 29.003,00" [ref=e330] [cursor=pointer]:
+                    - generic [ref=e332]: G
+                    - generic [ref=e333]:
+                      - generic [ref=e334]: Gabriela Melo
+                      - paragraph [ref=e335]: R$ 29.003,00
+                  - button "E Eduardo Cortez R$ 17.686,37" [ref=e336] [cursor=pointer]:
+                    - generic [ref=e338]: E
+                    - generic [ref=e339]:
+                      - generic [ref=e340]: Eduardo Cortez
+                      - paragraph [ref=e341]: R$ 17.686,37
+                  - button "C Caio Barreto R$ 2.513,50" [ref=e342] [cursor=pointer]:
+                    - generic [ref=e344]: C
+                    - generic [ref=e345]:
+                      - generic [ref=e346]: Caio Barreto
+                      - paragraph [ref=e347]: R$ 2.513,50
+                  - button "M Murilo Rangel R$ 2.193,16" [ref=e348] [cursor=pointer]:
+                    - generic [ref=e350]: M
+                    - generic [ref=e351]:
+                      - generic [ref=e352]: Murilo Rangel
+                      - paragraph [ref=e353]: R$ 2.193,16
+                  - button "P Paulo Victor R$ 447,54" [ref=e354] [cursor=pointer]:
+                    - generic [ref=e356]: P
+                    - generic [ref=e357]:
+                      - generic [ref=e358]: Paulo Victor
+                      - paragraph [ref=e359]: R$ 447,54
+                  - button "J Jorge Lucas R$ 167,00" [ref=e360] [cursor=pointer]:
+                    - generic [ref=e362]: J
+                    - generic [ref=e363]:
+                      - generic [ref=e364]: Jorge Lucas
+                      - paragraph [ref=e365]: R$ 167,00
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - heading "Cursos do professor" [level=6] [ref=e222]
+                  - generic [ref=e224]: Selecione um professor
+                - separator [ref=e225]
+                - paragraph [ref=e226]: Clique em um professor na lista ao lado para ver os cursos associados.
+  - generic [ref=e366]: "6000"

@@ -1,0 +1,164 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Avaliações
+          - generic [ref=e150]: Avaliações
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: Pesquisa de satisfação
+          - generic [ref=e166]: Avaliações enviadas pelos clientes após finalizar um pedido.
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e169]: Nota média (30 dias)
+              - generic [ref=e170]: "5.0"
+              - generic [ref=e171]: ★★★★★
+            - generic [ref=e172]:
+              - generic [ref=e173]: Total de avaliações (30 dias)
+              - generic [ref=e174]: "6"
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]:
+                  - generic [ref=e179]: ★★★★★
+                  - generic [ref=e180]: leandro
+                - generic [ref=e181]: melhor!
+                - generic [ref=e182]: 12/04/2026, 13:39
+              - button "✕" [ref=e184] [cursor=pointer]
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - generic [ref=e187]:
+                  - generic [ref=e188]: ★★★★★
+                  - generic [ref=e189]: leandro
+                - generic [ref=e190]: melhor sistema!
+                - generic [ref=e191]: 12/04/2026, 13:17
+              - button "✕" [ref=e193] [cursor=pointer]
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]: ★★★★★
+                  - generic [ref=e198]: leandro
+                - generic [ref=e199]: ok
+                - generic [ref=e200]: 12/04/2026, 10:54
+              - button "✕" [ref=e202] [cursor=pointer]
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e206]: ★★★★★
+                - generic [ref=e207]: Gostei
+                - generic [ref=e208]: 11/04/2026, 21:46
+              - button "✕" [ref=e210] [cursor=pointer]
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - generic [ref=e214]: ★★★★★
+                  - generic [ref=e215]: leandro
+                - generic [ref=e216]: topppp1
+                - generic [ref=e217]: 11/04/2026, 21:18
+              - button "✕" [ref=e219] [cursor=pointer]
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]: ★★★★★
+                  - generic [ref=e224]: leandro
+                - generic [ref=e225]: top
+                - generic [ref=e226]: 11/04/2026, 15:12
+              - button "✕" [ref=e228] [cursor=pointer]
+  - status

@@ -1,0 +1,415 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e73]
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - heading "AUDITORIA" [level=5] [ref=e78]
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic: Buscar (Rota, autor, entidade)
+          - generic [ref=e83]:
+            - textbox "Buscar (Rota, autor, entidade)" [ref=e84]
+            - group:
+              - generic: Buscar (Rota, autor, entidade)
+        - generic [ref=e85]:
+          - generic: Evento
+          - generic [ref=e86]:
+            - textbox "Evento" [ref=e87]:
+              - /placeholder: Produto_Editado
+            - group:
+              - generic: Evento
+        - generic [ref=e88]:
+          - generic: Entidade
+          - generic [ref=e89]:
+            - textbox "Entidade" [ref=e90]:
+              - /placeholder: products
+            - group:
+              - generic: Entidade
+        - generic [ref=e91]:
+          - generic: Email
+          - generic [ref=e92]:
+            - textbox "Email" [ref=e93]:
+              - /placeholder: admin@...
+            - group:
+              - generic: Email
+        - button "Filtrar" [ref=e109] [cursor=pointer]: Filtrar
+      - generic [ref=e95]:
+        - heading "Logs" [level=6] [ref=e96]
+        - separator [ref=e97]
+        - table [ref=e99]:
+          - rowgroup [ref=e100]:
+            - row "ID Quando Autor Evento Rota Ações" [ref=e101]:
+              - columnheader "ID" [ref=e102]
+              - columnheader "Quando" [ref=e103]
+              - columnheader "Autor" [ref=e104]
+              - columnheader "Evento" [ref=e105]
+              - columnheader "Rota" [ref=e106]
+              - columnheader "Ações" [ref=e107]
+          - rowgroup [ref=e110]:
+            - row "781 12/04/2026, 17:58:43 anonymousUser AUTH_CREATED POST auth / login Ver" [ref=e111]:
+              - cell "781" [ref=e112]
+              - cell "12/04/2026, 17:58:43" [ref=e113]:
+                - paragraph [ref=e114]: 12/04/2026, 17:58:43
+              - cell "anonymousUser" [ref=e115]:
+                - paragraph [ref=e116]: anonymousUser
+              - cell "AUTH_CREATED POST" [ref=e117]:
+                - generic [ref=e119]: AUTH_CREATED
+                - text: POST
+              - cell "auth / login" [ref=e120]:
+                - paragraph [ref=e121]: auth / login
+              - cell "Ver" [ref=e122]:
+                - button "Ver" [ref=e123] [cursor=pointer]: Ver
+            - row "780 12/04/2026, 16:39:05 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e124]:
+              - cell "780" [ref=e125]
+              - cell "12/04/2026, 16:39:05" [ref=e126]:
+                - paragraph [ref=e127]: 12/04/2026, 16:39:05
+              - cell "anonymousUser" [ref=e128]:
+                - paragraph [ref=e129]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e130]:
+                - generic [ref=e132]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e133]:
+                - paragraph [ref=e134]: webhook / eduzz
+              - cell "Ver" [ref=e135]:
+                - button "Ver" [ref=e136] [cursor=pointer]: Ver
+            - row "779 12/04/2026, 16:05:17 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e137]:
+              - cell "779" [ref=e138]
+              - cell "12/04/2026, 16:05:17" [ref=e139]:
+                - paragraph [ref=e140]: 12/04/2026, 16:05:17
+              - cell "anonymousUser" [ref=e141]:
+                - paragraph [ref=e142]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e143]:
+                - generic [ref=e145]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e146]:
+                - paragraph [ref=e147]: webhook / eduzz
+              - cell "Ver" [ref=e148]:
+                - button "Ver" [ref=e149] [cursor=pointer]: Ver
+            - row "778 12/04/2026, 13:45:43 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e150]:
+              - cell "778" [ref=e151]
+              - cell "12/04/2026, 13:45:43" [ref=e152]:
+                - paragraph [ref=e153]: 12/04/2026, 13:45:43
+              - cell "anonymousUser" [ref=e154]:
+                - paragraph [ref=e155]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e156]:
+                - generic [ref=e158]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e159]:
+                - paragraph [ref=e160]: webhook / eduzz
+              - cell "Ver" [ref=e161]:
+                - button "Ver" [ref=e162] [cursor=pointer]: Ver
+            - row "777 11/04/2026, 21:39:54 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e163]:
+              - cell "777" [ref=e164]
+              - cell "11/04/2026, 21:39:54" [ref=e165]:
+                - paragraph [ref=e166]: 11/04/2026, 21:39:54
+              - cell "anonymousUser" [ref=e167]:
+                - paragraph [ref=e168]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e169]:
+                - generic [ref=e171]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e172]:
+                - paragraph [ref=e173]: webhook / eduzz
+              - cell "Ver" [ref=e174]:
+                - button "Ver" [ref=e175] [cursor=pointer]: Ver
+            - row "776 11/04/2026, 18:19:48 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e176]:
+              - cell "776" [ref=e177]
+              - cell "11/04/2026, 18:19:48" [ref=e178]:
+                - paragraph [ref=e179]: 11/04/2026, 18:19:48
+              - cell "anonymousUser" [ref=e180]:
+                - paragraph [ref=e181]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e182]:
+                - generic [ref=e184]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e185]:
+                - paragraph [ref=e186]: webhook / eduzz
+              - cell "Ver" [ref=e187]:
+                - button "Ver" [ref=e188] [cursor=pointer]: Ver
+            - row "775 11/04/2026, 16:49:05 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e189]:
+              - cell "775" [ref=e190]
+              - cell "11/04/2026, 16:49:05" [ref=e191]:
+                - paragraph [ref=e192]: 11/04/2026, 16:49:05
+              - cell "anonymousUser" [ref=e193]:
+                - paragraph [ref=e194]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e195]:
+                - generic [ref=e197]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e198]:
+                - paragraph [ref=e199]: webhook / eduzz
+              - cell "Ver" [ref=e200]:
+                - button "Ver" [ref=e201] [cursor=pointer]: Ver
+            - row "774 11/04/2026, 16:05:20 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e202]:
+              - cell "774" [ref=e203]
+              - cell "11/04/2026, 16:05:20" [ref=e204]:
+                - paragraph [ref=e205]: 11/04/2026, 16:05:20
+              - cell "anonymousUser" [ref=e206]:
+                - paragraph [ref=e207]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e208]:
+                - generic [ref=e210]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e211]:
+                - paragraph [ref=e212]: webhook / eduzz
+              - cell "Ver" [ref=e213]:
+                - button "Ver" [ref=e214] [cursor=pointer]: Ver
+            - row "773 11/04/2026, 16:05:20 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e215]:
+              - cell "773" [ref=e216]
+              - cell "11/04/2026, 16:05:20" [ref=e217]:
+                - paragraph [ref=e218]: 11/04/2026, 16:05:20
+              - cell "anonymousUser" [ref=e219]:
+                - paragraph [ref=e220]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e221]:
+                - generic [ref=e223]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e224]:
+                - paragraph [ref=e225]: webhook / eduzz
+              - cell "Ver" [ref=e226]:
+                - button "Ver" [ref=e227] [cursor=pointer]: Ver
+            - row "772 11/04/2026, 16:05:06 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e228]:
+              - cell "772" [ref=e229]
+              - cell "11/04/2026, 16:05:06" [ref=e230]:
+                - paragraph [ref=e231]: 11/04/2026, 16:05:06
+              - cell "anonymousUser" [ref=e232]:
+                - paragraph [ref=e233]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e234]:
+                - generic [ref=e236]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e237]:
+                - paragraph [ref=e238]: webhook / eduzz
+              - cell "Ver" [ref=e239]:
+                - button "Ver" [ref=e240] [cursor=pointer]: Ver
+            - row "771 11/04/2026, 10:14:25 anonymousUser AUTH_CREATED POST auth / login Ver" [ref=e241]:
+              - cell "771" [ref=e242]
+              - cell "11/04/2026, 10:14:25" [ref=e243]:
+                - paragraph [ref=e244]: 11/04/2026, 10:14:25
+              - cell "anonymousUser" [ref=e245]:
+                - paragraph [ref=e246]: anonymousUser
+              - cell "AUTH_CREATED POST" [ref=e247]:
+                - generic [ref=e249]: AUTH_CREATED
+                - text: POST
+              - cell "auth / login" [ref=e250]:
+                - paragraph [ref=e251]: auth / login
+              - cell "Ver" [ref=e252]:
+                - button "Ver" [ref=e253] [cursor=pointer]: Ver
+            - row "770 11/04/2026, 10:05:17 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e254]:
+              - cell "770" [ref=e255]
+              - cell "11/04/2026, 10:05:17" [ref=e256]:
+                - paragraph [ref=e257]: 11/04/2026, 10:05:17
+              - cell "anonymousUser" [ref=e258]:
+                - paragraph [ref=e259]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e260]:
+                - generic [ref=e262]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e263]:
+                - paragraph [ref=e264]: webhook / eduzz
+              - cell "Ver" [ref=e265]:
+                - button "Ver" [ref=e266] [cursor=pointer]: Ver
+            - row "769 11/04/2026, 09:16:27 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e267]:
+              - cell "769" [ref=e268]
+              - cell "11/04/2026, 09:16:27" [ref=e269]:
+                - paragraph [ref=e270]: 11/04/2026, 09:16:27
+              - cell "anonymousUser" [ref=e271]:
+                - paragraph [ref=e272]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e273]:
+                - generic [ref=e275]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e276]:
+                - paragraph [ref=e277]: webhook / eduzz
+              - cell "Ver" [ref=e278]:
+                - button "Ver" [ref=e279] [cursor=pointer]: Ver
+            - row "768 11/04/2026, 08:51:12 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e280]:
+              - cell "768" [ref=e281]
+              - cell "11/04/2026, 08:51:12" [ref=e282]:
+                - paragraph [ref=e283]: 11/04/2026, 08:51:12
+              - cell "anonymousUser" [ref=e284]:
+                - paragraph [ref=e285]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e286]:
+                - generic [ref=e288]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e289]:
+                - paragraph [ref=e290]: webhook / eduzz
+              - cell "Ver" [ref=e291]:
+                - button "Ver" [ref=e292] [cursor=pointer]: Ver
+            - row "767 10/04/2026, 23:05:23 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e293]:
+              - cell "767" [ref=e294]
+              - cell "10/04/2026, 23:05:23" [ref=e295]:
+                - paragraph [ref=e296]: 10/04/2026, 23:05:23
+              - cell "anonymousUser" [ref=e297]:
+                - paragraph [ref=e298]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e299]:
+                - generic [ref=e301]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e302]:
+                - paragraph [ref=e303]: webhook / eduzz
+              - cell "Ver" [ref=e304]:
+                - button "Ver" [ref=e305] [cursor=pointer]: Ver
+            - row "766 10/04/2026, 23:05:23 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e306]:
+              - cell "766" [ref=e307]
+              - cell "10/04/2026, 23:05:23" [ref=e308]:
+                - paragraph [ref=e309]: 10/04/2026, 23:05:23
+              - cell "anonymousUser" [ref=e310]:
+                - paragraph [ref=e311]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e312]:
+                - generic [ref=e314]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e315]:
+                - paragraph [ref=e316]: webhook / eduzz
+              - cell "Ver" [ref=e317]:
+                - button "Ver" [ref=e318] [cursor=pointer]: Ver
+            - row "765 10/04/2026, 23:05:19 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e319]:
+              - cell "765" [ref=e320]
+              - cell "10/04/2026, 23:05:19" [ref=e321]:
+                - paragraph [ref=e322]: 10/04/2026, 23:05:19
+              - cell "anonymousUser" [ref=e323]:
+                - paragraph [ref=e324]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e325]:
+                - generic [ref=e327]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e328]:
+                - paragraph [ref=e329]: webhook / eduzz
+              - cell "Ver" [ref=e330]:
+                - button "Ver" [ref=e331] [cursor=pointer]: Ver
+            - row "763 10/04/2026, 23:05:19 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e332]:
+              - cell "763" [ref=e333]
+              - cell "10/04/2026, 23:05:19" [ref=e334]:
+                - paragraph [ref=e335]: 10/04/2026, 23:05:19
+              - cell "anonymousUser" [ref=e336]:
+                - paragraph [ref=e337]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e338]:
+                - generic [ref=e340]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e341]:
+                - paragraph [ref=e342]: webhook / eduzz
+              - cell "Ver" [ref=e343]:
+                - button "Ver" [ref=e344] [cursor=pointer]: Ver
+            - row "762 10/04/2026, 23:05:19 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e345]:
+              - cell "762" [ref=e346]
+              - cell "10/04/2026, 23:05:19" [ref=e347]:
+                - paragraph [ref=e348]: 10/04/2026, 23:05:19
+              - cell "anonymousUser" [ref=e349]:
+                - paragraph [ref=e350]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e351]:
+                - generic [ref=e353]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e354]:
+                - paragraph [ref=e355]: webhook / eduzz
+              - cell "Ver" [ref=e356]:
+                - button "Ver" [ref=e357] [cursor=pointer]: Ver
+            - row "764 10/04/2026, 23:05:19 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e358]:
+              - cell "764" [ref=e359]
+              - cell "10/04/2026, 23:05:19" [ref=e360]:
+                - paragraph [ref=e361]: 10/04/2026, 23:05:19
+              - cell "anonymousUser" [ref=e362]:
+                - paragraph [ref=e363]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e364]:
+                - generic [ref=e366]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e367]:
+                - paragraph [ref=e368]: webhook / eduzz
+              - cell "Ver" [ref=e369]:
+                - button "Ver" [ref=e370] [cursor=pointer]: Ver
+            - row "761 10/04/2026, 23:05:19 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e371]:
+              - cell "761" [ref=e372]
+              - cell "10/04/2026, 23:05:19" [ref=e373]:
+                - paragraph [ref=e374]: 10/04/2026, 23:05:19
+              - cell "anonymousUser" [ref=e375]:
+                - paragraph [ref=e376]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e377]:
+                - generic [ref=e379]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e380]:
+                - paragraph [ref=e381]: webhook / eduzz
+              - cell "Ver" [ref=e382]:
+                - button "Ver" [ref=e383] [cursor=pointer]: Ver
+            - row "760 10/04/2026, 22:12:24 talita.santos@portaled.online PRODUCTS_CREATED POST products / 167 Ver" [ref=e384]:
+              - cell "760" [ref=e385]
+              - cell "10/04/2026, 22:12:24" [ref=e386]:
+                - paragraph [ref=e387]: 10/04/2026, 22:12:24
+              - cell "talita.santos@portaled.online" [ref=e388]:
+                - paragraph [ref=e389]: talita.santos@portaled.online
+              - cell "PRODUCTS_CREATED POST" [ref=e390]:
+                - generic [ref=e392]: PRODUCTS_CREATED
+                - text: POST
+              - cell "products / 167" [ref=e393]:
+                - paragraph [ref=e394]: products / 167
+              - cell "Ver" [ref=e395]:
+                - button "Ver" [ref=e396] [cursor=pointer]: Ver
+            - row "759 10/04/2026, 21:41:08 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e397]:
+              - cell "759" [ref=e398]
+              - cell "10/04/2026, 21:41:08" [ref=e399]:
+                - paragraph [ref=e400]: 10/04/2026, 21:41:08
+              - cell "anonymousUser" [ref=e401]:
+                - paragraph [ref=e402]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e403]:
+                - generic [ref=e405]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e406]:
+                - paragraph [ref=e407]: webhook / eduzz
+              - cell "Ver" [ref=e408]:
+                - button "Ver" [ref=e409] [cursor=pointer]: Ver
+            - row "758 10/04/2026, 21:39:21 talita.santos@portaled.online PRODUCTS_CREATED POST products / 166 Ver" [ref=e410]:
+              - cell "758" [ref=e411]
+              - cell "10/04/2026, 21:39:21" [ref=e412]:
+                - paragraph [ref=e413]: 10/04/2026, 21:39:21
+              - cell "talita.santos@portaled.online" [ref=e414]:
+                - paragraph [ref=e415]: talita.santos@portaled.online
+              - cell "PRODUCTS_CREATED POST" [ref=e416]:
+                - generic [ref=e418]: PRODUCTS_CREATED
+                - text: POST
+              - cell "products / 166" [ref=e419]:
+                - paragraph [ref=e420]: products / 166
+              - cell "Ver" [ref=e421]:
+                - button "Ver" [ref=e422] [cursor=pointer]: Ver
+            - row "757 10/04/2026, 21:05:18 anonymousUser WEBHOOK_CREATED POST webhook / eduzz Ver" [ref=e423]:
+              - cell "757" [ref=e424]
+              - cell "10/04/2026, 21:05:18" [ref=e425]:
+                - paragraph [ref=e426]: 10/04/2026, 21:05:18
+              - cell "anonymousUser" [ref=e427]:
+                - paragraph [ref=e428]: anonymousUser
+              - cell "WEBHOOK_CREATED POST" [ref=e429]:
+                - generic [ref=e431]: WEBHOOK_CREATED
+                - text: POST
+              - cell "webhook / eduzz" [ref=e432]:
+                - paragraph [ref=e433]: webhook / eduzz
+              - cell "Ver" [ref=e434]:
+                - button "Ver" [ref=e435] [cursor=pointer]: Ver
+        - generic [ref=e108]:
+          - button "Anterior" [disabled]
+          - button "Próximo" [ref=e436] [cursor=pointer]: Próximo

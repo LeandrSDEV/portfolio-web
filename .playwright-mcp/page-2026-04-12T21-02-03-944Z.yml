@@ -1,0 +1,133 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e73]
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - button "Voltar para projetos" [ref=e472] [cursor=pointer]:
+            - img [ref=e473]
+          - generic [ref=e475]:
+            - heading "ASSINATURA DE CARREIRA POLICIAL" [level=5] [ref=e476]
+            - paragraph [ref=e477]: "Professor: Maria Antônia"
+        - generic [ref=e478]:
+          - button "Editar projeto" [ref=e479] [cursor=pointer]:
+            - img [ref=e481]
+            - text: Editar projeto
+          - button "Novo produto" [ref=e483] [cursor=pointer]: Novo produto
+      - generic [ref=e83]:
+        - img "ASSINATURA DE CARREIRA POLICIAL" [ref=e484]
+        - generic [ref=e485]:
+          - generic [ref=e487]: "Professor: Maria Antônia"
+          - generic [ref=e489]: 3 produto(s)
+      - generic [ref=e491]:
+        - generic [ref=e492]:
+          - generic: Buscar produto
+          - generic [ref=e493]:
+            - textbox "Buscar produto" [ref=e494]:
+              - /placeholder: Código, curso, nome da vitrine...
+            - group:
+              - generic: Buscar produto
+        - generic [ref=e495]:
+          - generic [ref=e496]: Status
+          - generic [ref=e497]:
+            - combobox "Status Todos" [ref=e498] [cursor=pointer]: Todos
+            - textbox: ALL
+            - img
+            - group:
+              - generic: Status
+        - button "Limpar" [ref=e500] [cursor=pointer]: Limpar
+      - generic [ref=e501]:
+        - generic [ref=e502]:
+          - generic [ref=e504]:
+            - generic [ref=e505]:
+              - heading "POLÍCIA MILITAR DE MINAS GERAIS" [level=6] [ref=e506]
+              - paragraph [ref=e507]:
+                - strong [ref=e508]: "Curso:"
+                - text: POLÍCIA MILITAR DE MINAS GERAIS
+              - paragraph [ref=e509]:
+                - strong [ref=e510]: "Repasse:"
+                - text: R$ 197,00
+            - generic [ref=e511]:
+              - generic [ref=e513]: "ID: 13"
+              - generic [ref=e515]: "Cursos: 1"
+              - generic [ref=e517]: 1 ANO
+              - generic [ref=e519]: Ativo
+          - generic [ref=e520]:
+            - button "Editar" [ref=e521] [cursor=pointer]: Editar
+            - button "Excluir" [ref=e522] [cursor=pointer]: Excluir
+        - generic [ref=e523]:
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - heading "GUARDA MUNICIPAL 3.0" [level=6] [ref=e527]
+              - paragraph [ref=e528]:
+                - strong [ref=e529]: "Curso:"
+                - text: GUARDA MUNICIPAL 3.0
+              - paragraph [ref=e530]:
+                - strong [ref=e531]: "Repasse:"
+                - text: R$ 197,00
+            - generic [ref=e532]:
+              - generic [ref=e534]: "ID: 10"
+              - generic [ref=e536]: "Cursos: 3"
+              - generic [ref=e538]: 1 ANO
+              - generic [ref=e540]: Ativo
+          - generic [ref=e541]:
+            - button "Editar" [ref=e542] [cursor=pointer]: Editar
+            - button "Excluir" [ref=e543] [cursor=pointer]: Excluir
+        - generic [ref=e544]:
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - heading "CARREIRA POLICIAL" [level=6] [ref=e548]
+              - paragraph [ref=e549]:
+                - strong [ref=e550]: "Curso:"
+                - text: ASSINATURA DE CARREIRA POLICIAL
+              - paragraph [ref=e551]:
+                - strong [ref=e552]: "Repasse:"
+                - text: R$ 297,00
+            - generic [ref=e553]:
+              - generic [ref=e555]: "ID: 8"
+              - generic [ref=e557]: "Cursos: 58"
+              - generic [ref=e559]: 1 ANO
+              - generic [ref=e561]: Ativo
+          - generic [ref=e562]:
+            - button "Editar" [ref=e563] [cursor=pointer]: Editar
+            - button "Excluir" [ref=e564] [cursor=pointer]: Excluir

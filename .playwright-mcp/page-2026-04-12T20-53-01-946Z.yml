@@ -1,0 +1,254 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Cupons e promoções
+          - generic [ref=e150]: Cupons e promoções
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Cupons e promoções
+              - generic [ref=e168]: Separe os descontos da configuração geral e destaque automaticamente a promoção do dia na landing.
+            - generic [ref=e169]:
+              - button "Recarregar cupons" [ref=e170] [cursor=pointer]
+              - button "Salvar promoção" [ref=e171] [cursor=pointer]
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e174]: Promoção do dia
+              - generic [ref=e175]: Quando ativa, ela aparece em destaque na landing e entra automaticamente nos pedidos do período. Não acumula com cupom manual.
+              - generic [ref=e176]:
+                - generic [ref=e177]: Ativa agora
+                - generic [ref=e178]:
+                  - strong [ref=e179]: Frete Gratis (APENAS HOJE)
+                  - generic [ref=e180]: Válida automaticamente para desconto automático.
+              - generic [ref=e181]:
+                - generic [ref=e182]:
+                  - generic [ref=e183]: Configuração da oferta
+                  - generic [ref=e184]:
+                    - generic [ref=e185]:
+                      - generic [ref=e186]: Título
+                      - 'textbox "Ex.: Desconto do dia" [ref=e187]': Frete Gratis (APENAS HOJE)
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: Descrição
+                      - 'textbox "Ex.: Hoje todo o cardápio com desconto automático" [ref=e190]': Sabadão com promoção, aproveite!
+                    - generic [ref=e191]:
+                      - generic [ref=e192]: Tipo
+                      - combobox [ref=e193]:
+                        - option "Percentual (%)" [selected]
+                        - option "Fixo (R$)"
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: Valor
+                      - textbox "10" [ref=e196]
+                    - generic [ref=e197]:
+                      - generic [ref=e198]: Pedido mínimo (opcional)
+                      - textbox [ref=e199]: "20"
+                    - generic [ref=e200]:
+                      - generic [ref=e201]: Teto de desconto (opcional)
+                      - textbox [ref=e202]: "100"
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: Início (opcional)
+                      - textbox [ref=e205]: 2026-03-29T09:52
+                    - generic [ref=e206]:
+                      - generic [ref=e207]: Fim (opcional)
+                      - textbox [ref=e208]: 2026-06-05T09:52
+                    - generic [ref=e209]:
+                      - generic [ref=e210]: Frete grátis até (km)
+                      - 'textbox "Ex.: 3" [ref=e211]'
+                      - generic [ref=e212]: Dentro dessa distância, a taxa de entrega vira R$ 0,00 quando o frete grátis estiver ativo.
+                  - generic [ref=e213]:
+                    - generic [ref=e214]:
+                      - generic [ref=e215] [cursor=pointer]:
+                        - checkbox "Desconto automático ativo" [checked] [ref=e216]
+                        - generic [ref=e217]: Desconto automático ativo
+                      - generic [ref=e218] [cursor=pointer]:
+                        - checkbox "Frete grátis ativo" [ref=e219]
+                        - generic [ref=e220]: Frete grátis ativo
+                    - generic [ref=e221]:
+                      - button "Limpar" [ref=e222] [cursor=pointer]
+                      - button "Salvar promoção" [ref=e223] [cursor=pointer]
+                - generic [ref=e224]:
+                  - generic [ref=e225]: Como vai funcionar
+                  - generic [ref=e226]:
+                    - generic [ref=e227]:
+                      - strong [ref=e228]: Landing page
+                      - generic [ref=e229]: Mostra o destaque quando a promoção estiver ativa no período.
+                    - generic [ref=e230]:
+                      - strong [ref=e231]: Pedidos
+                      - generic [ref=e232]: O abatimento entra automaticamente sem o cliente digitar nada.
+                    - generic [ref=e233]:
+                      - strong [ref=e234]: Cupom manual
+                      - generic [ref=e235]: Quando o cliente usa cupom, ele tem prioridade e a promoção automática não acumula.
+                  - generic [ref=e236]:
+                    - generic [ref=e237]: Prévia da vitrine
+                    - generic [ref=e238]: Frete Gratis (APENAS HOJE)
+                    - generic [ref=e239]: 10% OFF
+                    - generic [ref=e240]: Sabadão com promoção, aproveite!
+                    - generic [ref=e241]: 29/03/2026, 09:52:00 → 05/06/2026, 09:52:00
+            - generic [ref=e242]:
+              - generic [ref=e243]: Cupons
+              - generic [ref=e244]: Página exclusiva para gerenciar cupons e acompanhar os últimos códigos criados.
+              - generic [ref=e245]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - button "Últimos 5" [ref=e249] [cursor=pointer]
+                    - button "Criar" [ref=e250] [cursor=pointer]
+                  - button "Recarregar" [ref=e251] [cursor=pointer]
+                - generic [ref=e252]:
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: Criar cupom
+                    - generic [ref=e255]:
+                      - generic [ref=e256]:
+                        - generic [ref=e257]: Código (opcional)
+                        - 'textbox "EX: PIZZA10" [ref=e258]'
+                        - generic [ref=e259]: Se ficar vazio, o servidor pode gerar automaticamente.
+                      - generic [ref=e260]:
+                        - generic [ref=e261]: Descrição
+                        - 'textbox "Ex.: Campanha de sexta" [ref=e262]'
+                      - generic [ref=e263]:
+                        - generic [ref=e264]: Tipo
+                        - combobox [ref=e265]:
+                          - option "Percentual (%)" [selected]
+                          - option "Fixo (R$)"
+                      - generic [ref=e266]:
+                        - generic [ref=e267]: Valor
+                        - textbox [ref=e268]: "10"
+                      - generic [ref=e269]:
+                        - generic [ref=e270]: Pedido mínimo (opcional)
+                        - textbox [ref=e271]
+                      - generic [ref=e272]:
+                        - generic [ref=e273]: Teto desconto (opcional)
+                        - textbox [ref=e274]
+                      - generic [ref=e275]:
+                        - generic [ref=e276]: Max usos (opcional)
+                        - textbox [ref=e277]
+                      - generic [ref=e278]:
+                        - generic [ref=e279]: Limite por usuário (opcional)
+                        - textbox [ref=e280]
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: Início (opcional)
+                        - textbox [ref=e283]
+                      - generic [ref=e284]:
+                        - generic [ref=e285]: Fim (opcional)
+                        - textbox [ref=e286]
+                    - generic [ref=e287]:
+                      - generic [ref=e288] [cursor=pointer]:
+                        - checkbox "Ativo" [checked] [ref=e289]
+                        - generic [ref=e290]: Ativo
+                      - button "Criar cupom" [ref=e292] [cursor=pointer]
+                  - generic [ref=e293]:
+                    - generic [ref=e294]: Últimos 5 cupons
+                    - generic [ref=e296]:
+                      - generic [ref=e297]: 10%
+                      - generic [ref=e298]:
+                        - generic [ref=e299]: PIZZA10
+                        - generic [ref=e300]:
+                          - generic [ref=e301]: promoção de inauguração
+                          - generic [ref=e303]: Ativo
+                          - generic [ref=e305]: Usos 1/100
+                        - generic [ref=e306]:
+                          - generic [ref=e307]: "Mín: R$ 20"
+                          - generic [ref=e308]: Sem teto
+                        - generic [ref=e309]: ⏱ — → —
+                      - generic [ref=e310]:
+                        - button "Editar" [ref=e311] [cursor=pointer]
+                        - button "Deletar" [ref=e312] [cursor=pointer]
+  - status

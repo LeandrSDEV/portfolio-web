@@ -1,0 +1,236 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Rotas
+          - generic [ref=e150]: Rotas
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Rotas inteligentes
+              - generic [ref=e168]: Motoboy recebe um link único, aceita até 5 pedidos, o sistema escolhe a parada mais próxima e atualiza a localização a cada 20s.
+            - button "Atualizar" [ref=e170] [cursor=pointer]
+          - generic [ref=e171]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Pedidos prontos
+              - strong [ref=e174]: "4"
+              - generic [ref=e175]: Aguardando motoboy aceitar
+            - generic [ref=e176]:
+              - generic [ref=e177]: Rotas ativas
+              - strong [ref=e178]: "0"
+              - generic [ref=e179]: Com entrega em andamento
+            - generic [ref=e180]:
+              - generic [ref=e181]: Links livres
+              - strong [ref=e182]: "2"
+              - generic [ref=e183]: Prontos para um novo lote
+            - generic [ref=e184]:
+              - generic [ref=e185]: Última leitura
+              - strong [ref=e186]: 12/04/2026, 17:51:50
+              - generic [ref=e187]: Painel em tempo real
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e192]:
+                  - generic [ref=e193]: Criar link do motoboy
+                  - generic [ref=e194]: Cada link pode assumir até 5 entregas simultâneas.
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Nome do motoboy
+                    - 'textbox "Ex.: João da rota" [ref=e198]'
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: WhatsApp / telefone
+                    - 'textbox "Ex.: 5579999999999" [ref=e201]'
+                  - button "Gerar link" [disabled] [ref=e202] [cursor=pointer]
+              - generic [ref=e203]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Links disponíveis
+                  - generic [ref=e207]: Envie o link ao motoboy para ele abrir no próprio celular.
+                - generic [ref=e208]:
+                  - button "W Wendel Aguardando 📱 55 79 99647-9250 📦 0/5 em aberto ✓ 2 concluídos" [ref=e210] [cursor=pointer]:
+                    - generic [ref=e211]: W
+                    - generic [ref=e212]:
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: Wendel
+                        - generic [ref=e217]: Aguardando
+                      - generic [ref=e218]:
+                        - generic [ref=e219]:
+                          - generic [ref=e220]: 📱
+                          - text: 55 79 99647-9250
+                        - generic [ref=e221]:
+                          - generic [ref=e222]: 📦
+                          - text: 0/5 em aberto
+                        - generic [ref=e223]:
+                          - generic [ref=e224]: ✓
+                          - text: 2 concluídos
+                    - generic [ref=e225]: ▾
+                  - button "L leandro Aguardando 📱 7988012359 📦 0/5 em aberto ✓ 17 concluídos" [ref=e227] [cursor=pointer]:
+                    - generic [ref=e228]: L
+                    - generic [ref=e229]:
+                      - generic [ref=e230]:
+                        - generic [ref=e231]: leandro
+                        - generic [ref=e234]: Aguardando
+                      - generic [ref=e235]:
+                        - generic [ref=e236]:
+                          - generic [ref=e237]: 📱
+                          - text: "7988012359"
+                        - generic [ref=e238]:
+                          - generic [ref=e239]: 📦
+                          - text: 0/5 em aberto
+                        - generic [ref=e240]:
+                          - generic [ref=e241]: ✓
+                          - text: 17 concluídos
+                    - generic [ref=e242]: ▾
+              - generic [ref=e243]:
+                - generic [ref=e245]:
+                  - generic [ref=e246]: Pedidos prontos para entrega
+                  - generic [ref=e247]: Esses pedidos aparecem para o motoboy aceitar no link dele.
+                - generic [ref=e248]:
+                  - generic [ref=e249]:
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: "Pedido #86"
+                      - generic [ref=e252]: Leandro J.S • 557988012359 • Rua Pedro Barbosa Borges, 512, José Conrado de Araújo - Aracaju/SE
+                    - generic [ref=e253]:
+                      - generic [ref=e254]:
+                        - generic [ref=e255]: "Total:"
+                        - text: R$ 121,68
+                      - generic [ref=e256]: 8 item(ns)
+                      - generic [ref=e257]: Sem GPS do cliente
+                      - generic [ref=e258]: 12/04/2026, 13:49:04
+                  - generic [ref=e259]:
+                    - generic [ref=e260]:
+                      - generic [ref=e261]: "Pedido #74"
+                      - generic [ref=e262]: leandro • 79988012359 • Rua Pedro Barbosa Borges
+                    - generic [ref=e263]:
+                      - generic [ref=e264]:
+                        - generic [ref=e265]: "Cobrar:"
+                        - text: já pago
+                      - generic [ref=e266]: 1 item(ns)
+                      - generic [ref=e267]: 371 m
+                      - generic [ref=e268]: 12/04/2026, 10:54:20
+                  - generic [ref=e269]:
+                    - generic [ref=e270]:
+                      - generic [ref=e271]: "Pedido #72"
+                      - generic [ref=e272]: leandro • 79988012359 • Rua Pedro Barbosa Borges
+                    - generic [ref=e273]:
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: "Cobrar:"
+                        - text: R$ 45,72
+                      - generic [ref=e276]: 7 item(ns)
+                      - generic [ref=e277]: 371 m
+                      - generic [ref=e278]: 12/04/2026, 10:10:23
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: "Pedido #65"
+                      - generic [ref=e282]: ofertas • 5521969519494 • Rua Pedro Barbosa Borges, 512, José Conrado de Araújo - Aracaju/SE
+                    - generic [ref=e283]:
+                      - generic [ref=e284]:
+                        - generic [ref=e285]: "Total:"
+                        - text: R$ 16,50
+                      - generic [ref=e286]: 3 item(ns)
+                      - generic [ref=e287]: Sem GPS do cliente
+                      - generic [ref=e288]: 11/04/2026, 21:33:51
+            - generic [ref=e290]:
+              - generic [ref=e292]:
+                - generic [ref=e293]: Monitoramento em rota
+                - generic [ref=e294]: Acompanhe o motoboy, a rota completa e a fila restante com atualização pelo GPS do celular.
+              - generic [ref=e296]: Nenhuma rota em andamento no momento.
+  - status

@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroTitle1": "Back-end Developer focused on",
+    "heroTitle2": " Scalable Solutions",
+    "heroDesc": "My focus is back-end: Java, Spring Boot, C#/.NET, and Python for robust APIs and automations. On the front-end, React and TypeScript for modern interfaces.",
+    "viewProjects": "View Projects",
+    "viewStack": "View Stack",
+    "certificates": "Certifications",
+    "skills": "Skills",
+    "ctaTitle": "Want to see it in action?",
+    "ctaDesc": "Check out the projects I've built and the solutions I've implemented.",
+    "ctaBtn": "View Projects",
+    "featuredTitle": "Featured Project",
+    "metrics": {
+      "projects": "15+ Projects",
+      "stack": "Java · Python · C#",
+      "available": "Available for Freelance"
+    },
+    "roles": [
+      "Back-end Developer",
+      "Java & Spring Boot",
+      "C# / .NET APIs",
+      "Python & Automation",
+      "React & TypeScript"
+    ],
+    "featured": {
+      "title": "Management System for Restaurants, Diners & Pizzerias",
+      "desc": "Full-stack platform that automates the entire operation — from order to delivery. WhatsApp ordering with AI (Gemini), real-time kitchen, automatic PIX payment, and full delivery tracking with live driver location for the customer.",
+      "highlights": [
+        "Automatic WhatsApp service with AI (Gemini)",
+        "Digital menu with categories, add-ons and modifiers",
+        "Dine-in and delivery orders integrated",
+        "Real-time kitchen panel via WebSocket",
+        "PIX payment with automatic QR Code generation",
+        "Delivery with zones and live tracking",
+        "Cashback system, coupons and loyalty program",
+        "Admin dashboard with metrics and reports",
+        "Customer management, addresses and order history",
+        "Order scheduling for future date/time",
+        "Excel and PDF report export"
+      ],
+      "result1": "WhatsApp orders",
+      "result2": "Integrated payment",
+      "result3": "Driver tracking"
+    }
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Back-end developer with expertise in Java, Python, and C#. I deliver complete solutions — from database to interface — focused on quality and results.",
+    "whoTitle": "Who I am",
+    "whoP1": "I'm a developer focused on <strong>back-end</strong>, working with <strong>Java / Spring Boot</strong>, <strong>C# / .NET</strong>, and <strong>Python</strong> to create robust, secure, and well-documented REST APIs. I apply <strong>Clean Architecture</strong>, JWT authentication, and design patterns that ensure maintainability and scalability.",
+    "whoP2": "Although my strength is back-end, I also deliver <strong>professional front-end</strong> with <strong>React</strong> and <strong>TypeScript</strong> — this portfolio you're viewing is a real example of my full-stack work.",
+    "whoP3": "I work with <strong>process automation</strong> using <strong>n8n</strong> and <strong>Python</strong>, creating smart workflows with webhooks that connect systems and eliminate manual tasks. I also manage <strong>PostgreSQL</strong>, <strong>SQL Server</strong>, and <strong>MySQL</strong> databases.",
+    "skillsTitle": "Tech Stack",
+    "cat": {
+      "backend": "Back-end",
+      "frontend": "Front-end",
+      "database": "Database",
+      "tools": "DevOps & Tools"
+    },
+    "expTitle": "What I do",
+    "exp1Title": "REST APIs & Microservices",
+    "exp1Desc": "Architecture and development of APIs in Java/Spring Boot and C#/.NET with JWT auth, versioning, Swagger docs, and relational database integration.",
+    "exp2Title": "Modern Interfaces",
+    "exp2Desc": "SPAs with React and TypeScript — reusable components, smooth animations, responsive design, and back-end API integration.",
+    "exp3Title": "Automation & Integrations",
+    "exp3Desc": "Automated workflows with n8n and Python — webhooks, data processing, notifications, and external system connections.",
+    "exp4Title": "Database & Infrastructure",
+    "exp4Desc": "Modeling and optimization of PostgreSQL, SQL Server, and MySQL databases. Docker containerization and Git versioning.",
+    "approachTitle": "How I work",
+    "approach1Title": "Clean Code",
+    "approach1Desc": "I write readable, testable, and organized code. SOLID, Clean Code, and design patterns aren't theory — they're part of my daily practice.",
+    "approach2Title": "Reliable Delivery",
+    "approach2Desc": "Focused on delivering what works in production. Documented APIs, robust error handling, and code ready to scale.",
+    "approach3Title": "Clear Communication",
+    "approach3Desc": "I keep clients updated at every stage. I align expectations, propose solutions, and deliver on the agreed timeline.",
+    "ctaTitle": "Let's build something together?",
+    "ctaDesc": "I'm available for freelance, projects, and opportunities. Let's talk about how I can help.",
+    "ctaBtn": "Get in touch"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Projects showcasing my experience with APIs, modern front-end, and best practices.",
+    "filterAll": "All",
+    "viewGithub": "View on GitHub",
+    "noImage": "Image coming soon"
+  },
+  "contact": {
+    "title": "Let's talk",
+    "subtitle": "I'm open to opportunities, freelance work, and partnerships. Choose the best channel to reach me.",
+    "whatsapp": "WhatsApp",
+    "sendEmail": "Send Email",
+    "formTitle": "Send a message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Describe your project or opportunity...",
+    "sendBtn": "Send Message",
+    "sending": "Sending...",
+    "successMsg": "Message sent successfully! I'll reply soon.",
+    "errorMsg": "Failed to send. Try WhatsApp or Email instead.",
+    "infoTitle": "Information",
+    "name": "Leandro",
+    "stack": "Java · Python · C# · React",
+    "location": "Brazil",
+    "availability": "Open to proposals",
+    "nameField": "Name",
+    "stackField": "Stack",
+    "locationField": "Location",
+    "availabilityField": "Availability"
+  },
+  "testimonials": {
+    "title": "What people say about my work",
+    "items": [
+      {
+        "name": "Freelance Client",
+        "role": "Entrepreneur - E-commerce",
+        "text": "Leandro delivered a robust and well-documented API for our system. Professional, punctual, and with excellent communication throughout the project."
+      },
+      {
+        "name": "Team Colleague",
+        "role": "Front-end Developer",
+        "text": "Working with Leandro on the back-end is very smooth. Clean code, well-structured endpoints, and always available to align on integrations."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "desc": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "footer": {
+    "copy": "© {{year}} Leandro.dev"
+  },
+  "topbar": {
+    "portfolio": "Portfolio"
+  }
+}

@@ -1,0 +1,411 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e73]
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - heading "Projetos" [level=5] [ref=e80]
+          - paragraph [ref=e81]: Primeiro você organiza por projeto. Depois entra no projeto e gerencia os produtos dele.
+        - button "Novo projeto" [ref=e82] [cursor=pointer]: Novo projeto
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic: Buscar projeto
+          - generic [ref=e86]:
+            - textbox "Buscar projeto" [ref=e87]:
+              - /placeholder: Nome do projeto ou professor
+            - group:
+              - generic: Buscar projeto
+        - generic [ref=e88]:
+          - generic [ref=e90]: 25 projeto(s)
+          - button "Limpar" [ref=e91] [cursor=pointer]: Limpar
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - img [ref=e99]
+          - generic [ref=e100]:
+            - heading "ASSINATURA DE CARREIRA POLICIAL" [level=6] [ref=e101]: ASSINATURA DE CARREI...
+            - paragraph [ref=e102]:
+              - strong [ref=e103]: "Professor:"
+              - text: Maria Antônia
+            - generic [ref=e105]:
+              - img [ref=e106]
+              - generic [ref=e108]: 3 produto(s)
+          - generic [ref=e109]:
+            - button "Abrir" [ref=e110] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e111] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e113]:
+          - img [ref=e114]
+          - generic [ref=e115]:
+            - heading "ATENA MENTORIA" [level=6] [ref=e116]
+            - paragraph [ref=e117]:
+              - strong [ref=e118]: "Professor:"
+              - text: Ester Siqueira
+            - generic [ref=e120]:
+              - img [ref=e121]
+              - generic [ref=e123]: 4 produto(s)
+          - generic [ref=e124]:
+            - button "Abrir" [ref=e125] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e126] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e128]:
+          - img [ref=e129]
+          - generic [ref=e130]:
+            - heading "COBAIA DOS STATES" [level=6] [ref=e131]
+            - paragraph [ref=e132]:
+              - strong [ref=e133]: "Professor:"
+              - text: Alterar Depois
+            - generic [ref=e135]:
+              - img [ref=e136]
+              - generic [ref=e138]: 1 produto(s)
+          - generic [ref=e139]:
+            - button "Abrir" [ref=e140] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e141] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e143]:
+          - img [ref=e144]
+          - generic [ref=e145]:
+            - heading "DESAFIO CONCURSOS" [level=6] [ref=e146]
+            - paragraph [ref=e147]:
+              - strong [ref=e148]: "Professor:"
+              - text: Francisco Farias
+            - generic [ref=e150]:
+              - img [ref=e151]
+              - generic [ref=e153]: 21 produto(s)
+          - generic [ref=e154]:
+            - button "Abrir" [ref=e155] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e156] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e158]:
+          - img [ref=e159]
+          - generic [ref=e160]:
+            - heading "EDUCART - MARA ALINE" [level=6] [ref=e161]
+            - paragraph [ref=e162]:
+              - strong [ref=e163]: "Professor:"
+              - text: Mara Aline
+            - generic [ref=e165]:
+              - img [ref=e166]
+              - generic [ref=e168]: 1 produto(s)
+          - generic [ref=e169]:
+            - button "Abrir" [ref=e170] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e171] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e173]:
+          - img [ref=e174]
+          - generic [ref=e175]:
+            - heading "FALCÃO NEGRO TURBO" [level=6] [ref=e176]
+            - paragraph [ref=e177]:
+              - strong [ref=e178]: "Professor:"
+              - text: Gabriela Melo
+            - generic [ref=e180]:
+              - img [ref=e181]
+              - generic [ref=e183]: 1 produto(s)
+          - generic [ref=e184]:
+            - button "Abrir" [ref=e185] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e186] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e188]:
+          - img [ref=e189]
+          - generic [ref=e190]:
+            - heading "FATIOU PASSOU - CARREIRAS POLICIAIS" [level=6] [ref=e191]: FATIOU PASSOU - CARR...
+            - paragraph [ref=e192]:
+              - strong [ref=e193]: "Professor:"
+              - text: Alterar Depois
+            - generic [ref=e195]:
+              - img [ref=e196]
+              - generic [ref=e198]: 6 produto(s)
+          - generic [ref=e199]:
+            - button "Abrir" [ref=e200] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e201] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e203]:
+          - img [ref=e204]
+          - generic [ref=e205]:
+            - heading "FORÇA TAREFA ADMINISTRATIVO, BANCÁRIO & TRIBUNAIS" [level=6] [ref=e206]: FORÇA TAREFA ADMINIS...
+            - paragraph [ref=e207]:
+              - strong [ref=e208]: "Professor:"
+              - text: Gabriela Melo
+            - generic [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e213]: 1 produto(s)
+          - generic [ref=e214]:
+            - button "Abrir" [ref=e215] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e216] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e218]:
+          - img [ref=e219]
+          - generic [ref=e220]:
+            - heading "GCM - Concursos Públicos" [level=6] [ref=e221]: GCM - Concursos Públ...
+            - paragraph [ref=e222]:
+              - strong [ref=e223]: "Professor:"
+              - text: Janiel Santana
+            - generic [ref=e225]:
+              - img [ref=e226]
+              - generic [ref=e228]: 3 produto(s)
+          - generic [ref=e229]:
+            - button "Abrir" [ref=e230] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e231] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e233]:
+          - img [ref=e234]
+          - generic [ref=e235]:
+            - heading "MAGISTÉRIO BRASIL" [level=6] [ref=e236]
+            - paragraph [ref=e237]:
+              - strong [ref=e238]: "Professor:"
+              - text: Jorge Alonso
+            - generic [ref=e240]:
+              - img [ref=e241]
+              - generic [ref=e243]: 49 produto(s)
+          - generic [ref=e244]:
+            - button "Abrir" [ref=e245] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e246] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e248]:
+          - img [ref=e249]
+          - generic [ref=e250]:
+            - heading "MEGA TREINAMENTOS" [level=6] [ref=e251]
+            - paragraph [ref=e252]:
+              - strong [ref=e253]: "Professor:"
+              - text: Marcos Henrique
+            - generic [ref=e255]:
+              - img [ref=e256]
+              - generic [ref=e258]: 1 produto(s)
+          - generic [ref=e259]:
+            - button "Abrir" [ref=e260] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e261] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e263]:
+          - img [ref=e264]
+          - generic [ref=e265]:
+            - heading "MENTORIA ALTUS" [level=6] [ref=e266]
+            - paragraph [ref=e267]:
+              - strong [ref=e268]: "Professor:"
+              - text: Lucas Cardozo
+            - generic [ref=e270]:
+              - img [ref=e271]
+              - generic [ref=e273]: 3 produto(s)
+          - generic [ref=e274]:
+            - button "Abrir" [ref=e275] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e276] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e278]:
+          - img [ref=e279]
+          - generic [ref=e280]:
+            - heading "MÉTODO CALMA PARA VENCER" [level=6] [ref=e281]: MÉTODO CALMA PARA VE...
+            - paragraph [ref=e282]:
+              - strong [ref=e283]: "Professor:"
+              - text: Eriwelton Lancaster
+            - generic [ref=e285]:
+              - img [ref=e286]
+              - generic [ref=e288]: 2 produto(s)
+          - generic [ref=e289]:
+            - button "Abrir" [ref=e290] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e291] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e293]:
+          - img [ref=e294]
+          - generic [ref=e295]:
+            - heading "MÉTODO QRV" [level=6] [ref=e296]
+            - paragraph [ref=e297]:
+              - strong [ref=e298]: "Professor:"
+              - text: Tais Antunes
+            - generic [ref=e300]:
+              - img [ref=e301]
+              - generic [ref=e303]: 3 produto(s)
+          - generic [ref=e304]:
+            - button "Abrir" [ref=e305] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e306] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e308]:
+          - img [ref=e309]
+          - generic [ref=e310]:
+            - heading "NÚCLEO" [level=6] [ref=e311]
+            - paragraph [ref=e312]:
+              - strong [ref=e313]: "Professor:"
+              - text: Alex Cardoso
+            - generic [ref=e315]:
+              - img [ref=e316]
+              - generic [ref=e318]: 3 produto(s)
+          - generic [ref=e319]:
+            - button "Abrir" [ref=e320] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e321] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e323]:
+          - img [ref=e324]
+          - generic [ref=e325]:
+            - heading "PATRULHEIRO JOTA – CARREIRAS POLICIAIS" [level=6] [ref=e326]: PATRULHEIRO JOTA – C...
+            - paragraph [ref=e327]:
+              - strong [ref=e328]: "Professor:"
+              - text: Jorge Lucas
+            - generic [ref=e330]:
+              - img [ref=e331]
+              - generic [ref=e333]: 5 produto(s)
+          - generic [ref=e334]:
+            - button "Abrir" [ref=e335] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e336] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e338]:
+          - img [ref=e339]
+          - generic [ref=e340]:
+            - heading "PREFEITURA MUNICIPAL DE MOITA BONITA/SE" [level=6] [ref=e341]: PREFEITURA MUNICIPAL...
+            - paragraph [ref=e342]:
+              - strong [ref=e343]: "Professor:"
+              - text: Alterar Depois
+            - generic [ref=e345]:
+              - img [ref=e346]
+              - generic [ref=e348]: 1 produto(s)
+          - generic [ref=e349]:
+            - button "Abrir" [ref=e350] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e351] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e353]:
+          - img [ref=e354]
+          - generic [ref=e355]:
+            - heading "PROJETO ÁGUIA - CARREIRAS POLICIAIS" [level=6] [ref=e356]: PROJETO ÁGUIA - CARR...
+            - paragraph [ref=e357]:
+              - strong [ref=e358]: "Professor:"
+              - text: Alterar Depois
+            - generic [ref=e360]:
+              - img [ref=e361]
+              - generic [ref=e363]: 1 produto(s)
+          - generic [ref=e364]:
+            - button "Abrir" [ref=e365] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e366] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e368]:
+          - img [ref=e369]
+          - generic [ref=e370]:
+            - heading "PROJETO PROFESSORA CONCURSADA" [level=6] [ref=e371]: PROJETO PROFESSORA C...
+            - paragraph [ref=e372]:
+              - strong [ref=e373]: "Professor:"
+              - text: Maria Rocha
+            - generic [ref=e375]:
+              - img [ref=e376]
+              - generic [ref=e378]: 1 produto(s)
+          - generic [ref=e379]:
+            - button "Abrir" [ref=e380] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e381] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e383]:
+          - img [ref=e384]
+          - generic [ref=e385]:
+            - heading "QG CARREIRAS POLICIAIS" [level=6] [ref=e386]: QG CARREIRAS POLICIA...
+            - paragraph [ref=e387]:
+              - strong [ref=e388]: "Professor:"
+              - text: Paulo Victor
+            - generic [ref=e390]:
+              - img [ref=e391]
+              - generic [ref=e393]: 2 produto(s)
+          - generic [ref=e394]:
+            - button "Abrir" [ref=e395] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e396] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e398]:
+          - img [ref=e399]
+          - generic [ref=e400]:
+            - heading "RESUMINDO" [level=6] [ref=e401]
+            - paragraph [ref=e402]:
+              - strong [ref=e403]: "Professor:"
+              - text: Eduardo Cortez
+            - generic [ref=e405]:
+              - img [ref=e406]
+              - generic [ref=e408]: 12 produto(s)
+          - generic [ref=e409]:
+            - button "Abrir" [ref=e410] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e411] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e413]:
+          - img [ref=e414]
+          - generic [ref=e415]:
+            - heading "RESUMINDO CONCURSOS" [level=6] [ref=e416]
+            - paragraph [ref=e417]:
+              - strong [ref=e418]: "Professor:"
+              - text: Caio Barreto
+            - generic [ref=e420]:
+              - img [ref=e421]
+              - generic [ref=e423]: 5 produto(s)
+          - generic [ref=e424]:
+            - button "Abrir" [ref=e425] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e426] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e428]:
+          - img [ref=e429]
+          - generic [ref=e430]:
+            - heading "SNIPER POLICIAL" [level=6] [ref=e431]
+            - paragraph [ref=e432]:
+              - strong [ref=e433]: "Professor:"
+              - text: Gabriela Melo
+            - generic [ref=e435]:
+              - img [ref=e436]
+              - generic [ref=e438]: 2 produto(s)
+          - generic [ref=e439]:
+            - button "Abrir" [ref=e440] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e441] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e443]:
+          - img [ref=e444]
+          - generic [ref=e445]:
+            - heading "SUPER CONCURSOS" [level=6] [ref=e446]
+            - paragraph [ref=e447]:
+              - strong [ref=e448]: "Professor:"
+              - text: Murilo Rangel
+            - generic [ref=e450]:
+              - img [ref=e451]
+              - generic [ref=e453]: 3 produto(s)
+          - generic [ref=e454]:
+            - button "Abrir" [ref=e455] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e456] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]
+        - generic [ref=e458]:
+          - img [ref=e459]
+          - generic [ref=e460]:
+            - heading "WEJ - CARREIRAS DA EDUCAÇÃO" [level=6] [ref=e461]: WEJ - CARREIRAS DA E...
+            - paragraph [ref=e462]:
+              - strong [ref=e463]: "Professor:"
+              - text: Alterar Depois
+            - generic [ref=e465]:
+              - img [ref=e466]
+              - generic [ref=e468]: 1 produto(s)
+          - generic [ref=e469]:
+            - button "Abrir" [ref=e470] [cursor=pointer]: Abrir
+            - button "Editar" [ref=e471] [cursor=pointer]: Editar
+            - button "Excluir" [disabled]

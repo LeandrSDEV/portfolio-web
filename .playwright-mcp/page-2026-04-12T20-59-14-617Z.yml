@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e73]
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - progressbar [ref=e79]:
+      - img [ref=e80]

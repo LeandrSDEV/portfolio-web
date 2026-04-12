@@ -1,0 +1,240 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Estoque
+          - generic [ref=e150]: Estoque
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]: Controle de estoque
+          - generic [ref=e166]: Gerencie a quantidade disponível de cada produto. Itens com estoque baixo aparecem em destaque.
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e169]: Produtos rastreados
+              - generic [ref=e170]: "1"
+            - generic [ref=e171]:
+              - generic [ref=e172]: Estoque baixo
+              - generic [ref=e173]: "0"
+            - generic [ref=e174]:
+              - generic [ref=e175]: Unidades em estoque
+              - generic [ref=e176]: "12"
+          - generic [ref=e177]:
+            - textbox "Buscar produto…" [ref=e178]
+            - generic [ref=e179]:
+              - button "Todos" [ref=e180] [cursor=pointer]
+              - button "Estoque baixo" [ref=e181] [cursor=pointer]
+              - button "Sem rastreio" [ref=e182] [cursor=pointer]
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]: Suco Natural 1L
+              - generic [ref=e187]: OK
+            - generic [ref=e188]:
+              - button "−" [ref=e189] [cursor=pointer]
+              - generic [ref=e190]: "12"
+              - button "+" [ref=e191] [cursor=pointer]
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e194]: Alerta quando
+                - spinbutton [ref=e195]: "3"
+              - generic [ref=e196]:
+                - generic [ref=e197]: Quantidade
+                - spinbutton [ref=e198]: "12"
+            - generic [ref=e199] [cursor=pointer]:
+              - checkbox "Rastrear estoque" [checked] [ref=e200]
+              - text: Rastrear estoque
+          - generic [ref=e201]: Produtos sem estoque configurado (19)
+          - generic [ref=e202]:
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: Pizza Calabresa
+                - generic [ref=e206]: Não configurado
+              - button "Ativar controle de estoque" [ref=e207] [cursor=pointer]
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: Pizza Margherita
+                - generic [ref=e211]: Não configurado
+              - button "Ativar controle de estoque" [ref=e212] [cursor=pointer]
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - generic [ref=e215]: Pizza Quatro Queijos
+                - generic [ref=e216]: Não configurado
+              - button "Ativar controle de estoque" [ref=e217] [cursor=pointer]
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - generic [ref=e220]: Pizza Portuguesa
+                - generic [ref=e221]: Não configurado
+              - button "Ativar controle de estoque" [ref=e222] [cursor=pointer]
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e225]: Pizza Frango com Catupiry
+                - generic [ref=e226]: Não configurado
+              - button "Ativar controle de estoque" [ref=e227] [cursor=pointer]
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: Pizza Pepperoni
+                - generic [ref=e231]: Não configurado
+              - button "Ativar controle de estoque" [ref=e232] [cursor=pointer]
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: Pizza Bacon
+                - generic [ref=e236]: Não configurado
+              - button "Ativar controle de estoque" [ref=e237] [cursor=pointer]
+            - generic [ref=e238]:
+              - generic [ref=e239]:
+                - generic [ref=e240]: Pizza Vegetariana
+                - generic [ref=e241]: Não configurado
+              - button "Ativar controle de estoque" [ref=e242] [cursor=pointer]
+            - generic [ref=e243]:
+              - generic [ref=e244]:
+                - generic [ref=e245]: Pizza Carne Seca
+                - generic [ref=e246]: Não configurado
+              - button "Ativar controle de estoque" [ref=e247] [cursor=pointer]
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - generic [ref=e250]: Pizza Atum
+                - generic [ref=e251]: Não configurado
+              - button "Ativar controle de estoque" [ref=e252] [cursor=pointer]
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - generic [ref=e255]: Pizza Chocolate
+                - generic [ref=e256]: Não configurado
+              - button "Ativar controle de estoque" [ref=e257] [cursor=pointer]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - generic [ref=e260]: Pizza Romeu e Julieta
+                - generic [ref=e261]: Não configurado
+              - button "Ativar controle de estoque" [ref=e262] [cursor=pointer]
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: Pizza Banana com Canela
+                - generic [ref=e266]: Não configurado
+              - button "Ativar controle de estoque" [ref=e267] [cursor=pointer]
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - generic [ref=e270]: Pizza Nutella com Morango
+                - generic [ref=e271]: Não configurado
+              - button "Ativar controle de estoque" [ref=e272] [cursor=pointer]
+            - generic [ref=e273]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: Pão de Alho Gratinado
+                - generic [ref=e276]: Não configurado
+              - button "Ativar controle de estoque" [ref=e277] [cursor=pointer]
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - generic [ref=e280]: Batata Frita Crocante
+                - generic [ref=e281]: Não configurado
+              - button "Ativar controle de estoque" [ref=e282] [cursor=pointer]
+            - generic [ref=e283]:
+              - generic [ref=e284]:
+                - generic [ref=e285]: Coca-Cola Zero Açucar
+                - generic [ref=e286]: Não configurado
+              - button "Ativar controle de estoque" [ref=e287] [cursor=pointer]
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - generic [ref=e290]: Fanta Laranja Lata 350ml
+                - generic [ref=e291]: Não configurado
+              - button "Ativar controle de estoque" [ref=e292] [cursor=pointer]
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - generic [ref=e295]: Refrigerante 2L
+                - generic [ref=e296]: Não configurado
+              - button "Ativar controle de estoque" [ref=e297] [cursor=pointer]
+  - status

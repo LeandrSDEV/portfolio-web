@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e68]:
+      - link "Pular para o conteúdo" [ref=e69] [cursor=pointer]:
+        - /url: "#main-content"
+      - complementary [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: JS
+            - button "Ocultar navegação" [ref=e74] [cursor=pointer]:
+              - img [ref=e75]
+          - generic [ref=e78]:
+            - generic [ref=e79]: JS Restaurant
+            - generic [ref=e80]: Painel operacional
+        - navigation [ref=e81]:
+          - generic [ref=e82]: Operação
+          - link "Dashboard" [ref=e83] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e85]
+            - generic [ref=e90]: Dashboard
+          - link "Delivery" [ref=e91] [cursor=pointer]:
+            - /url: /delivery
+            - img [ref=e93]
+            - generic [ref=e98]: Delivery
+          - button "Meus pedidos" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: Meus pedidos
+            - img [ref=e107]
+          - link "Cozinha" [ref=e109] [cursor=pointer]:
+            - /url: /cozinha
+            - img [ref=e111]
+            - generic [ref=e114]: Cozinha
+          - link "Rotas" [ref=e115] [cursor=pointer]:
+            - /url: /rotas
+            - img [ref=e117]
+            - generic [ref=e120]: Rotas
+          - generic [ref=e121]: Administração
+          - link "Áreas de entrega" [ref=e122] [cursor=pointer]:
+            - /url: /areas-entrega
+            - img [ref=e124]
+            - generic [ref=e127]: Áreas de entrega
+          - link "Cardápio" [ref=e128] [cursor=pointer]:
+            - /url: /configCardapio
+            - img [ref=e130]
+            - generic [ref=e135]: Cardápio
+          - link "PDV" [ref=e136] [cursor=pointer]:
+            - /url: /pdv
+            - img [ref=e138]
+            - generic [ref=e141]: PDV
+          - link "Estoque" [ref=e142] [cursor=pointer]:
+            - /url: /estoque
+            - img [ref=e144]
+            - generic [ref=e148]: Estoque
+          - link "Avaliações" [ref=e149] [cursor=pointer]:
+            - /url: /feedbacks
+            - img [ref=e151]
+            - generic [ref=e153]: Avaliações
+          - link "Mensagens" [ref=e154] [cursor=pointer]:
+            - /url: /broadcast
+            - img [ref=e156]
+            - generic [ref=e159]: Mensagens
+          - link "Usuários" [ref=e160] [cursor=pointer]:
+            - /url: /usuarios
+            - img [ref=e162]
+            - generic [ref=e167]: Usuários
+          - link "Clientes" [ref=e168] [cursor=pointer]:
+            - /url: /clientes
+            - img [ref=e170]
+            - generic [ref=e175]: Clientes
+          - link "Descontos" [ref=e176] [cursor=pointer]:
+            - /url: /descontos
+            - img [ref=e178]
+            - generic [ref=e180]: Descontos
+          - link "Configuração" [ref=e181] [cursor=pointer]:
+            - /url: /configuracao
+            - img [ref=e183]
+            - generic [ref=e186]: Configuração
+          - link "Robô" [ref=e187] [cursor=pointer]:
+            - /url: /robo
+            - img [ref=e189]
+            - generic [ref=e191]: Robô
+        - generic [ref=e193]:
+          - button "Trocar para modo escuro" [ref=e194] [cursor=pointer]:
+            - img [ref=e195]
+          - button "Meu perfil" [ref=e197] [cursor=pointer]:
+            - img [ref=e198]
+          - button "Sair" [ref=e201] [cursor=pointer]:
+            - img [ref=e202]
+      - generic [ref=e205]:
+        - banner [ref=e206]:
+          - generic [ref=e207]:
+            - generic [ref=e208]:
+              - generic [ref=e209]: JS Restaurant
+              - generic [ref=e210]: /
+              - generic [ref=e211]: Dashboard
+            - generic [ref=e212]: Dashboard
+            - generic [ref=e213]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+          - generic [ref=e214]:
+            - generic [ref=e215]: Online
+            - button "A Admin ADMIN" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: A
+              - generic [ref=e220]:
+                - strong [ref=e221]: Admin
+                - generic [ref=e222]: ADMIN
+              - img [ref=e223]
+        - main [ref=e225]:
+          - generic [ref=e227]:
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: Dashboard operacional
+                - generic [ref=e231]: Visão consolidada de faturamento, pedidos e canais com atualização automática.
+              - generic [ref=e232]:
+                - generic [ref=e233]: Atualiza a cada 15s
+                - generic [ref=e234]: "Base: pagamentos + board de pedidos"
+            - generic [ref=e235]:
+              - generic [ref=e236]:
+                - generic [ref=e237]: Faturamento hoje
+                - generic [ref=e238]: R$ 600,21
+                - generic [ref=e239]: "Pedidos hoje: 8"
+              - generic [ref=e240]:
+                - generic [ref=e241]: Faturamento 7 dias
+                - generic [ref=e242]: R$ 2.713,59
+                - generic [ref=e243]: "Tendência: +100.0%"
+              - generic [ref=e244]:
+                - generic [ref=e245]: Faturamento 15 dias
+                - generic [ref=e246]: R$ 3.372,02
+                - generic [ref=e247]: "Volume 30d: 46 pedidos"
+              - generic [ref=e248]:
+                - generic [ref=e249]: Ticket médio 30 dias
+                - generic [ref=e250]: R$ 77,32
+                - generic [ref=e251]: "Receita 30d: R$ 3.556,62"
+            - generic [ref=e252]:
+              - generic [ref=e254]:
+                - generic [ref=e255]: Fluxo operacional
+                - generic [ref=e256]: Leitura rápida dos pedidos em andamento e finalizados hoje
+              - generic [ref=e257]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Em análise
+                  - generic [ref=e261]: "0"
+                - generic [ref=e263]:
+                  - generic [ref=e264]: Em produção
+                  - generic [ref=e265]: "0"
+                - generic [ref=e267]:
+                  - generic [ref=e268]: Prontos
+                  - generic [ref=e269]: "4"
+                - generic [ref=e271]:
+                  - generic [ref=e272]: Em rota
+                  - generic [ref=e273]: "0"
+                - generic [ref=e275]:
+                  - generic [ref=e276]: Finalizados hoje
+                  - generic [ref=e277]: "5"
+            - generic [ref=e278]:
+              - generic [ref=e279]:
+                - generic [ref=e281]:
+                  - generic [ref=e282]: Faturamento por dia
+                  - generic [ref=e283]: Últimos 30 dias com tendência de 7 dias
+                - generic [ref=e284]:
+                  - generic [ref=e285]:
+                    - generic [ref=e286]: Receita 30d
+                    - strong [ref=e287]: R$ 3.556,62
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: Ticket médio
+                    - strong [ref=e290]: R$ 77,32
+                - application [ref=e294]:
+                  - generic [ref=e319]:
+                    - generic [ref=e320]:
+                      - generic [ref=e322]: 15/03
+                      - generic [ref=e324]: 18/03
+                      - generic [ref=e326]: 21/03
+                      - generic [ref=e328]: 24/03
+                      - generic [ref=e330]: 27/03
+                      - generic [ref=e332]: 30/03
+                      - generic [ref=e334]: 02/04
+                      - generic [ref=e336]: 05/04
+                      - generic [ref=e338]: 08/04
+                      - generic [ref=e340]: 12/04
+                    - generic [ref=e341]:
+                      - generic [ref=e343]: "0"
+                      - generic [ref=e345]: "250"
+                      - generic [ref=e347]: "500"
+                      - generic [ref=e349]: "750"
+                      - generic [ref=e351]: "1000"
+              - generic [ref=e352]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: Pedidos por dia 30 dias
+                  - generic [ref=e356]: Quantidade diária de pagamentos finalizados
+                - generic [ref=e357]:
+                  - generic [ref=e358]:
+                    - generic [ref=e359]: Pedidos 30d
+                    - strong [ref=e360]: "46"
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: Ativos agora
+                    - strong [ref=e363]: "4"
+                - application [ref=e367]:
+                  - generic [ref=e404]:
+                    - generic [ref=e405]:
+                      - generic [ref=e407]: 15/03
+                      - generic [ref=e409]: 18/03
+                      - generic [ref=e411]: 21/03
+                      - generic [ref=e413]: 24/03
+                      - generic [ref=e415]: 27/03
+                      - generic [ref=e417]: 30/03
+                      - generic [ref=e419]: 02/04
+                      - generic [ref=e421]: 05/04
+                      - generic [ref=e423]: 08/04
+                      - generic [ref=e425]: 12/04
+                    - generic [ref=e426]:
+                      - generic [ref=e428]: "0"
+                      - generic [ref=e430]: "4"
+                      - generic [ref=e432]: "8"
+                      - generic [ref=e434]: "12"
+                      - generic [ref=e436]: "16"
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - generic [ref=e440]:
+                  - generic [ref=e441]: Pedidos ativos por canal
+                  - generic [ref=e442]: Somente Mesa e Delivery
+                - application [ref=e446]
+                - generic [ref=e453]:
+                  - generic [ref=e456]:
+                    - generic [ref=e457]: Mesa
+                    - generic [ref=e458]: 0 pedidos
+                  - generic [ref=e461]:
+                    - generic [ref=e462]: Delivery
+                    - generic [ref=e463]: 4 pedidos
+              - generic [ref=e464]:
+                - generic [ref=e466]:
+                  - generic [ref=e467]: Pedidos finalizados por canal
+                  - generic [ref=e468]: Finalizados hoje em Mesa e Delivery
+                - application [ref=e472]
+                - generic [ref=e479]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: Mesa
+                    - generic [ref=e484]: 0 pedidos
+                  - generic [ref=e487]:
+                    - generic [ref=e488]: Delivery
+                    - generic [ref=e489]: 5 pedidos
+            - generic [ref=e490]:
+              - generic [ref=e492]:
+                - generic [ref=e493]: Histórico resumido
+                - generic [ref=e494]: Visual com 3 dias e rolagem para consultar os 10 últimos
+              - generic [ref=e495]:
+                - generic [ref=e496]:
+                  - generic [ref=e497]:
+                    - generic [ref=e498]: 12/04/2026
+                    - generic [ref=e499]: 8 pedidos
+                  - strong [ref=e500]: R$ 600,21
+                - generic [ref=e501]:
+                  - generic [ref=e502]:
+                    - generic [ref=e503]: 11/04/2026
+                    - generic [ref=e504]: 10 pedidos
+                  - strong [ref=e505]: R$ 851,18
+                - generic [ref=e506]:
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: 10/04/2026
+                    - generic [ref=e509]: 2 pedidos
+                  - strong [ref=e510]: R$ 351,00
+                - generic [ref=e511]:
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: 09/04/2026
+                    - generic [ref=e514]: 7 pedidos
+                  - strong [ref=e515]: R$ 911,20
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: 08/04/2026
+                    - generic [ref=e519]: 0 pedidos
+                  - strong [ref=e520]: R$ 0,00
+                - generic [ref=e521]:
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: 07/04/2026
+                    - generic [ref=e524]: 0 pedidos
+                  - strong [ref=e525]: R$ 0,00
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - generic [ref=e528]: 06/04/2026
+                    - generic [ref=e529]: 0 pedidos
+                  - strong [ref=e530]: R$ 0,00
+                - generic [ref=e531]:
+                  - generic [ref=e532]:
+                    - generic [ref=e533]: 05/04/2026
+                    - generic [ref=e534]: 0 pedidos
+                  - strong [ref=e535]: R$ 0,00
+                - generic [ref=e536]:
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: 04/04/2026
+                    - generic [ref=e539]: 0 pedidos
+                  - strong [ref=e540]: R$ 0,00
+                - generic [ref=e541]:
+                  - generic [ref=e542]:
+                    - generic [ref=e543]: 03/04/2026
+                    - generic [ref=e544]: 0 pedidos
+                  - strong [ref=e545]: R$ 0,00
+            - generic [ref=e546]:
+              - generic [ref=e548]:
+                - generic [ref=e549]: Pagamentos finalizados
+                - generic [ref=e550]: Lista operacional para conferência, filtro e exportação
+              - generic [ref=e551]:
+                - generic [ref=e552]:
+                  - generic [ref=e553]: De
+                  - textbox [ref=e554]
+                - generic [ref=e555]:
+                  - generic [ref=e556]: Até
+                  - textbox [ref=e557]
+                - generic [ref=e558]:
+                  - generic [ref=e559]: Garçom ID
+                  - 'textbox "ex: 3" [ref=e560]'
+                - generic [ref=e561]:
+                  - generic [ref=e562]: Mostrar
+                  - combobox [ref=e563]:
+                    - option "Últimos 10" [selected]
+                    - option "Últimos 25"
+                    - option "Últimos 50"
+                - button "Aplicar" [ref=e564] [cursor=pointer]
+                - button "Limpar" [ref=e565] [cursor=pointer]
+                - generic [ref=e566]:
+                  - button "Exportar Excel" [ref=e567] [cursor=pointer]
+                  - button "Exportar PDF" [ref=e568] [cursor=pointer]
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - generic [ref=e571]:
+                    - generic [ref=e572]: Mesa 1008 • R$ 88,21
+                    - generic [ref=e573]: delivery • 12/04/2026, 15:40:39
+                    - generic [ref=e574]: "Tempo na mesa: 121 min • Garçom ID: 0"
+                  - generic [ref=e575]: OK
+                - generic [ref=e576]:
+                  - generic [ref=e577]:
+                    - generic [ref=e578]: Mesa 1005 • R$ 61,21
+                    - generic [ref=e579]: delivery • 12/04/2026, 15:40:34
+                    - generic [ref=e580]: "Tempo na mesa: 143 min • Garçom ID: 0"
+                  - generic [ref=e581]: OK
+                - generic [ref=e582]:
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: Mesa 1004 • R$ 61,21
+                    - generic [ref=e585]: delivery • 12/04/2026, 15:22:35
+                    - generic [ref=e586]: "Tempo na mesa: 1450 min • Garçom ID: 0"
+                  - generic [ref=e587]: OK
+                - generic [ref=e588]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: Mesa 1 • R$ 56,49
+                    - generic [ref=e591]: Pagamento Realizado • 12/04/2026, 13:40:44
+                    - generic [ref=e592]: "Tempo na mesa: 0 min • Garçom ID: 1"
+                  - generic [ref=e593]: OK
+                - generic [ref=e594]:
+                  - generic [ref=e595]:
+                    - generic [ref=e596]: Mesa 1 • R$ 56,49
+                    - generic [ref=e597]: Pagamento Realizado • 12/04/2026, 13:22:46
+                    - generic [ref=e598]: "Tempo na mesa: 0 min • Garçom ID: 1"
+                  - generic [ref=e599]: OK
+                - generic [ref=e600]:
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: Mesa 1008 • R$ 171,54
+                    - generic [ref=e603]: delivery • 12/04/2026, 11:23:12
+                    - generic [ref=e604]: "Tempo na mesa: 6 min • Garçom ID: 0"
+                  - generic [ref=e605]: OK
+                - generic [ref=e606]:
+                  - generic [ref=e607]:
+                    - generic [ref=e608]: Mesa 1005 • R$ 64,81
+                    - generic [ref=e609]: delivery • 12/04/2026, 11:22:59
+                    - generic [ref=e610]: "Tempo na mesa: 844 min • Garçom ID: 0"
+                  - generic [ref=e611]: OK
+                - generic [ref=e612]:
+                  - generic [ref=e613]:
+                    - generic [ref=e614]: Mesa 7 • R$ 40,25
+                    - generic [ref=e615]: Pagamento Realizado • 12/04/2026, 11:05:24
+                    - generic [ref=e616]: "Tempo na mesa: 7 min • Garçom ID: 2"
+                  - generic [ref=e617]: OK
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - generic [ref=e620]: Mesa 1006 • R$ 50,40
+                    - generic [ref=e621]: delivery • 11/04/2026, 21:58:44
+                    - generic [ref=e622]: "Tempo na mesa: 1 min • Garçom ID: 0"
+                  - generic [ref=e623]: OK
+                - generic [ref=e624]:
+                  - generic [ref=e625]:
+                    - generic [ref=e626]: Mesa 2 • R$ 32,20
+                    - generic [ref=e627]: Pagamento Realizado • 11/04/2026, 21:50:17
+                    - generic [ref=e628]: "Tempo na mesa: 1 min • Garçom ID: 1"
+                  - generic [ref=e629]: OK
+    - status
+  - generic [ref=e631]: "4"

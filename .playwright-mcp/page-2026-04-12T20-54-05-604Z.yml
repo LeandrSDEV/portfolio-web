@@ -1,0 +1,38 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - strong [ref=e8]: Sua Lanchonete
+      - generic [ref=e9]:
+        - button "Alternar tema" [ref=e10] [cursor=pointer]: ☀
+        - button "Entrar" [ref=e11] [cursor=pointer]
+    - main [ref=e12]:
+      - generic [ref=e15]: Fechado
+      - heading "Sua Lanchonete" [level=1] [ref=e16]
+      - paragraph [ref=e17]: Faça seu pedido em poucos toques. Rápido, fácil e sem complicação.
+      - generic [ref=e18]:
+        - link "WhatsApp" [ref=e19] [cursor=pointer]:
+          - /url: https://wa.me/5579988012359?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20no%20delivery.%20Pode%20me%20enviar%20o%20card%C3%A1pio%3F
+          - img [ref=e20]
+          - generic [ref=e22]: WhatsApp
+        - button "Cardápio" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]
+          - generic [ref=e27]: Cardápio
+      - generic [ref=e28]:
+        - button "🕒 Hoje Fechado hoje ▼" [ref=e29] [cursor=pointer]:
+          - generic [ref=e30]: 🕒
+          - generic [ref=e31]:
+            - generic [ref=e32]: Hoje
+            - generic [ref=e33]: Fechado hoje
+          - generic [ref=e34]: ▼
+        - generic [ref=e35]:
+          - generic [ref=e36]: 📍
+          - generic [ref=e37]:
+            - generic [ref=e38]: Endereco
+            - generic [ref=e39]: Endereço não informado
+        - link "🗺️ Mapa Abrir rota ↗" [ref=e40] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Endere%C3%A7o%20n%C3%A3o%20informado
+          - generic [ref=e41]: 🗺️
+          - generic [ref=e42]:
+            - generic [ref=e43]: Mapa
+            - generic [ref=e44]: Abrir rota ↗
+  - status

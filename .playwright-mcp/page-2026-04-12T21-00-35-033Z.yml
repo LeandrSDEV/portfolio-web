@@ -1,0 +1,336 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Abrir/fechar menu" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+      - heading "Portal Embaixadores" [level=6] [ref=e9]
+      - generic [ref=e10]:
+        - button "Alternar tema" [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button "Abrir menu da conta" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+  - generic [ref=e20]:
+    - list [ref=e22]:
+      - link "Dashboard" [ref=e23] [cursor=pointer]:
+        - /url: /
+        - img [ref=e25]
+        - generic [ref=e28]: Dashboard
+      - link "Projetos" [ref=e29] [cursor=pointer]:
+        - /url: /produtos
+        - img [ref=e31]
+        - generic [ref=e37]: Projetos
+      - link "Formulario" [ref=e38] [cursor=pointer]:
+        - /url: /formulario
+        - img [ref=e40]
+        - generic [ref=e44]: Formulario
+      - link "WebHook" [ref=e45] [cursor=pointer]:
+        - /url: /dominios
+        - img [ref=e47]
+        - generic [ref=e51]: WebHook
+      - link "Auditoria" [ref=e52] [cursor=pointer]:
+        - /url: /auditoria
+        - img [ref=e54]
+        - generic [ref=e58]: Auditoria
+      - link "Lib. Logs" [ref=e59] [cursor=pointer]:
+        - /url: /monitor
+        - img [ref=e61]
+        - generic [ref=e65]: Lib. Logs
+      - button "Embaixadores" [active] [ref=e66] [cursor=pointer]:
+        - img [ref=e68]
+        - generic [ref=e72]: Embaixadores
+        - img [ref=e327]
+      - generic [ref=e332]:
+        - link "Embaixadores" [ref=e333] [cursor=pointer]:
+          - /url: /embaixadores
+          - generic [ref=e335]: Embaixadores
+        - link "Leads" [ref=e336] [cursor=pointer]:
+          - /url: /embaixadores/leads
+          - generic [ref=e338]: Leads
+        - link "Interações" [ref=e339] [cursor=pointer]:
+          - /url: /embaixadores/interacoes
+          - generic [ref=e341]: Interações
+        - link "Pedidos" [ref=e342] [cursor=pointer]:
+          - /url: /embaixadores/pedidos
+          - generic [ref=e344]: Pedidos
+    - separator [ref=e75]
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - generic: Status
+          - generic [ref=e80]:
+            - combobox "Status" [ref=e81] [cursor=pointer]
+            - textbox
+            - img
+            - group:
+              - generic: Status
+        - generic [ref=e82]:
+          - generic: Busca (tx)
+          - generic [ref=e83]:
+            - textbox "Busca (tx)" [ref=e84]
+            - group:
+              - generic: Busca (tx)
+        - generic [ref=e85]:
+          - generic [ref=e86]: From
+          - generic [ref=e87]:
+            - textbox "From" [ref=e88]
+            - group:
+              - generic: From
+        - generic [ref=e89]:
+          - generic [ref=e90]: To
+          - generic [ref=e91]:
+            - textbox "To" [ref=e92]
+            - group:
+              - generic: To
+      - generic [ref=e94]:
+        - grid [ref=e95]:
+          - row "Ações Job Nome Email CPF Transação Erro Proxima Tentativa Status Etapa" [ref=e96]:
+            - columnheader "Ações" [ref=e97]:
+              - generic [ref=e99]: Ações
+              - generic [ref=e100]:
+                - img
+            - columnheader "Job" [ref=e101] [cursor=pointer]:
+              - generic [ref=e103]: Job
+              - generic [ref=e104]:
+                - img
+            - columnheader "Nome" [ref=e105] [cursor=pointer]:
+              - generic [ref=e107]: Nome
+              - generic [ref=e108]:
+                - img
+            - columnheader "Email" [ref=e109] [cursor=pointer]:
+              - generic [ref=e111]: Email
+              - generic [ref=e112]:
+                - img
+            - columnheader "CPF" [ref=e113] [cursor=pointer]:
+              - generic [ref=e115]: CPF
+              - generic [ref=e116]:
+                - img
+            - columnheader "Transação" [ref=e117] [cursor=pointer]:
+              - generic [ref=e119]: Transação
+              - generic [ref=e120]:
+                - img
+            - columnheader "Erro" [ref=e121] [cursor=pointer]:
+              - generic [ref=e123]: Erro
+              - generic [ref=e124]:
+                - img
+            - columnheader "Proxima Tentativa" [ref=e125] [cursor=pointer]:
+              - generic [ref=e127]: Proxima Tentativa
+              - generic [ref=e128]:
+                - img
+            - columnheader "Status" [ref=e129] [cursor=pointer]:
+              - generic [ref=e131]: Status
+              - generic [ref=e132]:
+                - img
+            - columnheader "Etapa" [ref=e133] [cursor=pointer]:
+              - generic [ref=e135]: Etapa
+              - generic [ref=e136]:
+                - img
+          - rowgroup [ref=e153]:
+            - row "Sem agendamento 376 Fabio Adriano de Almeida Oliveira adrianobinho290@gmail.com 08036502488 320946722 FINALIZADO FINALIZADO" [ref=e154]:
+              - gridcell "Sem agendamento" [ref=e155]:
+                - generic "Sem agendamento" [ref=e156]:
+                  - button [disabled]:
+                    - img
+              - gridcell "376" [ref=e157]
+              - gridcell "Fabio Adriano de Almeida Oliveira" [ref=e158]
+              - gridcell "adrianobinho290@gmail.com" [ref=e159]
+              - gridcell "08036502488" [ref=e160]
+              - gridcell "320946722" [ref=e161]
+              - gridcell [ref=e162]
+              - gridcell [ref=e163]
+              - gridcell "FINALIZADO" [ref=e164]
+              - gridcell "FINALIZADO" [ref=e165]
+            - row "Sem agendamento 375 Fabriny da Silva Freitas fabrinysilvafreitas@icloud.com MANUAL-176092f4-72c4-4b37-96a6-b428e4876706 FINALIZADO FINALIZADO" [ref=e166]:
+              - gridcell "Sem agendamento" [ref=e167]:
+                - generic "Sem agendamento" [ref=e168]:
+                  - button [disabled]:
+                    - img
+              - gridcell "375" [ref=e169]
+              - gridcell "Fabriny da Silva Freitas" [ref=e170]
+              - gridcell "fabrinysilvafreitas@icloud.com" [ref=e171]
+              - gridcell [ref=e172]
+              - gridcell "MANUAL-176092f4-72c4-4b37-96a6-b428e4876706" [ref=e173]
+              - gridcell [ref=e174]
+              - gridcell [ref=e175]
+              - gridcell "FINALIZADO" [ref=e176]
+              - gridcell "FINALIZADO" [ref=e177]
+            - row "Sem agendamento 374 Yann Douglas de Souza Gomes yanndouglasdsg@gmail.com 12444767497 320943703 FINALIZADO FINALIZADO" [ref=e178]:
+              - gridcell "Sem agendamento" [ref=e179]:
+                - generic "Sem agendamento" [ref=e180]:
+                  - button [disabled]:
+                    - img
+              - gridcell "374" [ref=e181]
+              - gridcell "Yann Douglas de Souza Gomes" [ref=e182]
+              - gridcell "yanndouglasdsg@gmail.com" [ref=e183]
+              - gridcell "12444767497" [ref=e184]
+              - gridcell "320943703" [ref=e185]
+              - gridcell [ref=e186]
+              - gridcell [ref=e187]
+              - gridcell "FINALIZADO" [ref=e188]
+              - gridcell "FINALIZADO" [ref=e189]
+            - row "Sem agendamento 373 Milena Gabriele Mendes milenagabriele867@gmail.com 12431628990 320929714 FINALIZADO FINALIZADO" [ref=e190]:
+              - gridcell "Sem agendamento" [ref=e191]:
+                - generic "Sem agendamento" [ref=e192]:
+                  - button [disabled]:
+                    - img
+              - gridcell "373" [ref=e193]
+              - gridcell "Milena Gabriele Mendes" [ref=e194]
+              - gridcell "milenagabriele867@gmail.com" [ref=e195]
+              - gridcell "12431628990" [ref=e196]
+              - gridcell "320929714" [ref=e197]
+              - gridcell [ref=e198]
+              - gridcell [ref=e199]
+              - gridcell "FINALIZADO" [ref=e200]
+              - gridcell "FINALIZADO" [ref=e201]
+            - row "Sem agendamento 372 Dayanna de Araújo Bastos de Sousa dayannabastos2018@gmail.com 11855225492 320927146 FINALIZADO FINALIZADO" [ref=e202]:
+              - gridcell "Sem agendamento" [ref=e203]:
+                - generic "Sem agendamento" [ref=e204]:
+                  - button [disabled]:
+                    - img
+              - gridcell "372" [ref=e205]
+              - gridcell "Dayanna de Araújo Bastos de Sousa" [ref=e206]
+              - gridcell "dayannabastos2018@gmail.com" [ref=e207]
+              - gridcell "11855225492" [ref=e208]
+              - gridcell "320927146" [ref=e209]
+              - gridcell [ref=e210]
+              - gridcell [ref=e211]
+              - gridcell "FINALIZADO" [ref=e212]
+              - gridcell "FINALIZADO" [ref=e213]
+            - row "Sem agendamento 371 Júlio César Da Silva Peixoto julioana749@gmail.com 10511274750 320925895 404 - Não encontramos uma conta com esse email. Verifique o endereço ou crie uma conta. | Parado automaticamente após 5 tentativas. PARADO INSERIR_USUÁRIO" [ref=e214]:
+              - gridcell "Sem agendamento" [ref=e215]:
+                - generic "Sem agendamento" [ref=e216]:
+                  - button [disabled]:
+                    - img
+              - gridcell "371" [ref=e217]
+              - gridcell "Júlio César Da Silva Peixoto" [ref=e218]
+              - gridcell "julioana749@gmail.com" [ref=e219]
+              - gridcell "10511274750" [ref=e220]
+              - gridcell "320925895" [ref=e221]
+              - gridcell "404 - Não encontramos uma conta com esse email. Verifique o endereço ou crie uma conta. | Parado automaticamente após 5 tentativas." [ref=e222]
+              - gridcell [ref=e223]
+              - gridcell "PARADO" [ref=e224]
+              - gridcell "INSERIR_USUÁRIO" [ref=e225]
+            - row "Sem agendamento 370 Suelen Rodrigues Berriel mundoxyoficial@gmail.com MANUAL-ee702016-bedc-4458-a88e-8611344c9bef FINALIZADO FINALIZADO" [ref=e226]:
+              - gridcell "Sem agendamento" [ref=e227]:
+                - generic "Sem agendamento" [ref=e228]:
+                  - button [disabled]:
+                    - img
+              - gridcell "370" [ref=e229]
+              - gridcell "Suelen Rodrigues Berriel" [ref=e230]
+              - gridcell "mundoxyoficial@gmail.com" [ref=e231]
+              - gridcell [ref=e232]
+              - gridcell "MANUAL-ee702016-bedc-4458-a88e-8611344c9bef" [ref=e233]
+              - gridcell [ref=e234]
+              - gridcell [ref=e235]
+              - gridcell "FINALIZADO" [ref=e236]
+              - gridcell "FINALIZADO" [ref=e237]
+            - row "Sem agendamento 369 Luiz Antonio luizantonioe06@gmail.com MANUAL-f4928668-8bd0-4614-888a-e5e2602542d8 FINALIZADO FINALIZADO" [ref=e238]:
+              - gridcell "Sem agendamento" [ref=e239]:
+                - generic "Sem agendamento" [ref=e240]:
+                  - button [disabled]:
+                    - img
+              - gridcell "369" [ref=e241]
+              - gridcell "Luiz Antonio" [ref=e242]
+              - gridcell "luizantonioe06@gmail.com" [ref=e243]
+              - gridcell [ref=e244]
+              - gridcell "MANUAL-f4928668-8bd0-4614-888a-e5e2602542d8" [ref=e245]
+              - gridcell [ref=e246]
+              - gridcell [ref=e247]
+              - gridcell "FINALIZADO" [ref=e248]
+              - gridcell "FINALIZADO" [ref=e249]
+            - row "Sem agendamento 368 Jessica Tetzner Abreu Morais jessicamorais231@gmail.com MANUAL-133fa0c4-3ea9-430a-ad11-31b81e291662 FINALIZADO FINALIZADO" [ref=e250]:
+              - gridcell "Sem agendamento" [ref=e251]:
+                - generic "Sem agendamento" [ref=e252]:
+                  - button [disabled]:
+                    - img
+              - gridcell "368" [ref=e253]
+              - gridcell "Jessica Tetzner Abreu Morais" [ref=e254]
+              - gridcell "jessicamorais231@gmail.com" [ref=e255]
+              - gridcell [ref=e256]
+              - gridcell "MANUAL-133fa0c4-3ea9-430a-ad11-31b81e291662" [ref=e257]
+              - gridcell [ref=e258]
+              - gridcell [ref=e259]
+              - gridcell "FINALIZADO" [ref=e260]
+              - gridcell "FINALIZADO" [ref=e261]
+            - row "Sem agendamento 367 Sergio Cardoso de Melo anuncios.aldeiaglobal@gmail.com MANUAL-c0a4b570-fd3c-4b37-8092-78a6d9484776 FINALIZADO FINALIZADO" [ref=e262]:
+              - gridcell "Sem agendamento" [ref=e263]:
+                - generic "Sem agendamento" [ref=e264]:
+                  - button [disabled]:
+                    - img
+              - gridcell "367" [ref=e265]
+              - gridcell "Sergio Cardoso de Melo" [ref=e266]
+              - gridcell "anuncios.aldeiaglobal@gmail.com" [ref=e267]
+              - gridcell [ref=e268]
+              - gridcell "MANUAL-c0a4b570-fd3c-4b37-8092-78a6d9484776" [ref=e269]
+              - gridcell [ref=e270]
+              - gridcell [ref=e271]
+              - gridcell "FINALIZADO" [ref=e272]
+              - gridcell "FINALIZADO" [ref=e273]
+            - row "Sem agendamento 366 Eduardo Santos Magalhães eduardo.santos23k@gmail.com 61856295346 320916288 FINALIZADO FINALIZADO" [ref=e274]:
+              - gridcell "Sem agendamento" [ref=e275]:
+                - generic "Sem agendamento" [ref=e276]:
+                  - button [disabled]:
+                    - img
+              - gridcell "366" [ref=e277]
+              - gridcell "Eduardo Santos Magalhães" [ref=e278]
+              - gridcell "eduardo.santos23k@gmail.com" [ref=e279]
+              - gridcell "61856295346" [ref=e280]
+              - gridcell "320916288" [ref=e281]
+              - gridcell [ref=e282]
+              - gridcell [ref=e283]
+              - gridcell "FINALIZADO" [ref=e284]
+              - gridcell "FINALIZADO" [ref=e285]
+            - row "Sem agendamento 365 Gabriel Ferreira Rodrigues gabriel.conquista.jj@gmail.com 08892165178 320915320 FINALIZADO FINALIZADO" [ref=e286]:
+              - gridcell "Sem agendamento" [ref=e287]:
+                - generic "Sem agendamento" [ref=e288]:
+                  - button [disabled]:
+                    - img
+              - gridcell "365" [ref=e289]
+              - gridcell "Gabriel Ferreira Rodrigues" [ref=e290]
+              - gridcell "gabriel.conquista.jj@gmail.com" [ref=e291]
+              - gridcell "08892165178" [ref=e292]
+              - gridcell "320915320" [ref=e293]
+              - gridcell [ref=e294]
+              - gridcell [ref=e295]
+              - gridcell "FINALIZADO" [ref=e296]
+              - gridcell "FINALIZADO" [ref=e297]
+            - row "Sem agendamento 364 Alna de São Pedro Santos alanasantos12356@gmail.com MANUAL-0190e357-8b63-42c7-8153-861839f61521 FINALIZADO FINALIZADO" [ref=e298]:
+              - gridcell "Sem agendamento" [ref=e299]:
+                - generic "Sem agendamento" [ref=e300]:
+                  - button [disabled]:
+                    - img
+              - gridcell "364" [ref=e301]
+              - gridcell "Alna de São Pedro Santos" [ref=e302]
+              - gridcell "alanasantos12356@gmail.com" [ref=e303]
+              - gridcell [ref=e304]
+              - gridcell "MANUAL-0190e357-8b63-42c7-8153-861839f61521" [ref=e305]
+              - gridcell [ref=e306]
+              - gridcell [ref=e307]
+              - gridcell "FINALIZADO" [ref=e308]
+              - gridcell "FINALIZADO" [ref=e309]
+            - row "Sem agendamento 363 Gisele Santiago Andrade studiogs.eng.arq@hotmail.com MANUAL-ca29997a-f4e1-42f4-84f5-1a167024e454 FINALIZADO FINALIZADO" [ref=e310]:
+              - gridcell "Sem agendamento" [ref=e311]:
+                - generic "Sem agendamento" [ref=e312]:
+                  - button [disabled]:
+                    - img
+              - gridcell "363" [ref=e313]
+              - gridcell "Gisele Santiago Andrade" [ref=e314]
+              - gridcell "studiogs.eng.arq@hotmail.com" [ref=e315]
+              - gridcell [ref=e316]
+              - gridcell "MANUAL-ca29997a-f4e1-42f4-84f5-1a167024e454" [ref=e317]
+              - gridcell [ref=e318]
+              - gridcell [ref=e319]
+              - gridcell "FINALIZADO" [ref=e320]
+              - gridcell "FINALIZADO" [ref=e321]
+        - generic [ref=e147]:
+          - paragraph [ref=e148]: "Rows per page:"
+          - generic [ref=e149]:
+            - 'combobox "Rows per page: 20" [ref=e150] [cursor=pointer]': "20"
+            - textbox: "20"
+            - img
+          - paragraph [ref=e151]: 1–20 of 376
+          - generic [ref=e152]:
+            - button "Go to previous page" [disabled]:
+              - img
+            - button "Go to next page" [ref=e324] [cursor=pointer]:
+              - img [ref=e325]

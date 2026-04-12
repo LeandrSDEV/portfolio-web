@@ -1,0 +1,278 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Áreas de entrega
+          - generic [ref=e150]: Áreas de entrega
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Áreas de entrega por polígono
+              - generic [ref=e168]: Desenhe no mapa, defina a taxa e organize suas áreas com um visual mais limpo e fácil de editar.
+            - generic [ref=e169]:
+              - link "Editor de áreas" [ref=e170] [cursor=pointer]:
+                - /url: /areas-entrega
+                - img [ref=e171]
+                - text: Editor de áreas
+              - link "Histórico no mapa" [ref=e174] [cursor=pointer]:
+                - /url: /areas-entrega/historico
+                - img [ref=e175]
+                - text: Histórico no mapa
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - img [ref=e182]
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Cadastro de área
+                  - generic [ref=e186]: Clique no mapa para criar os vértices. Depois você pode arrastar os pontos para ajustar com precisão.
+              - generic [ref=e187]:
+                - generic [ref=e188]: Nome da área
+                - 'textbox "Ex.: Zona Sul premium" [ref=e189]'
+              - generic [ref=e190]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]: Taxa de entrega (R$)
+                  - textbox "8.50" [ref=e193]
+                - generic [ref=e194]:
+                  - generic [ref=e195]: Cor da área
+                  - generic [ref=e196]:
+                    - button "Selecionar cor da área" [ref=e197] [cursor=pointer]:
+                      - img [ref=e199]
+                      - generic [ref=e201]: "#1D8CF8"
+                    - textbox: "#1d8cf8"
+              - generic [ref=e202]:
+                - checkbox "Área ativa para cálculo automático da taxa de entrega." [checked] [ref=e203]
+                - text: Área ativa para cálculo automático da taxa de entrega.
+              - generic [ref=e204]:
+                - button "Salvar nova área" [ref=e205] [cursor=pointer]:
+                  - img [ref=e206]
+                  - text: Salvar nova área
+                - button "Novo desenho" [ref=e207] [cursor=pointer]:
+                  - img [ref=e208]
+                  - text: Novo desenho
+              - generic [ref=e212]:
+                - button "Desfazer último ponto" [disabled] [ref=e213]
+                - button "Limpar polígono" [disabled] [ref=e214]
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: Áreas cadastradas
+                  - generic [ref=e218]: "6"
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Ativas
+                  - generic [ref=e221]: "6"
+                - generic [ref=e222]:
+                  - generic [ref=e223]: Taxa média
+                  - generic [ref=e224]: R$ 10,67
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - img [ref=e228]
+                - generic [ref=e231]:
+                  - generic [ref=e232]: Mapa fixo do estabelecimento
+                  - generic [ref=e233]: O ponto da loja fica como referência para desenhar, revisar e editar suas áreas.
+              - generic [ref=e234]:
+                - img [ref=e236]
+                - generic [ref=e239]:
+                  - generic [ref=e240]: JS Restaurant
+                  - generic [ref=e241]: Rua Soldado João Ferreira 105, Novo Paraiso
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Ponto fixo definido
+                    - generic [ref=e244]: "Centro: -10.9096, -37.0834"
+              - generic [ref=e246]:
+                - generic:
+                  - generic [ref=e247]:
+                    - button "Zoom in" [ref=e248] [cursor=pointer]: +
+                    - button "Zoom out" [ref=e249] [cursor=pointer]: −
+                  - generic [ref=e250]:
+                    - link "Leaflet" [ref=e251] [cursor=pointer]:
+                      - /url: https://leafletjs.com
+                      - img [ref=e252]
+                      - text: Leaflet
+                    - text: "| © OpenStreetMap"
+              - generic [ref=e256]:
+                - generic [ref=e257]: Rascunho atual • 0 pontos
+                - generic [ref=e259]: Loja / ponto fixo
+              - generic [ref=e261]: Clique no mapa para criar os vértices, arraste os marcadores para ajustar e use a lista abaixo para editar áreas já salvas.
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - img [ref=e265]
+              - generic [ref=e268]:
+                - generic [ref=e269]: Áreas salvas
+                - generic [ref=e270]: As áreas ativas entram no cálculo automático da taxa quando o pedido chega com latitude e longitude.
+            - generic [ref=e271]:
+              - article [ref=e272]:
+                - generic [ref=e273]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: area total
+                    - generic [ref=e276]: R$ 15,00 • 6 vértices • atualizada em 29/03/2026, 10:08:07
+                  - generic [ref=e277]: Ativa
+                - generic [ref=e279]:
+                  - button "Editar" [ref=e280] [cursor=pointer]:
+                    - img [ref=e281]
+                    - text: Editar
+                  - button "Excluir" [ref=e283] [cursor=pointer]:
+                    - img [ref=e284]
+                    - text: Excluir
+              - article [ref=e286]:
+                - generic [ref=e287]:
+                  - generic [ref=e288]:
+                    - generic [ref=e289]: premiun
+                    - generic [ref=e290]: R$ 10,00 • 8 vértices • atualizada em 20/03/2026, 09:44:24
+                  - generic [ref=e291]: Ativa
+                - generic [ref=e293]:
+                  - button "Editar" [ref=e294] [cursor=pointer]:
+                    - img [ref=e295]
+                    - text: Editar
+                  - button "Excluir" [ref=e297] [cursor=pointer]:
+                    - img [ref=e298]
+                    - text: Excluir
+              - article [ref=e300]:
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: japaozinho
+                    - generic [ref=e304]: R$ 11,00 • 9 vértices • atualizada em 12/03/2026, 23:24:16
+                  - generic [ref=e305]: Ativa
+                - generic [ref=e307]:
+                  - button "Editar" [ref=e308] [cursor=pointer]:
+                    - img [ref=e309]
+                    - text: Editar
+                  - button "Excluir" [ref=e311] [cursor=pointer]:
+                    - img [ref=e312]
+                    - text: Excluir
+              - article [ref=e314]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: Aruana
+                    - generic [ref=e318]: R$ 13,00 • 10 vértices • atualizada em 11/03/2026, 20:03:44
+                  - generic [ref=e319]: Ativa
+                - generic [ref=e321]:
+                  - button "Editar" [ref=e322] [cursor=pointer]:
+                    - img [ref=e323]
+                    - text: Editar
+                  - button "Excluir" [ref=e325] [cursor=pointer]:
+                    - img [ref=e326]
+                    - text: Excluir
+              - article [ref=e328]:
+                - generic [ref=e329]:
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: area nobre
+                    - generic [ref=e332]: R$ 9,50 • 6 vértices • atualizada em 11/03/2026, 16:11:20
+                  - generic [ref=e333]: Ativa
+                - generic [ref=e335]:
+                  - button "Editar" [ref=e336] [cursor=pointer]:
+                    - img [ref=e337]
+                    - text: Editar
+                  - button "Excluir" [ref=e339] [cursor=pointer]:
+                    - img [ref=e340]
+                    - text: Excluir
+              - article [ref=e342]:
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: Area 1
+                    - generic [ref=e346]: R$ 5,50 • 8 vértices • atualizada em 11/03/2026, 16:07:19
+                  - generic [ref=e347]: Ativa
+                - generic [ref=e349]:
+                  - button "Editar" [ref=e350] [cursor=pointer]:
+                    - img [ref=e351]
+                    - text: Editar
+                  - button "Excluir" [ref=e353] [cursor=pointer]:
+                    - img [ref=e354]
+                    - text: Excluir
+  - status

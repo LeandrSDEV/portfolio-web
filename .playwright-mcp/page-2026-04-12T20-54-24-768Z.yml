@@ -1,0 +1,415 @@
+- generic [ref=e2]:
+  - generic [ref=e52]:
+    - banner [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - generic [ref=e56]: Cardápio
+          - generic [ref=e57]: Delivery • Monte seu pedido
+        - generic [ref=e58]:
+          - button "Expandir para tela cheia" [ref=e59] [cursor=pointer]:
+            - text: ⛶
+            - generic [ref=e60]: Expandir
+          - generic "Modo" [ref=e61]: 🛵 Delivery
+    - main [ref=e62]:
+      - generic [ref=e64]:
+        - searchbox "Buscar no cardápio..." [ref=e66]
+        - region "Pizzas Salgadas" [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - generic [ref=e70]:
+                - generic [ref=e71]: 🍕
+                - generic [ref=e72]: cardápio
+              - generic [ref=e74]: Pizzas Salgadas
+            - generic [ref=e76]: 10 itens
+          - generic [ref=e77]:
+            - button "Abrir Pizza Calabresa" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]:
+                - img "Pizza Calabresa" [ref=e80]
+                - generic [ref=e82]: "-12%"
+                - button "Adicionar aos favoritos" [ref=e84]: ♡
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - generic [ref=e87]:
+                    - generic [ref=e88]: 🍕
+                    - generic [ref=e89]: mais pedidos
+                  - generic [ref=e90]: ver detalhes
+                - generic [ref=e91]: Pizza Calabresa
+                - generic [ref=e92]: Molho, mussarela, calabresa fatiada e cebola
+                - generic [ref=e93]:
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: R$ 52,90
+                    - generic [ref=e96]:
+                      - generic [ref=e97]: R$ 60,00
+                      - generic [ref=e98]: economize R$ 7,10
+                  - generic [ref=e99]:
+                    - text: escolher
+                    - generic [ref=e100]: →
+            - button "Abrir Pizza Margherita" [ref=e101] [cursor=pointer]:
+              - generic [ref=e102]:
+                - img "Pizza Margherita" [ref=e103]
+                - button "Adicionar aos favoritos" [ref=e106]: ♡
+              - generic [ref=e107]:
+                - generic [ref=e108]:
+                  - generic [ref=e109]:
+                    - generic [ref=e110]: 🍕
+                    - generic [ref=e111]: mais pedidos
+                  - generic [ref=e112]: ver detalhes
+                - generic [ref=e113]: Pizza Margherita
+                - generic [ref=e114]: Molho de tomate, mussarela, manjericão fresco e azeite
+                - generic [ref=e115]:
+                  - generic [ref=e117]: R$ 49,90
+                  - generic [ref=e118]:
+                    - text: escolher
+                    - generic [ref=e119]: →
+            - button "Abrir Pizza Quatro Queijos" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]:
+                - img "Pizza Quatro Queijos" [ref=e122]
+                - button "Adicionar aos favoritos" [ref=e125]: ♡
+              - generic [ref=e126]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]:
+                    - generic [ref=e129]: 🍕
+                    - generic [ref=e130]: mais pedidos
+                  - generic [ref=e131]: ver detalhes
+                - generic [ref=e132]: Pizza Quatro Queijos
+                - generic [ref=e133]: Mussarela, parmesão, gorgonzola e catupiry
+                - generic [ref=e134]:
+                  - generic [ref=e136]: R$ 59,90
+                  - generic [ref=e137]:
+                    - text: escolher
+                    - generic [ref=e138]: →
+            - button "Abrir Pizza Portuguesa" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]:
+                - img "Pizza Portuguesa" [ref=e141]
+                - button "Adicionar aos favoritos" [ref=e144]: ♡
+              - generic [ref=e145]:
+                - generic [ref=e146]:
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: 🍕
+                    - generic [ref=e149]: mais pedidos
+                  - generic [ref=e150]: ver detalhes
+                - generic [ref=e151]: Pizza Portuguesa
+                - generic [ref=e152]: Presunto, ovos, cebola, ervilha, azeitona e mussarela
+                - generic [ref=e153]:
+                  - generic [ref=e155]: R$ 56,90
+                  - generic [ref=e156]:
+                    - text: escolher
+                    - generic [ref=e157]: →
+            - button "Abrir Pizza Frango com Catupiry" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]:
+                - img "Pizza Frango com Catupiry" [ref=e160]
+                - button "Adicionar aos favoritos" [ref=e163]: ♡
+              - generic [ref=e164]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: 🍕
+                    - generic [ref=e168]: mais pedidos
+                  - generic [ref=e169]: ver detalhes
+                - generic [ref=e170]: Pizza Frango com Catupiry
+                - generic [ref=e171]: Frango desfiado e catupiry original
+                - generic [ref=e172]:
+                  - generic [ref=e174]: R$ 54,90
+                  - generic [ref=e175]:
+                    - text: escolher
+                    - generic [ref=e176]: →
+            - button "Abrir Pizza Pepperoni" [ref=e177] [cursor=pointer]:
+              - generic [ref=e178]:
+                - img "Pizza Pepperoni" [ref=e179]
+                - button "Adicionar aos favoritos" [ref=e182]: ♡
+              - generic [ref=e183]:
+                - generic [ref=e184]:
+                  - generic [ref=e185]:
+                    - generic [ref=e186]: 🍕
+                    - generic [ref=e187]: mais pedidos
+                  - generic [ref=e188]: ver detalhes
+                - generic [ref=e189]: Pizza Pepperoni
+                - generic [ref=e190]: Molho, mussarela e pepperoni
+                - generic [ref=e191]:
+                  - generic [ref=e193]: R$ 62,90
+                  - generic [ref=e194]:
+                    - text: escolher
+                    - generic [ref=e195]: →
+            - button "Abrir Pizza Bacon" [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - img "Pizza Bacon" [ref=e198]
+                - button "Adicionar aos favoritos" [ref=e201]: ♡
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: 🍕
+                    - generic [ref=e206]: mais pedidos
+                  - generic [ref=e207]: ver detalhes
+                - generic [ref=e208]: Pizza Bacon
+                - generic [ref=e209]: Molho, mussarela e bacon crocante
+                - generic [ref=e210]:
+                  - generic [ref=e212]: R$ 58,90
+                  - generic [ref=e213]:
+                    - text: escolher
+                    - generic [ref=e214]: →
+            - button "Abrir Pizza Vegetariana" [ref=e215] [cursor=pointer]:
+              - generic [ref=e216]:
+                - img "Pizza Vegetariana" [ref=e217]
+                - button "Adicionar aos favoritos" [ref=e220]: ♡
+              - generic [ref=e221]:
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 🍕
+                    - generic [ref=e225]: mais pedidos
+                  - generic [ref=e226]: ver detalhes
+                - generic [ref=e227]: Pizza Vegetariana
+                - generic [ref=e228]: Brócolis, tomate, champignon, pimentão e azeitona
+                - generic [ref=e229]:
+                  - generic [ref=e231]: R$ 54,90
+                  - generic [ref=e232]:
+                    - text: escolher
+                    - generic [ref=e233]: →
+            - button "Abrir Pizza Carne Seca" [ref=e234] [cursor=pointer]:
+              - generic [ref=e235]:
+                - img "Pizza Carne Seca" [ref=e236]
+                - button "Adicionar aos favoritos" [ref=e239]: ♡
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: 🍕
+                    - generic [ref=e244]: mais pedidos
+                  - generic [ref=e245]: ver detalhes
+                - generic [ref=e246]: Pizza Carne Seca
+                - generic [ref=e247]: Carne seca desfiada, cebola roxa e catupiry
+                - generic [ref=e248]:
+                  - generic [ref=e250]: R$ 64,90
+                  - generic [ref=e251]:
+                    - text: escolher
+                    - generic [ref=e252]: →
+            - button "Abrir Pizza Atum" [ref=e253] [cursor=pointer]:
+              - generic [ref=e254]:
+                - img "Pizza Atum" [ref=e255]
+                - button "Adicionar aos favoritos" [ref=e258]: ♡
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - generic [ref=e261]:
+                    - generic [ref=e262]: 🍕
+                    - generic [ref=e263]: mais pedidos
+                  - generic [ref=e264]: ver detalhes
+                - generic [ref=e265]: Pizza Atum
+                - generic [ref=e266]: Atum, cebola, azeitona e mussarela
+                - generic [ref=e267]:
+                  - generic [ref=e269]: R$ 58,90
+                  - generic [ref=e270]:
+                    - text: escolher
+                    - generic [ref=e271]: →
+        - region "Pizzas Doces" [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - generic [ref=e276]: 🍫
+                - generic [ref=e277]: sobremesas
+              - generic [ref=e279]: Pizzas Doces
+            - generic [ref=e281]: 4 itens
+          - generic [ref=e282]:
+            - button "Abrir Pizza Chocolate" [ref=e283] [cursor=pointer]:
+              - generic [ref=e284]:
+                - img "Pizza Chocolate" [ref=e285]
+                - button "Adicionar aos favoritos" [ref=e288]: ♡
+              - generic [ref=e289]:
+                - generic [ref=e290]:
+                  - generic [ref=e291]:
+                    - generic [ref=e292]: 🍫
+                    - generic [ref=e293]: doces
+                  - generic [ref=e294]: ver detalhes
+                - generic [ref=e295]: Pizza Chocolate
+                - generic [ref=e296]: Chocolate ao leite derretido e granulado
+                - generic [ref=e297]:
+                  - generic [ref=e299]: R$ 48,90
+                  - generic [ref=e300]:
+                    - text: escolher
+                    - generic [ref=e301]: →
+            - button "Abrir Pizza Romeu e Julieta" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]:
+                - img "Pizza Romeu e Julieta" [ref=e304]
+                - button "Adicionar aos favoritos" [ref=e307]: ♡
+              - generic [ref=e308]:
+                - generic [ref=e309]:
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: 🍫
+                    - generic [ref=e312]: doces
+                  - generic [ref=e313]: ver detalhes
+                - generic [ref=e314]: Pizza Romeu e Julieta
+                - generic [ref=e315]: Queijo e goiabada cremosa
+                - generic [ref=e316]:
+                  - generic [ref=e318]: R$ 46,90
+                  - generic [ref=e319]:
+                    - text: escolher
+                    - generic [ref=e320]: →
+            - button "Abrir Pizza Banana com Canela" [ref=e321] [cursor=pointer]:
+              - generic [ref=e322]:
+                - img "Pizza Banana com Canela" [ref=e323]
+                - button "Adicionar aos favoritos" [ref=e326]: ♡
+              - generic [ref=e327]:
+                - generic [ref=e328]:
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: 🍫
+                    - generic [ref=e331]: doces
+                  - generic [ref=e332]: ver detalhes
+                - generic [ref=e333]: Pizza Banana com Canela
+                - generic [ref=e334]: Banana, açúcar, canela e leite condensado
+                - generic [ref=e335]:
+                  - generic [ref=e337]: R$ 44,90
+                  - generic [ref=e338]:
+                    - text: escolher
+                    - generic [ref=e339]: →
+            - button "Abrir Pizza Nutella com Morango" [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]:
+                - img "Pizza Nutella com Morango" [ref=e342]
+                - button "Adicionar aos favoritos" [ref=e345]: ♡
+              - generic [ref=e346]:
+                - generic [ref=e347]:
+                  - generic [ref=e348]:
+                    - generic [ref=e349]: 🍫
+                    - generic [ref=e350]: doces
+                  - generic [ref=e351]: ver detalhes
+                - generic [ref=e352]: Pizza Nutella com Morango
+                - generic [ref=e353]: Nutella cremosa e morangos frescos
+                - generic [ref=e354]:
+                  - generic [ref=e356]: R$ 59,90
+                  - generic [ref=e357]:
+                    - text: escolher
+                    - generic [ref=e358]: →
+        - region "Entradas" [ref=e359]:
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - generic [ref=e362]:
+                - generic [ref=e363]: 🍕
+                - generic [ref=e364]: cardápio
+              - generic [ref=e366]: Entradas
+            - generic [ref=e368]: 2 itens
+          - generic [ref=e369]:
+            - button "Abrir Pão de Alho Gratinado" [ref=e370] [cursor=pointer]:
+              - generic [ref=e371]:
+                - img "Pão de Alho Gratinado" [ref=e372]
+                - button "Adicionar aos favoritos" [ref=e375]: ♡
+              - generic [ref=e376]:
+                - generic [ref=e377]:
+                  - generic [ref=e378]:
+                    - generic [ref=e379]: 🍕
+                    - generic [ref=e380]: mais pedidos
+                  - generic [ref=e381]: ver detalhes
+                - generic [ref=e382]: Pão de Alho Gratinado
+                - generic [ref=e383]: Pão italiano com manteiga de alho e queijo
+                - generic [ref=e384]:
+                  - generic [ref=e386]: R$ 24,90
+                  - generic [ref=e387]:
+                    - text: escolher
+                    - generic [ref=e388]: →
+            - button "Abrir Batata Frita Crocante" [ref=e389] [cursor=pointer]:
+              - generic [ref=e390]:
+                - img "Batata Frita Crocante" [ref=e391]
+                - button "Adicionar aos favoritos" [ref=e394]: ♡
+              - generic [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: 🍕
+                    - generic [ref=e399]: mais pedidos
+                  - generic [ref=e400]: ver detalhes
+                - generic [ref=e401]: Batata Frita Crocante
+                - generic [ref=e402]: Porção 400g de batata frita
+                - generic [ref=e403]:
+                  - generic [ref=e405]: R$ 26,90
+                  - generic [ref=e406]:
+                    - text: escolher
+                    - generic [ref=e407]: →
+        - region "Bebidas" [ref=e408]:
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - generic [ref=e412]: 🥤
+                - generic [ref=e413]: bebidas
+              - generic [ref=e415]: Bebidas
+            - generic [ref=e417]: 4 itens
+          - generic [ref=e418]:
+            - button "Abrir Coca-Cola Zero Açucar" [ref=e419] [cursor=pointer]:
+              - generic [ref=e420]:
+                - img "Coca-Cola Zero Açucar" [ref=e421]
+                - button "Adicionar aos favoritos" [ref=e424]: ♡
+              - generic [ref=e425]:
+                - generic [ref=e426]:
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: 🥤
+                    - generic [ref=e429]: geladas
+                  - generic [ref=e430]: ver detalhes
+                - generic [ref=e431]: Coca-Cola Zero Açucar
+                - generic [ref=e432]: Sem descrição disponível.
+                - generic [ref=e433]:
+                  - generic [ref=e435]: R$ 7,00
+                  - generic [ref=e436]:
+                    - text: escolher
+                    - generic [ref=e437]: →
+            - button "Abrir Fanta Laranja Lata 350ml" [ref=e438] [cursor=pointer]:
+              - generic [ref=e439]:
+                - img "Fanta Laranja Lata 350ml" [ref=e440]
+                - generic [ref=e442]: "-8%"
+                - button "Adicionar aos favoritos" [ref=e444]: ♡
+              - generic [ref=e445]:
+                - generic [ref=e446]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: 🥤
+                    - generic [ref=e449]: geladas
+                  - generic [ref=e450]: ver detalhes
+                - generic [ref=e451]: Fanta Laranja Lata 350ml
+                - generic [ref=e452]: Sem descrição disponível.
+                - generic [ref=e453]:
+                  - generic [ref=e454]:
+                    - generic [ref=e455]: R$ 5,50
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: R$ 6,00
+                      - generic [ref=e458]: economize R$ 0,50
+                  - generic [ref=e459]:
+                    - text: escolher
+                    - generic [ref=e460]: →
+            - button "Abrir Refrigerante 2L" [ref=e461] [cursor=pointer]:
+              - generic [ref=e462]:
+                - img "Refrigerante 2L" [ref=e463]
+                - button "Adicionar aos favoritos" [ref=e466]: ♡
+              - generic [ref=e467]:
+                - generic [ref=e468]:
+                  - generic [ref=e469]:
+                    - generic [ref=e470]: 🥤
+                    - generic [ref=e471]: geladas
+                  - generic [ref=e472]: ver detalhes
+                - generic [ref=e473]: Refrigerante 2L
+                - generic [ref=e474]: Opções diversas
+                - generic [ref=e475]:
+                  - generic [ref=e477]: R$ 14,90
+                  - generic [ref=e478]:
+                    - text: escolher
+                    - generic [ref=e479]: →
+            - button "Abrir Suco Natural 1L" [ref=e480] [cursor=pointer]:
+              - generic [ref=e481]:
+                - img "Suco Natural 1L" [ref=e482]
+                - button "Adicionar aos favoritos" [ref=e485]: ♡
+              - generic [ref=e486]:
+                - generic [ref=e487]:
+                  - generic [ref=e488]:
+                    - generic [ref=e489]: 🥤
+                    - generic [ref=e490]: geladas
+                  - generic [ref=e491]: ver detalhes
+                - generic [ref=e492]: Suco Natural 1L
+                - generic [ref=e493]: Laranja ou limão
+                - generic [ref=e494]:
+                  - generic [ref=e496]: R$ 16,90
+                  - generic [ref=e497]:
+                    - text: escolher
+                    - generic [ref=e498]: →
+    - generic [ref=e499]:
+      - generic [ref=e500]:
+        - button "Voltar" [ref=e501] [cursor=pointer]:
+          - img [ref=e503]
+          - generic [ref=e505]: Voltar
+        - button "Pedido (0)" [ref=e506] [cursor=pointer]:
+          - img [ref=e508]
+          - generic [ref=e510]: Pedido (0)
+        - link "WhatsApp" [ref=e511] [cursor=pointer]:
+          - /url: https://wa.me/5579988012359?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20no%20delivery.%20Pode%20me%20enviar%20o%20card%C3%A1pio%3F
+          - img [ref=e513]
+          - generic [ref=e515]: WhatsApp
+      - generic [ref=e516]: Se precisar, chame um atendente.
+  - status

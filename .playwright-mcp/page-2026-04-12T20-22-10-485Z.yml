@@ -1,0 +1,345 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Notifications (F8)":
+      - list
+    - region "Notifications alt+T"
+    - generic [ref=e3]:
+      - banner [ref=e4]:
+        - generic [ref=e5]:
+          - link "Gestão de Mesas & Delivery" [ref=e6] [cursor=pointer]:
+            - /url: "#"
+            - text: Gestão de Mesas & Delivery
+          - navigation [ref=e8]:
+            - link "Funcionalidades" [ref=e9] [cursor=pointer]:
+              - /url: "#features"
+            - link "Planos" [ref=e10] [cursor=pointer]:
+              - /url: "#pricing"
+            - link "FAQ" [ref=e11] [cursor=pointer]:
+              - /url: "#faq"
+            - link "Começar agora" [ref=e12] [cursor=pointer]:
+              - /url: "#pricing"
+      - generic [ref=e14]:
+        - generic [ref=e15]: 🔥 Promoção de lançamento — até 15% de desconto
+        - heading "Sua pizzaria no controle total. Do pedido à entrega." [level=1] [ref=e16]
+        - paragraph [ref=e17]: Dashboard, mesas, cozinha, delivery, WhatsApp, cupons e avaliações — tudo integrado num único sistema. Sem papel, sem confusão, sem mensalidade surpresa.
+        - generic [ref=e18]:
+          - link "Começar agora" [ref=e19] [cursor=pointer]:
+            - /url: "#pricing"
+          - link "Ver funcionalidades" [ref=e20] [cursor=pointer]:
+            - /url: "#features"
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: 9+
+          - generic [ref=e25]: Pedidos processados/dia
+        - generic [ref=e26]:
+          - generic [ref=e27]: 0h
+          - generic [ref=e28]: Atendimento automático via WhatsApp
+        - generic [ref=e29]:
+          - generic [ref=e30]: 0.0 ★
+          - generic [ref=e31]: Avaliação média dos clientes
+        - generic [ref=e32]:
+          - generic [ref=e33]: 1.9%
+          - generic [ref=e34]: Uptime do sistema
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Tudo que você precisa, numa única plataforma" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Cada módulo foi pensado pra resolver um problema real de quem gerencia restaurante no dia a dia.
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]:
+              - generic [ref=e43]: 📊
+              - heading "Dashboard Operacional" [level=3] [ref=e44]
+              - paragraph [ref=e45]: Faturamento do dia, semana e mês. Gráficos de volume, distribuição mesa vs delivery e histórico de recebimentos — tudo em tempo real.
+            - img "Dashboard Operacional" [ref=e47] [cursor=pointer]
+          - generic [ref=e48]:
+            - generic [ref=e49]:
+              - generic [ref=e50]: 🍽️
+              - heading "Gestão de Mesas" [level=3] [ref=e51]
+              - paragraph [ref=e52]: "Visualize o salão inteiro: mesas livres, ocupadas, com pedido novo ou conta solicitada. Adicione ou remova mesas em segundos."
+            - img "Gestão de Mesas" [ref=e54] [cursor=pointer]
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: 🏪
+              - heading "PDV — Ponto de Venda" [level=3] [ref=e58]
+              - paragraph [ref=e59]: "Venda rápida no balcão: selecione produtos, monte o carrinho e finalize em segundos. Ideal para retirada e vendas express."
+            - img "PDV — Ponto de Venda" [ref=e61] [cursor=pointer]
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: 📋
+              - heading "Cardápio e Importação" [level=3] [ref=e65]
+              - paragraph [ref=e66]: Monte o cardápio digital completo em minutos. Importe por Excel, texto ou foto. Categorias, ingredientes e preços organizados automaticamente.
+            - img "Cardápio e Importação" [ref=e68] [cursor=pointer]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: 👨‍🍳
+              - heading "Cozinha (KDS)" [level=3] [ref=e72]
+              - paragraph [ref=e73]: Pedidos chegam instantaneamente na cozinha, separados por mesa e delivery. Timer de fila, observações e código de montagem em cada comanda.
+            - img "Cozinha (KDS)" [ref=e75] [cursor=pointer]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: 🛵
+              - heading "Painel de Delivery" [level=3] [ref=e79]
+              - paragraph [ref=e80]: "Fluxo completo: em análise, em produção, prontos e em rota. Card detalhado com cliente, endereço, valor, pagamento e ação de transferir motoboy."
+            - img "Painel de Delivery" [ref=e82] [cursor=pointer]
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: 📍
+              - heading "Áreas de Entrega" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Desenhe polígonos no mapa, defina taxas por bairro, acompanhe entregas e faturamento por área. Cálculo automático de taxa no checkout.
+            - img "Áreas de Entrega" [ref=e89] [cursor=pointer]
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - generic [ref=e92]: 🤖
+              - heading "Robô WhatsApp + IA" [level=3] [ref=e93]
+              - paragraph [ref=e94]: Atendimento automático 24h no WhatsApp. O bot mostra o cardápio, recebe endereço, aplica cupom e envia pra cozinha. Com IA híbrida, responde dúvidas sozinho.
+            - img "Robô WhatsApp + IA" [ref=e96] [cursor=pointer]
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: 🎟️
+              - heading "Cupons e Promoções" [level=3] [ref=e100]
+              - paragraph [ref=e101]: Crie promoções do dia (frete grátis, descontos), configure cupons com validade, quantidade máxima e valor mínimo. Aplicação automática no checkout.
+            - img "Cupons e Promoções" [ref=e103] [cursor=pointer]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: ⭐
+              - heading "Avaliações" [level=3] [ref=e107]
+              - paragraph [ref=e108]: Pesquisa de satisfação automática após cada pedido. Nota média, total de avaliações e comentários reais dos clientes.
+            - img "Avaliações" [ref=e110] [cursor=pointer]
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - generic [ref=e113]: 📢
+              - heading "Mensagens em Massa" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Recupere clientes inativos com campanhas pelo WhatsApp. Filtre por período, escreva a mensagem e dispare pra toda a base.
+            - img "Mensagens em Massa" [ref=e117] [cursor=pointer]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: 🔐
+              - heading "Permissões por Perfil" [level=3] [ref=e121]
+              - paragraph [ref=e122]: Cadastre garçons, motoboys, cozinheiros e gerentes. Cada perfil com acesso controlado — quem vê, quem edita, quem exclui.
+            - img "Permissões por Perfil" [ref=e124] [cursor=pointer]
+      - generic [ref=e126]:
+        - heading "Funcionando em 3 passos" [level=2] [ref=e127]
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic [ref=e130]: 📋
+            - generic [ref=e131]: PASSO 1
+            - heading "Escolha seu plano" [level=3] [ref=e132]
+            - paragraph [ref=e133]: Selecione o pacote que faz sentido pro seu negócio.
+          - generic [ref=e134]:
+            - generic [ref=e135]: ⚙️
+            - generic [ref=e136]: PASSO 2
+            - heading "Configuramos tudo" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Nossa equipe configura o cardápio, áreas de entrega e o robô do WhatsApp.
+          - generic [ref=e139]:
+            - generic [ref=e140]: 🚀
+            - generic [ref=e141]: PASSO 3
+            - heading "Comece a vender" [level=3] [ref=e142]
+            - paragraph [ref=e143]: Em menos de 24h seu sistema está no ar, recebendo pedidos.
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - heading "Planos que cabem no seu bolso" [level=2] [ref=e147]
+          - paragraph [ref=e148]: Escolha o pacote ideal e comece hoje. Quanto maior o período, maior o desconto.
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - heading "Gestão de Mesas" [level=3] [ref=e151]
+            - generic [ref=e152]:
+              - generic [ref=e153]: R$ 79,90
+              - generic [ref=e154]: /mês
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - img [ref=e157]
+                - generic [ref=e159]: Dashboard operacional
+              - listitem [ref=e160]:
+                - img [ref=e161]
+                - generic [ref=e163]: Gestão de mesas e comandas
+              - listitem [ref=e164]:
+                - img [ref=e165]
+                - generic [ref=e167]: PDV (Ponto de Venda)
+              - listitem [ref=e168]:
+                - img [ref=e169]
+                - generic [ref=e171]: Cozinha (KDS)
+              - listitem [ref=e172]:
+                - img [ref=e173]
+                - generic [ref=e175]: Avaliações de clientes
+              - listitem [ref=e176]:
+                - img [ref=e177]
+                - generic [ref=e179]: Controle de permissões
+              - listitem [ref=e180]:
+                - img [ref=e181]
+                - generic [ref=e184]: Delivery e rotas
+              - listitem [ref=e185]:
+                - img [ref=e186]
+                - generic [ref=e189]: Robô WhatsApp
+              - listitem [ref=e190]:
+                - img [ref=e191]
+                - generic [ref=e194]: Áreas de entrega
+            - link "Assinar agora" [ref=e195] [cursor=pointer]:
+              - /url: https://wa.me/5579988012359?text=Ol%C3%A1!%20Tenho%20interesse%20no%20plano%20*Gest%C3%A3o%20de%20Mesas*%20(R%24%2079%2C90%2Fm%C3%AAs).%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!
+          - generic [ref=e196]:
+            - generic [ref=e197]: 🔥 Mais popular
+            - heading "Gestão Delivery" [level=3] [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]: R$ 99,90
+              - generic [ref=e201]: /mês
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - img [ref=e204]
+                - generic [ref=e206]: Dashboard operacional
+              - listitem [ref=e207]:
+                - img [ref=e208]
+                - generic [ref=e210]: Painel de delivery completo
+              - listitem [ref=e211]:
+                - img [ref=e212]
+                - generic [ref=e214]: Robô WhatsApp + IA
+              - listitem [ref=e215]:
+                - img [ref=e216]
+                - generic [ref=e218]: Áreas de entrega com mapa
+              - listitem [ref=e219]:
+                - img [ref=e220]
+                - generic [ref=e222]: Rotas e motoboys
+              - listitem [ref=e223]:
+                - img [ref=e224]
+                - generic [ref=e226]: Cupons e promoções
+              - listitem [ref=e227]:
+                - img [ref=e228]
+                - generic [ref=e230]: Mensagens em massa
+              - listitem [ref=e231]:
+                - img [ref=e232]
+                - generic [ref=e234]: Avaliações de clientes
+              - listitem [ref=e235]:
+                - img [ref=e236]
+                - generic [ref=e239]: Gestão de mesas
+              - listitem [ref=e240]:
+                - img [ref=e241]
+                - generic [ref=e244]: PDV (Ponto de Venda)
+            - link "Começar agora" [ref=e245] [cursor=pointer]:
+              - /url: https://wa.me/5579988012359?text=Ol%C3%A1!%20Tenho%20interesse%20no%20plano%20*Gest%C3%A3o%20Delivery*%20(R%24%2099%2C90%2Fm%C3%AAs).%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!
+          - generic [ref=e246]:
+            - generic [ref=e247]: 💎 Tudo incluso
+            - heading "Gestão Completa" [level=3] [ref=e248]
+            - generic [ref=e249]:
+              - generic [ref=e250]: R$ 149,90
+              - generic [ref=e251]: /mês
+            - list [ref=e252]:
+              - listitem [ref=e253]:
+                - img [ref=e254]
+                - generic [ref=e256]: TUDO dos planos anteriores
+              - listitem [ref=e257]:
+                - img [ref=e258]
+                - generic [ref=e260]: Mesas + Delivery integrados
+              - listitem [ref=e261]:
+                - img [ref=e262]
+                - generic [ref=e264]: PDV + Cozinha + Rotas
+              - listitem [ref=e265]:
+                - img [ref=e266]
+                - generic [ref=e268]: WhatsApp + IA + Cupons
+              - listitem [ref=e269]:
+                - img [ref=e270]
+                - generic [ref=e272]: Mensagens + Avaliações
+              - listitem [ref=e273]:
+                - img [ref=e274]
+                - generic [ref=e276]: Permissões avançadas
+              - listitem [ref=e277]:
+                - img [ref=e278]
+                - generic [ref=e280]: Suporte prioritário
+            - link "Assinar completo" [ref=e281] [cursor=pointer]:
+              - /url: https://wa.me/5579988012359?text=Ol%C3%A1!%20Tenho%20interesse%20no%20plano%20*Gest%C3%A3o%20Completa*%20(R%24%20149%2C90%2Fm%C3%AAs).%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es!
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e284]: 💰 Economize mais
+            - heading "Mais tempo, mais economia" [level=3] [ref=e285]
+            - paragraph [ref=e286]: "Assine por mais meses e pague menos. Veja quanto você economiza no plano Completo:"
+          - generic [ref=e287]:
+            - generic [ref=e289]:
+              - paragraph [ref=e290]: 2 a 5 meses
+              - paragraph [ref=e291]: 5% OFF
+              - paragraph [ref=e292]: R$ 142,40/mês
+              - paragraph [ref=e293]: no plano Completo
+            - generic [ref=e295]:
+              - paragraph [ref=e296]: 6 a 11 meses
+              - paragraph [ref=e297]: 10% OFF
+              - paragraph [ref=e298]: R$ 134,91/mês
+              - paragraph [ref=e299]: no plano Completo
+            - generic [ref=e300]:
+              - generic [ref=e301]: ⭐ Melhor custo-benefício
+              - generic [ref=e302]:
+                - paragraph [ref=e303]: 12 meses
+                - paragraph [ref=e304]: 15% OFF
+                - paragraph [ref=e305]: R$ 127,41/mês
+                - paragraph [ref=e306]: no plano Completo
+      - generic [ref=e308]:
+        - heading "Perguntas frequentes" [level=2] [ref=e309]
+        - generic [ref=e310]:
+          - heading "Preciso instalar alguma coisa?" [level=3] [ref=e312]:
+            - button "Preciso instalar alguma coisa?" [ref=e313] [cursor=pointer]:
+              - text: Preciso instalar alguma coisa?
+              - img [ref=e314]
+          - heading "Como funciona o robô do WhatsApp?" [level=3] [ref=e317]:
+            - button "Como funciona o robô do WhatsApp?" [ref=e318] [cursor=pointer]:
+              - text: Como funciona o robô do WhatsApp?
+              - img [ref=e319]
+          - heading "Consigo importar meu cardápio atual?" [level=3] [ref=e322]:
+            - button "Consigo importar meu cardápio atual?" [ref=e323] [cursor=pointer]:
+              - text: Consigo importar meu cardápio atual?
+              - img [ref=e324]
+          - heading "E se eu quiser trocar de plano?" [level=3] [ref=e327]:
+            - button "E se eu quiser trocar de plano?" [ref=e328] [cursor=pointer]:
+              - text: E se eu quiser trocar de plano?
+              - img [ref=e329]
+          - heading "Tem contrato de fidelidade?" [level=3] [ref=e332]:
+            - button "Tem contrato de fidelidade?" [ref=e333] [cursor=pointer]:
+              - text: Tem contrato de fidelidade?
+              - img [ref=e334]
+          - heading "Em quanto tempo fico operacional?" [level=3] [ref=e337]:
+            - button "Em quanto tempo fico operacional?" [ref=e338] [cursor=pointer]:
+              - text: Em quanto tempo fico operacional?
+              - img [ref=e339]
+      - generic [ref=e342]:
+        - heading "Pronto pra transformar sua pizzaria?" [level=2] [ref=e343]
+        - paragraph [ref=e344]: Comece hoje e tenha seu sistema rodando em menos de 24 horas.
+        - link "Falar com a gente no WhatsApp" [ref=e345] [cursor=pointer]:
+          - /url: https://wa.me/5579988012359
+          - img [ref=e346]
+          - text: Falar com a gente no WhatsApp
+        - paragraph [ref=e348]: Sem compromisso. Sem cartão de crédito.
+      - contentinfo [ref=e349]:
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: Sistema de Gestão de Mesas & Delivery
+              - paragraph [ref=e355]: Sistema completo de gestão para pizzarias e restaurantes.
+            - generic [ref=e356]:
+              - heading "Links úteis" [level=4] [ref=e357]
+              - list [ref=e358]:
+                - listitem [ref=e359]:
+                  - link "Funcionalidades" [ref=e360] [cursor=pointer]:
+                    - /url: "#features"
+                - listitem [ref=e361]:
+                  - link "Planos" [ref=e362] [cursor=pointer]:
+                    - /url: "#pricing"
+                - listitem [ref=e363]:
+                  - link "FAQ" [ref=e364] [cursor=pointer]:
+                    - /url: "#faq"
+            - generic [ref=e365]:
+              - heading "Contato" [level=4] [ref=e366]
+              - list [ref=e367]:
+                - listitem [ref=e368]:
+                  - text: 📱
+                  - link "(79) 98801-2359" [ref=e369] [cursor=pointer]:
+                    - /url: https://wa.me/5579988012359
+                - listitem [ref=e370]:
+                  - text: 📧
+                  - link "Leandro22.js@gmail.com" [ref=e371] [cursor=pointer]:
+                    - /url: mailto:Leandro22.js@gmail.com
+                - listitem [ref=e372]:
+                  - text: 📸
+                  - link "@decode.79" [ref=e373] [cursor=pointer]:
+                    - /url: https://www.instagram.com/decode.79/
+          - generic [ref=e374]: © 2026 Sistema de Gestão de Mesas & Delivery — Todos os direitos reservados. Desenvolvido por Decode
+  - complementary "Edit with Lovable" [ref=e375]:
+    - link "Edit with Lovable" [ref=e376] [cursor=pointer]:
+      - /url: https://lovable.dev/projects/018faa15-0443-4b1a-827a-81928d5da97f?utm_source=lovable-badge
+      - generic [ref=e377]: Edit with
+      - img [ref=e378]
+    - button "Dismiss" [ref=e383] [cursor=pointer]:
+      - img [ref=e384]

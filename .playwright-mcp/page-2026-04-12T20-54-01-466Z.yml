@@ -1,0 +1,417 @@
+- generic [ref=e2]:
+  - generic [ref=e6]:
+    - link "Pular para o conteúdo" [ref=e7] [cursor=pointer]:
+      - /url: "#main-content"
+    - complementary [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - generic [ref=e11]: JS
+          - button "Ocultar navegação" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+        - generic [ref=e16]:
+          - generic [ref=e17]: JS Restaurant
+          - generic [ref=e18]: Painel operacional
+      - navigation [ref=e19]:
+        - generic [ref=e20]: Operação
+        - link "Dashboard" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e23]
+          - generic [ref=e28]: Dashboard
+        - link "Delivery" [ref=e29] [cursor=pointer]:
+          - /url: /delivery
+          - img [ref=e31]
+          - generic [ref=e36]: Delivery
+        - button "Meus pedidos" [ref=e38] [cursor=pointer]:
+          - img [ref=e40]
+          - generic [ref=e43]: Meus pedidos
+          - img [ref=e45]
+        - link "Cozinha" [ref=e47] [cursor=pointer]:
+          - /url: /cozinha
+          - img [ref=e49]
+          - generic [ref=e52]: Cozinha
+        - link "Rotas" [ref=e53] [cursor=pointer]:
+          - /url: /rotas
+          - img [ref=e55]
+          - generic [ref=e58]: Rotas
+        - generic [ref=e59]: Administração
+        - link "Áreas de entrega" [ref=e60] [cursor=pointer]:
+          - /url: /areas-entrega
+          - img [ref=e62]
+          - generic [ref=e65]: Áreas de entrega
+        - link "Cardápio" [ref=e66] [cursor=pointer]:
+          - /url: /configCardapio
+          - img [ref=e68]
+          - generic [ref=e73]: Cardápio
+        - link "PDV" [ref=e74] [cursor=pointer]:
+          - /url: /pdv
+          - img [ref=e76]
+          - generic [ref=e79]: PDV
+        - link "Estoque" [ref=e80] [cursor=pointer]:
+          - /url: /estoque
+          - img [ref=e82]
+          - generic [ref=e86]: Estoque
+        - link "Avaliações" [ref=e87] [cursor=pointer]:
+          - /url: /feedbacks
+          - img [ref=e89]
+          - generic [ref=e91]: Avaliações
+        - link "Mensagens" [ref=e92] [cursor=pointer]:
+          - /url: /broadcast
+          - img [ref=e94]
+          - generic [ref=e97]: Mensagens
+        - link "Usuários" [ref=e98] [cursor=pointer]:
+          - /url: /usuarios
+          - img [ref=e100]
+          - generic [ref=e105]: Usuários
+        - link "Clientes" [ref=e106] [cursor=pointer]:
+          - /url: /clientes
+          - img [ref=e108]
+          - generic [ref=e113]: Clientes
+        - link "Descontos" [ref=e114] [cursor=pointer]:
+          - /url: /descontos
+          - img [ref=e116]
+          - generic [ref=e118]: Descontos
+        - link "Configuração" [ref=e119] [cursor=pointer]:
+          - /url: /configuracao
+          - img [ref=e121]
+          - generic [ref=e124]: Configuração
+        - link "Robô" [ref=e125] [cursor=pointer]:
+          - /url: /robo
+          - img [ref=e127]
+          - generic [ref=e129]: Robô
+      - generic [ref=e131]:
+        - button "Trocar para modo escuro" [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - button "Meu perfil" [ref=e135] [cursor=pointer]:
+          - img [ref=e136]
+        - button "Sair" [ref=e139] [cursor=pointer]:
+          - img [ref=e140]
+    - generic [ref=e143]:
+      - banner [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - generic [ref=e147]: JS Restaurant
+            - generic [ref=e148]: /
+            - generic [ref=e149]: Configuração
+          - generic [ref=e150]: Configuração
+          - generic [ref=e151]: "Modo ativo: somente delivery • controle rápido do salão, delivery e segurança de acesso"
+        - generic [ref=e152]:
+          - generic [ref=e153]: Online
+          - button "A Admin ADMIN" [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]: A
+            - generic [ref=e158]:
+              - strong [ref=e159]: Admin
+              - generic [ref=e160]: ADMIN
+            - img [ref=e161]
+      - main [ref=e163]:
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]: Configuração
+              - generic [ref=e168]: Página reorganizada em seções independentes para QR de mesa, PIX, horários e manutenção.
+            - button "Recarregar" [ref=e170] [cursor=pointer]
+          - generic "Seções da página" [ref=e171]:
+            - link "Mesa & QR" [ref=e172] [cursor=pointer]:
+              - /url: "#sec-qr"
+            - link "PIX" [ref=e173] [cursor=pointer]:
+              - /url: "#sec-pix"
+            - link "Horários" [ref=e174] [cursor=pointer]:
+              - /url: "#sec-hours"
+            - link "Manutenção" [ref=e175] [cursor=pointer]:
+              - /url: "#sec-maint"
+            - link "Fidelidade" [ref=e176] [cursor=pointer]:
+              - /url: "#sec-loyalty"
+            - link "Marketing" [ref=e177] [cursor=pointer]:
+              - /url: "#sec-pixel"
+          - generic [ref=e178]:
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]: Acesso das mesas
+                  - heading "QR Code das mesas" [level=2] [ref=e183]
+                  - paragraph [ref=e184]: Estruturei esta parte para ocupar a tela inteira com configuração de impressão em um lado e prévia pronta no outro.
+                - generic [ref=e185]:
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: Mesa atual
+                    - strong [ref=e188]: "1"
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: QR
+                    - strong [ref=e191]: Gerado
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: Link público
+                    - strong [ref=e194]: https://decodeapp.portaledtech.com/m/1
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e198]:
+                    - generic [ref=e199]: Configuração de impressão
+                    - generic [ref=e200]: Edite o título, tamanho e a identificação visual da mesa.
+                  - generic [ref=e201]:
+                    - checkbox [checked] [ref=e202]
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: Exigir confirmação do pedido
+                      - generic [ref=e205]: Ativo para o cliente confirmar antes de enviar.
+                  - generic [ref=e206]:
+                    - generic [ref=e207]:
+                      - generic [ref=e208]: Número da mesa
+                      - textbox "1" [ref=e209]
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: Tamanho
+                      - combobox [ref=e212]:
+                        - option "A6 (recomendado)" [selected]
+                        - option "10×15 cm"
+                        - option "A5 (grande)"
+                    - generic [ref=e213]:
+                      - generic [ref=e214]: Link público
+                      - textbox [ref=e215]: https://decodeapp.portaledtech.com/m/1
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: Título
+                      - textbox [ref=e218]: Mesa
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: Subtítulo
+                      - textbox [ref=e221]: Aponte a câmera para acessar o cardápio
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: Rodapé
+                      - 'textbox "Ex.: Wi-Fi: SENHA123" [ref=e224]'
+                  - generic [ref=e225]:
+                    - checkbox "Exibir link público no impresso" [checked] [ref=e226]
+                    - text: Exibir link público no impresso
+                  - generic [ref=e227]:
+                    - button "Imprimir QR da mesa" [ref=e228] [cursor=pointer]
+                    - button "Copiar link" [ref=e229] [cursor=pointer]
+                - generic [ref=e230]:
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: Prévia da impressão
+                    - generic [ref=e234]: Visual limpo, centralizado e pronto para a mesa física.
+                  - generic [ref=e236]:
+                    - generic [ref=e237]:
+                      - generic [ref=e238]:
+                        - generic [ref=e239]: Mesa
+                        - generic [ref=e240]: Aponte a câmera para acessar o cardápio
+                      - generic [ref=e241]: "1"
+                    - img "QR Code do cardápio" [ref=e243]
+                    - generic [ref=e244]: https://decodeapp.portaledtech.com/m/1
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - generic [ref=e247]:
+                  - generic [ref=e248]: Pagamento
+                  - heading "PIX e QR do checkout" [level=2] [ref=e249]
+                  - paragraph [ref=e250]: O bloco do PIX agora fica em uma seção exclusiva, sem dividir espaço com a mesa, evitando buracos visuais na página.
+                - generic [ref=e251]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: Status PIX
+                    - strong [ref=e254]: Configurado
+                  - generic [ref=e255]:
+                    - generic [ref=e256]: Chave
+                    - strong [ref=e257]: "79988012359"
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: QR checkout
+                    - strong [ref=e260]: Imagem pronta
+              - generic [ref=e261]:
+                - generic [ref=e262]:
+                  - generic [ref=e264]:
+                    - generic [ref=e265]: Dados do recebedor
+                    - generic [ref=e266]: Preencha a chave PIX e os dados exibidos no checkout.
+                  - generic [ref=e267]:
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: Chave PIX
+                      - textbox [ref=e270]: "79988012359"
+                    - generic [ref=e271]:
+                      - generic [ref=e272]: Nome do recebedor
+                      - textbox [ref=e273]: JS Restaurant
+                    - generic [ref=e274]:
+                      - generic [ref=e275]: Cidade
+                      - textbox [ref=e276]: ARACAJU
+                  - button "Salvar dados PIX" [ref=e278] [cursor=pointer]
+                  - generic [ref=e281]:
+                    - generic [ref=e282]: Imagem do QR do checkout
+                    - generic [ref=e283]: Aceita URL ou upload direto da imagem do QR.
+                  - generic [ref=e284]:
+                    - generic [ref=e285]:
+                      - generic [ref=e286]: URL ou base64
+                      - textbox [ref=e287]: data:image/png;base64,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
+                    - generic [ref=e288]:
+                      - generic [ref=e289]: Upload
+                      - generic [ref=e290] [cursor=pointer]: Enviar imagem
+                  - generic [ref=e291]:
+                    - button "Salvar QR" [ref=e292] [cursor=pointer]
+                    - button "Remover" [ref=e293] [cursor=pointer]
+                - generic [ref=e294]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: Prévia do checkout PIX
+                    - generic [ref=e298]: Lado visual isolado para não sobrar espaço vazio quando a imagem for maior.
+                  - generic [ref=e299]:
+                    - img "QR PIX" [ref=e300]
+                    - generic [ref=e301]: Preview do QR
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - generic [ref=e304]:
+                  - generic [ref=e305]: Atendimento
+                  - heading "Horários por dia" [level=2] [ref=e306]
+                  - paragraph [ref=e307]: Mantive o fluxo rápido de marcar dias como fechados, mas deixei a leitura mais limpa e com melhor uso da largura da tela.
+                - generic [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: Dias abertos
+                    - strong [ref=e311]: 6/7
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: Dias fechados
+                    - strong [ref=e314]: 1/7
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: Ação rápida
+                    - strong [ref=e317]: Fechado
+              - generic [ref=e319]:
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Jornada semanal
+                  - generic [ref=e323]: O botão “Fechado” já salva imediatamente com abertura e fechamento nulos.
+                - generic [ref=e324]:
+                  - generic [ref=e325]:
+                    - generic [ref=e326]:
+                      - generic [ref=e327]: Seg
+                      - generic [ref=e328]: Segunda-feira
+                    - textbox [ref=e329]
+                    - generic [ref=e330]: às
+                    - textbox [ref=e331]
+                    - button "Fechado" [ref=e332] [cursor=pointer]
+                  - generic [ref=e333]:
+                    - generic [ref=e334]:
+                      - generic [ref=e335]: Ter
+                      - generic [ref=e336]: Terça-feira
+                    - textbox [ref=e337]: 08:00
+                    - generic [ref=e338]: às
+                    - textbox [ref=e339]: 23:59
+                    - button "Fechado" [ref=e340] [cursor=pointer]
+                  - generic [ref=e341]:
+                    - generic [ref=e342]:
+                      - generic [ref=e343]: Qua
+                      - generic [ref=e344]: Quarta-feira
+                    - textbox [ref=e345]: 08:00
+                    - generic [ref=e346]: às
+                    - textbox [ref=e347]: 23:59
+                    - button "Fechado" [ref=e348] [cursor=pointer]
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - generic [ref=e351]: Qui
+                      - generic [ref=e352]: Quinta-feira
+                    - textbox [ref=e353]: 08:00
+                    - generic [ref=e354]: às
+                    - textbox [ref=e355]: 00:00
+                    - button "Fechado" [ref=e356] [cursor=pointer]
+                  - generic [ref=e357]:
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: Sex
+                      - generic [ref=e360]: Sexta-feira
+                    - textbox [ref=e361]: 08:00
+                    - generic [ref=e362]: às
+                    - textbox [ref=e363]: 01:00
+                    - button "Fechado" [ref=e364] [cursor=pointer]
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: Sáb
+                      - generic [ref=e368]: Sábado
+                    - textbox [ref=e369]: 05:00
+                    - generic [ref=e370]: às
+                    - textbox [ref=e371]: 00:00
+                    - button "Fechado" [ref=e372] [cursor=pointer]
+                  - generic [ref=e373]:
+                    - generic [ref=e374]:
+                      - generic [ref=e375]: Dom
+                      - generic [ref=e376]: Domingo
+                    - textbox [ref=e377]: 05:00
+                    - generic [ref=e378]: às
+                    - textbox [ref=e379]: 00:00
+                    - button "Fechado" [ref=e380] [cursor=pointer]
+                - generic [ref=e381]: Ao editar horários manualmente, finalize clicando em Salvar horários.
+                - button "Salvar horários" [ref=e383] [cursor=pointer]
+            - generic [ref=e384]:
+              - generic [ref=e385]:
+                - generic [ref=e386]:
+                  - generic [ref=e387]: Operação da loja
+                  - heading "Loja e manutenção" [level=2] [ref=e388]
+                  - paragraph [ref=e389]: Separei dados operacionais e manutenção em duas áreas claras, com status visível e melhor hierarquia visual.
+                - generic [ref=e390]:
+                  - generic [ref=e391]:
+                    - generic [ref=e392]: Cardápio público
+                    - strong [ref=e393]: Ativo
+                  - generic [ref=e394]:
+                    - generic [ref=e395]: Loja
+                    - strong [ref=e396]: JS Restaurant
+                  - generic [ref=e397]:
+                    - generic [ref=e398]: Modo interno
+                    - strong [ref=e399]: Somente delivery
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - generic [ref=e403]:
+                    - generic [ref=e404]: Dados da loja
+                    - generic [ref=e405]: Informações usadas na landing, localização e comunicação geral.
+                  - generic [ref=e406]:
+                    - generic [ref=e407]:
+                      - generic [ref=e408]: Nome da loja
+                      - textbox [ref=e409]: JS Restaurant
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: Endereço
+                      - textbox [ref=e412]: Rua Soldado João Ferreira 105, Novo Paraiso
+                    - generic [ref=e413]:
+                      - generic [ref=e414]: Latitude
+                      - textbox [ref=e415]: "-10.9095516"
+                    - generic [ref=e416]:
+                      - generic [ref=e417]: Longitude
+                      - textbox [ref=e418]: "-37.0834155"
+                - generic [ref=e419]:
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: Controles de manutenção
+                    - generic [ref=e423]: Defina o comportamento do site público durante períodos de manutenção.
+                  - generic [ref=e424]:
+                    - checkbox [ref=e425]
+                    - generic [ref=e426]:
+                      - generic [ref=e427]: Ativar manutenção do cardápio
+                      - generic [ref=e428]: Bloqueia o acesso público e exibe um aviso para o cliente.
+                  - generic [ref=e429]:
+                    - generic [ref=e430]: Mensagem da manutenção
+                    - textbox [ref=e431]: Cardápio em atualização.
+              - button "Salvar loja e manutenção" [ref=e433] [cursor=pointer]
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - generic [ref=e437]: Programa de fidelidade
+                  - heading "Cashback e fidelidade" [level=2] [ref=e438]
+                  - paragraph [ref=e439]: Configure o cashback automatico para clientes recorrentes. O valor e creditado apos cada pedido entregue.
+                - generic [ref=e440]:
+                  - generic [ref=e441]:
+                    - generic [ref=e442]: Status
+                    - strong [ref=e443]: Inativo
+                  - generic [ref=e444]:
+                    - generic [ref=e445]: Cashback
+                    - strong [ref=e446]: 5%
+              - generic [ref=e448]:
+                - generic [ref=e449]:
+                  - checkbox [ref=e450]
+                  - generic [ref=e451]:
+                    - generic [ref=e452]: Ativar programa de fidelidade
+                    - generic [ref=e453]: Clientes ganham cashback automaticamente a cada pedido entregue.
+                - generic [ref=e454]:
+                  - generic [ref=e455]:
+                    - generic [ref=e456]: Percentual de cashback (%)
+                    - spinbutton [ref=e457]: "5"
+                  - generic [ref=e458]:
+                    - generic [ref=e459]: Expiracao do cashback (dias)
+                    - spinbutton [ref=e460]
+                    - generic [ref=e461]: Deixe vazio para cashback sem expiracao.
+              - button "Salvar fidelidade" [ref=e463] [cursor=pointer]
+            - generic [ref=e464]:
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - generic [ref=e467]: Rastreamento
+                  - heading "Marketing" [level=2] [ref=e468]
+                  - paragraph [ref=e469]: Integre ferramentas de rastreamento para medir conversões, retargeting e campanhas a partir do cardápio público.
+                - generic [ref=e471]:
+                  - generic [ref=e472]: Facebook Pixel
+                  - strong [ref=e473]: Pendente
+              - generic [ref=e475]:
+                - generic [ref=e477]:
+                  - generic [ref=e478]: Facebook Pixel
+                  - generic [ref=e479]: Cole o ID do seu Facebook Pixel (Meta) para rastrear conversões e eventos do cardápio público. O pixel é injetado apenas nas páginas públicas, sem afetar o painel administrativo.
+                - generic [ref=e481]:
+                  - generic [ref=e482]: Facebook Pixel ID
+                  - textbox "Facebook Pixel ID" [ref=e483]:
+                    - /placeholder: "Ex: 123456789012345"
+                  - generic [ref=e484]: Você encontra o ID em Meta Business Suite → Gerenciador de Eventos → Fontes de dados.
+                - button "Salvar pixel" [ref=e486] [cursor=pointer]
+  - status
