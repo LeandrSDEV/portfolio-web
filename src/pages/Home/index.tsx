@@ -10,6 +10,7 @@ import tetra from '@/assets/certificates/tetra.png'
 import udemy1 from '@/assets/certificates/udemy1.png'
 import udemy2 from '@/assets/certificates/udemy2.png'
 import seguranca from '@/assets/certificates/seguranca.png'
+import javaCert from '@/assets/certificates/java_certificado.png'
 import restaurantFrente from '@/assets/projetos/gestao/dashboard.png'
 import restaurantCardapio from '@/assets/projetos/gestao/cardapio-cliente.png'
 import restaurantAmbiente from '@/assets/projetos/gestao/delivery.png'
@@ -40,6 +41,7 @@ const fadeUp: Variants = {
 
 const certificates = [
   { src: seguranca, alt: 'Certificado Segurança da Informação e Privacidade de Dados - ISO 27001/27701 - BMI' },
+  { src: javaCert, alt: 'Certificado Java' },
   { src: hashtag, alt: 'Certificado Hashtag - Python' },
   { src: ciber, alt: 'Certificado Ciber Segurança' },
   { src: tetra, alt: 'Certificado Tetra' },
