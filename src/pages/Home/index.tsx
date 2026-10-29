@@ -12,9 +12,9 @@ import udemy2 from '@/assets/certificates/udemy2.png'
 import seguranca from '@/assets/certificates/seguranca.png'
 import javaCert from '@/assets/certificates/java_certificado.png'
 import afHero from '@/assets/projetos/afiliadoflow/hero.png'
-import afPainel from '@/assets/projetos/afiliadoflow/painel.png'
-import afPlanos from '@/assets/projetos/afiliadoflow/planos.png'
-import afBeneficios from '@/assets/projetos/afiliadoflow/beneficios.png'
+import afDashboard from '@/assets/projetos/afiliadoflow/painel-dashboard.png'
+import afConfig from '@/assets/projetos/afiliadoflow/painel-config.png'
+import afTemplates from '@/assets/projetos/afiliadoflow/painel-templates.png'
 import './home.css'
 
 const section: Variants = {
@@ -124,9 +124,9 @@ export default function Home() {
               <div className="featured-badge">Em produção</div>
             </div>
             <div className="featured-thumbs">
-              <img src={afPainel} alt="Sessão do WhatsApp conectada no painel" loading="lazy" />
-              <img src={afPlanos} alt="Planos de assinatura" loading="lazy" />
-              <img src={afBeneficios} alt="Recursos do AfiliadoFlow" loading="lazy" />
+              <img src={afDashboard} alt="Dashboard de envios do painel" loading="lazy" />
+              <img src={afConfig} alt="Configuração de dias e horários de envio" loading="lazy" />
+              <img src={afTemplates} alt="Templates de mensagem das ofertas" loading="lazy" />
             </div>
           </div>
           <div className="featured-info">

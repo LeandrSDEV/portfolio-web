@@ -79,10 +79,16 @@ import afHero from '@/assets/projetos/afiliadoflow/hero.png'
 import afPlanos from '@/assets/projetos/afiliadoflow/planos.png'
 import afPainel from '@/assets/projetos/afiliadoflow/painel.png'
 import afBeneficios from '@/assets/projetos/afiliadoflow/beneficios.png'
+import afDashboard from '@/assets/projetos/afiliadoflow/painel-dashboard.png'
+import afConfig from '@/assets/projetos/afiliadoflow/painel-config.png'
+import afTemplates from '@/assets/projetos/afiliadoflow/painel-templates.png'
 
 export const projectImages = {
   afiliadoflow: [
     afHero,
+    afDashboard,
+    afConfig,
+    afTemplates,
     afPainel,
     afPlanos,
     afBeneficios
