@@ -52,11 +52,6 @@ const certificates = [
 export default function Home() {
   const { t } = useTranslation()
   const roles = t('home.roles', { returnObjects: true }) as string[]
-  const testimonials = t('testimonials.items', { returnObjects: true }) as Array<{
-    name: string
-    role: string
-    text: string
-  }>
 
   const [certOpen, setCertOpen] = useState<number | null>(null)
 
@@ -257,35 +252,6 @@ export default function Home() {
               <span className="skill-icon">{skill.icon}</span>
               {skill.name}
             </motion.span>
-          ))}
-        </div>
-      </motion.section>
-
-      {/* TESTIMONIALS */}
-      <motion.section
-        className="home-section"
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
-        variants={stagger}
-      >
-        <motion.h2 variants={fadeUp}>{t('testimonials.title')}</motion.h2>
-
-        <div className="testimonials">
-          {testimonials.map((item, i) => (
-            <motion.div key={i} className="testimonial-card" variants={fadeUp}>
-              <div className="testimonial-quote">"</div>
-              <p>{item.text}</p>
-              <div className="testimonial-author">
-                <div className="testimonial-avatar">
-                  {item.name.charAt(0)}
-                </div>
-                <div>
-                  <strong>{item.name}</strong>
-                  <span>{item.role}</span>
-                </div>
-              </div>
-            </motion.div>
           ))}
         </div>
       </motion.section>
