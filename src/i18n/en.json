@@ -30,24 +30,22 @@
       "React & TypeScript"
     ],
     "featured": {
-      "title": "Management System for Restaurants, Diners & Pizzerias",
-      "desc": "Full-stack platform that automates the entire operation — from order to delivery. WhatsApp ordering with AI (Gemini), real-time kitchen, automatic PIX payment, and full delivery tracking with live driver location for the customer.",
+      "title": "AfiliadoFlow — Automation SaaS for affiliate marketers",
+      "desc": "Production SaaS that I build and maintain with a partner. It finds deals on Mercado Livre, Amazon and Shopee, creates the affiliate link and posts automatically to WhatsApp and Telegram groups and channels, with recurring billing, an Android app, a Chrome extension and an admin panel.",
       "highlights": [
-        "Automatic WhatsApp service with AI (Gemini)",
-        "Digital menu with categories, add-ons and modifiers",
-        "Dine-in and delivery orders integrated",
-        "Real-time kitchen panel via WebSocket",
-        "PIX payment with automatic QR Code generation",
-        "Delivery with zones and live tracking",
-        "Cashback system, coupons and loyalty program",
-        "Admin dashboard with metrics and reports",
-        "Customer management, addresses and order history",
-        "Order scheduling for future date/time",
-        "Excel and PDF report export"
+        "Daily deal collection from Mercado Livre, Amazon and Shopee",
+        "Affiliate link created and validated automatically",
+        "Automatic posting to WhatsApp and Telegram groups and channels",
+        "Deal cloning from other channels with link replacement",
+        "Recurring billing with PIX, card and boleto",
+        "Android app and Chrome extension",
+        "Multi-tenant admin panel"
       ],
-      "result1": "WhatsApp orders",
-      "result2": "Integrated payment",
-      "result3": "Driver tracking"
+      "stat2": "8k",
+      "result1": "Customers",
+      "result2": "Deals posted per day",
+      "result3": "Fully automated",
+      "viewLive": "See it live"
     }
   },
   "about": {

@@ -2,21 +2,23 @@ import { projectImages } from '@/data/projectImages'
 
 export const projects = [
   {
-    title: 'Sistema de Gestão - Lanchonetes, Restaurantes e Pizzarias',
+    title: 'AfiliadoFlow - SaaS de Automação para Afiliados',
     description:
-      'Plataforma completa de gestão com cardápio digital, pedidos mesa/delivery, chatbot IA via WhatsApp, pagamento PIX, cozinha em tempo real, cashback e painel administrativo.',
-    techs: ['Java 17', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL', 'Baileys', 'Gemini AI', 'WebSocket'],
+      'SaaS em produção com 438 clientes e cerca de 8 mil ofertas publicadas por dia. Encontra ofertas no Mercado Livre, Amazon e Shopee, gera o link de afiliado e publica sozinho em grupos e canais do WhatsApp e Telegram. Assinatura recorrente, app Android, extensão Chrome, clonagem de ofertas e painel administrativo. Desenvolvido e mantido em parceria.',
+    techs: ['Python', 'Flask', 'Celery', 'Node.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'Baileys (WhatsApp)', 'Android'],
     github: 'https://github.com/LeandrSDEV',
-    images: projectImages.gestao,
+    site: 'https://www.afiliadoflow.com',
+    live: 'Em produção',
+    images: projectImages.afiliadoflow,
     private: true
   },
   {
-    title: 'Sales Bot - Scraping & Automação de Vendas',
+    title: 'Sistema de Gestão - Lanchonetes, Restaurantes e Pizzarias',
     description:
-      'Pipeline automatizado de vendas: scraping de produtos em alta (Google Trends + Amazon + Mercado Livre), geração de links de afiliado e disparo em massa via WhatsApp com bot de conversas.',
-    techs: ['Python', 'Playwright', 'Selenium', 'Node.js', 'Baileys (WhatsApp)', 'SQLite', 'BeautifulSoup'],
+      'Sistema completo com 34 módulos e mais de 370 classes Java no back-end: cardápio digital, pedidos por mesa (QR Code) e delivery, PDV de balcão, cozinha em tempo real, rotas do motoboy com GPS e rastreio pelo cliente, estoque, cupons e fidelidade, módulo fiscal, integração TEF, impressão de pedidos, robô de WhatsApp com IA (Gemini) e permissões por perfil.',
+    techs: ['Java 17', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL', 'Baileys', 'Gemini AI', 'WebSocket', 'Docker'],
     github: 'https://github.com/LeandrSDEV',
-    images: [],
+    images: projectImages.gestao,
     private: true
   },
   {

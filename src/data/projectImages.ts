@@ -75,7 +75,18 @@ import gestaoCupons from '@/assets/projetos/gestao/cupons.png'
 import gestaoConfiguracao from '@/assets/projetos/gestao/configuracao.png'
 import gestaoWhatsapp from '@/assets/projetos/gestao/whatsapp.png'
 
+import afHero from '@/assets/projetos/afiliadoflow/hero.png'
+import afPlanos from '@/assets/projetos/afiliadoflow/planos.png'
+import afPainel from '@/assets/projetos/afiliadoflow/painel.png'
+import afBeneficios from '@/assets/projetos/afiliadoflow/beneficios.png'
+
 export const projectImages = {
+  afiliadoflow: [
+    afHero,
+    afPainel,
+    afPlanos,
+    afBeneficios
+  ],
   ags: [
     agshome,
     agshome1,

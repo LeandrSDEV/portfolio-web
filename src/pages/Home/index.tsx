@@ -11,10 +11,10 @@ import udemy1 from '@/assets/certificates/udemy1.png'
 import udemy2 from '@/assets/certificates/udemy2.png'
 import seguranca from '@/assets/certificates/seguranca.png'
 import javaCert from '@/assets/certificates/java_certificado.png'
-import restaurantFrente from '@/assets/projetos/gestao/dashboard.png'
-import restaurantCardapio from '@/assets/projetos/gestao/cardapio-cliente.png'
-import restaurantAmbiente from '@/assets/projetos/gestao/delivery.png'
-import restaurantProduto from '@/assets/projetos/gestao/areas.png'
+import afHero from '@/assets/projetos/afiliadoflow/hero.png'
+import afPainel from '@/assets/projetos/afiliadoflow/painel.png'
+import afPlanos from '@/assets/projetos/afiliadoflow/planos.png'
+import afBeneficios from '@/assets/projetos/afiliadoflow/beneficios.png'
 import './home.css'
 
 const section: Variants = {
@@ -107,7 +107,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FEATURED PROJECT - RESTAURANT */}
+      {/* FEATURED PROJECT - AFILIADOFLOW */}
       <motion.section
         className="home-section"
         initial="hidden"
@@ -120,38 +120,41 @@ export default function Home() {
         <motion.div className="featured-card" variants={fadeUp}>
           <div className="featured-gallery">
             <div className="featured-image-main">
-              <img src={restaurantFrente} alt="Dashboard operacional" loading="lazy" />
-              <div className="featured-badge">Destaque</div>
+              <img src={afHero} alt="AfiliadoFlow publicando ofertas no WhatsApp" loading="lazy" />
+              <div className="featured-badge">Em produção</div>
             </div>
             <div className="featured-thumbs">
-              <img src={restaurantCardapio} alt="Cardápio digital" loading="lazy" />
-              <img src={restaurantAmbiente} alt="Painel de delivery" loading="lazy" />
-              <img src={restaurantProduto} alt="Áreas de entrega" loading="lazy" />
+              <img src={afPainel} alt="Sessão do WhatsApp conectada no painel" loading="lazy" />
+              <img src={afPlanos} alt="Planos de assinatura" loading="lazy" />
+              <img src={afBeneficios} alt="Recursos do AfiliadoFlow" loading="lazy" />
             </div>
           </div>
           <div className="featured-info">
             <h3>{t('home.featured.title')}</h3>
             <p>{t('home.featured.desc')}</p>
             <div className="featured-techs">
-              {['Java 17', 'Spring Boot', 'React', 'TypeScript', 'PostgreSQL', 'Baileys', 'Gemini AI', 'WebSocket'].map(tech => (
+              {['Python', 'Flask', 'Celery', 'Node.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker', 'Android'].map(tech => (
                 <span key={tech}>{tech}</span>
               ))}
             </div>
             <div className="featured-results">
               <div className="result-item">
-                <strong>IA</strong>
+                <strong>438</strong>
                 <span>{t('home.featured.result1')}</span>
               </div>
               <div className="result-item">
-                <strong>PIX</strong>
+                <strong>{t('home.featured.stat2')}</strong>
                 <span>{t('home.featured.result2')}</span>
               </div>
               <div className="result-item">
-                <strong>Real-time</strong>
+                <strong>24h</strong>
                 <span>{t('home.featured.result3')}</span>
               </div>
             </div>
             <div className="featured-links">
+              <a href="https://www.afiliadoflow.com" target="_blank" rel="noreferrer" className="featured-link">
+                {t('home.featured.viewLive')} →
+              </a>
               <NavLink to="/projects" className="featured-link">
                 {t('home.viewProjects')} →
               </NavLink>

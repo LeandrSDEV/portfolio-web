@@ -10,6 +10,8 @@ type ProjectItem = {
   github: string
   images: string[]
   private?: boolean
+  site?: string
+  live?: string
 }
 
 import { projects } from './projects'
@@ -190,6 +192,7 @@ function ProjectCard({ project }: { project: ProjectItem }) {
 
         <div className="card-title-row">
           <h2>{project.title}</h2>
+          {project.live && <span className="private-badge live-badge">{project.live}</span>}
           {project.private && <span className="private-badge">Privado</span>}
         </div>
         <p>{project.description}</p>
@@ -199,6 +202,17 @@ function ProjectCard({ project }: { project: ProjectItem }) {
             <span key={tech}>{tech}</span>
           ))}
         </div>
+
+        {project.site && (
+          <a
+            href={project.site}
+            target="_blank"
+            rel="noreferrer"
+            className="github-link"
+          >
+            Ver no ar →
+          </a>
+        )}
 
         <a
           href={project.github}
