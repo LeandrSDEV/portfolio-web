@@ -296,7 +296,7 @@ const CERTIFICATES: Certificate[] = [
 
 const CONTACTS = {
   github: 'https://github.com/LeandrSDEV',
-  linkedin: 'https://www.linkedin.com/in/leandro-de-jesus-santos-128478391/',
+  linkedin: 'https://www.linkedin.com/in/leandro-js-santos/',
   email: 'mailto:leandro22.js@gmail.com',
   whatsapp: 'https://wa.me/5579988012359',
 }

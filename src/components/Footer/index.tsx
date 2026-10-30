@@ -27,7 +27,7 @@ export default function Footer() {
 
           <a
             className="social"
-            href="https://www.linkedin.com/in/leandro-de-jesus-santos-128478391/"
+            href="https://www.linkedin.com/in/leandro-js-santos/"
             target="_blank"
             rel="noreferrer noopener"
             aria-label="LinkedIn"

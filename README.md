@@ -146,7 +146,7 @@ Sou Leandro, desenvolvedor Full Stack, com foco em:
 
 Este repositório representa uma vitrine pública, enquanto o projeto Blazor + API representa o núcleo técnico do meu portfólio.
 
-- 📫 Linkedin:https://www.linkedin.com/in/leandro-de-jesus-santos-128478391/
+- 📫 Linkedin:https://www.linkedin.com/in/leandro-js-santos/
 - 📫 GitHub: https://github.com/LeandrSDEV
 
 
